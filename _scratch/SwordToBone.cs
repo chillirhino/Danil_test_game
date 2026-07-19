@@ -1,0 +1,20 @@
+using UnityEngine;
+public class SwordToBone {
+  static Transform Find(Transform r,string n){ foreach(var t in r.GetComponentsInChildren<Transform>()) if(t.name==n) return t; return null; }
+  public static string Main(){
+    var wh=GameObject.Find("WeaponHand");
+    Transform rHand=null,sword=null;
+    foreach(Transform c in wh.transform){ var n=c.name.ToLower(); if(n.Contains("right"))rHand=c; if(n.Contains("sword"))sword=c; }
+    if(rHand==null||sword==null) return "missing r="+(rHand!=null)+" s="+(sword!=null);
+    var handBone=Find(rHand,"Hand"); if(handBone==null) handBone=Find(rHand,"Wrist");
+    if(handBone==null) return "no hand bone";
+    sword.SetParent(handBone,true);
+    sword.localScale=Vector3.one*1.2f; // relative to bone scale
+    sword.localPosition=new Vector3(0f,0.02f,0.02f);
+    sword.localRotation=Quaternion.identity;
+    // measure so we can see orientation
+    var r=sword.GetComponentInChildren<Renderer>();
+    UnityEditor.SceneManagement.EditorSceneManager.SaveScene(UnityEngine.SceneManagement.SceneManager.GetActiveScene());
+    return "sword parented to bone "+handBone.name+" boundsWorldSize="+(r!=null?r.bounds.size.ToString("0.00"):"?");
+  }
+}

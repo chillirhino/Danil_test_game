@@ -1,0 +1,396 @@
+fileFormatVersion: 2
+guid: 0a6d212fad2c97b4b9c8fbfeb5050a6f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2425926510252517951
+    second: ChatGPT Image Jul 16, 2026, 08_07_09 PM_0
+  - first:
+      213: -953031922498120219
+    second: ChatGPT Image Jul 16, 2026, 08_07_09 PM_1
+  - first:
+      213: -9154227826512737276
+    second: ChatGPT Image Jul 16, 2026, 08_07_09 PM_2
+  - first:
+      213: -1422412900349112591
+    second: ChatGPT Image Jul 16, 2026, 08_07_09 PM_3
+  - first:
+      213: 5370116037900841645
+    second: ChatGPT Image Jul 16, 2026, 08_07_09 PM_4
+  - first:
+      213: 5205316685481550958
+    second: ChatGPT Image Jul 16, 2026, 08_07_09 PM_5
+  - first:
+      213: -2419586139394297083
+    second: ChatGPT Image Jul 16, 2026, 08_07_09 PM_6
+  - first:
+      213: 2471920210272845888
+    second: ChatGPT Image Jul 16, 2026, 08_07_09 PM_7
+  - first:
+      213: 8358909537337059600
+    second: wood_panel
+  - first:
+      213: 8574481183927826690
+    second: wood_btn
+  - first:
+      213: 2423789374727107321
+    second: wood_icon_pause
+  - first:
+      213: -2826602940772251517
+    second: wood_icon_close
+  - first:
+      213: -3775865236525125020
+    second: wood_icon_settings
+  - first:
+      213: -3644435312011911639
+    second: wood_icon_play
+  - first:
+      213: 6302841340116573498
+    second: wood_icon_back
+  - first:
+      213: 4590749896686696548
+    second: wood_slider
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: wood_panel
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 646
+        width: 693
+        height: 335
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 64, y: 60, z: 64, w: 104}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 019a992dfefc00470800000000000000
+      internalID: 8358909537337059600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wood_btn
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 740
+        width: 621
+        height: 135
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 58, y: 34, z: 58, w: 34}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 209f94d053daef670800000000000000
+      internalID: 8574481183927826690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wood_icon_pause
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 382
+        width: 226
+        height: 217
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f2b9f2389703a120800000000000000
+      internalID: 2423789374727107321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wood_icon_close
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 382
+        width: 225
+        height: 217
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3880232f993e5c8d0800000000000000
+      internalID: -2826602940772251517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wood_icon_settings
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 382
+        width: 227
+        height: 217
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4627c21a29e699bc0800000000000000
+      internalID: -3775865236525125020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wood_icon_play
+      rect:
+        serializedVersion: 2
+        x: 1099
+        y: 382
+        width: 225
+        height: 217
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92ed3ac846d5c6dc0800000000000000
+      internalID: -3644435312011911639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wood_icon_back
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 131
+        width: 232
+        height: 220
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3d9b411ec0387750800000000000000
+      internalID: 6302841340116573498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wood_slider
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 157
+        width: 704
+        height: 124
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 70, y: 30, z: 70, w: 30}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 468fbac45be95bf30800000000000000
+      internalID: 4590749896686696548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ChatGPT Image Jul 16, 2026, 08_07_09 PM_0: -2425926510252517951
+      ChatGPT Image Jul 16, 2026, 08_07_09 PM_1: -953031922498120219
+      ChatGPT Image Jul 16, 2026, 08_07_09 PM_2: -9154227826512737276
+      ChatGPT Image Jul 16, 2026, 08_07_09 PM_3: -1422412900349112591
+      ChatGPT Image Jul 16, 2026, 08_07_09 PM_4: 5370116037900841645
+      ChatGPT Image Jul 16, 2026, 08_07_09 PM_5: 5205316685481550958
+      ChatGPT Image Jul 16, 2026, 08_07_09 PM_6: -2419586139394297083
+      ChatGPT Image Jul 16, 2026, 08_07_09 PM_7: 2471920210272845888
+      wood_btn: 8574481183927826690
+      wood_icon_back: 6302841340116573498
+      wood_icon_close: -2826602940772251517
+      wood_icon_pause: 2423789374727107321
+      wood_icon_play: -3644435312011911639
+      wood_icon_settings: -3775865236525125020
+      wood_panel: 8358909537337059600
+      wood_slider: 4590749896686696548
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,832 @@
+fileFormatVersion: 2
+guid: b6a3e0214744d2c46a8de7027f31bb26
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3381137079445166255
+    second: eagle_all12_sheet_0
+  - first:
+      213: 570395776672592691
+    second: eagle_all12_sheet_1
+  - first:
+      213: -2043696416791460125
+    second: eagle_all12_sheet_2
+  - first:
+      213: -7207558092952428114
+    second: eagle_all12_sheet_3
+  - first:
+      213: -5633387045306276834
+    second: eagle_all12_sheet_4
+  - first:
+      213: -1778039336145328467
+    second: eagle_all12_sheet_5
+  - first:
+      213: -5110516876371889265
+    second: eagle_all12_sheet_6
+  - first:
+      213: 8260693461187124632
+    second: eagle_all12_sheet_7
+  - first:
+      213: 3606250467455228431
+    second: eagle_all12_sheet_8
+  - first:
+      213: -1454278450172077878
+    second: eagle_all12_sheet_9
+  - first:
+      213: -1322630535395139634
+    second: eagle_all12_sheet_10
+  - first:
+      213: -7188290395627095474
+    second: eagle_all12_sheet_11
+  - first:
+      213: -927964089507756186
+    second: eagle_all12_sheet_12
+  - first:
+      213: -3697332960034392512
+    second: eagle_all12_sheet_13
+  - first:
+      213: -6066217537200962116
+    second: eagle_all12_sheet_14
+  - first:
+      213: -5148742271700597497
+    second: eagle_all12_sheet_15
+  - first:
+      213: -4123714450618196474
+    second: eagle_all12_sheet_16
+  - first:
+      213: 8665666464071938365
+    second: eagle_all12_sheet_17
+  - first:
+      213: 6648244716221610577
+    second: eagle_all12_sheet_18
+  - first:
+      213: 8813308860099553341
+    second: eagle_all12_sheet_19
+  - first:
+      213: -8812184553286905708
+    second: eagle_all12_sheet_20
+  - first:
+      213: -6365750490860570117
+    second: eagle_all12_sheet_21
+  - first:
+      213: -8980223170067725110
+    second: eagle_all12_sheet_22
+  - first:
+      213: 1806526048434400795
+    second: eagle_all12_sheet_23
+  - first:
+      213: -2395496824307473634
+    second: eagle_all12_sheet_24
+  - first:
+      213: 9090092807701454482
+    second: eagle_all12_sheet_25
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: eagle_all12_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 484
+        width: 470
+        height: 434
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa81b3d72463cee20800000000000000
+      internalID: 3381137079445166255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eagle_all12_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 491
+        width: 446
+        height: 419
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 333f3f1dfe37ae700800000000000000
+      internalID: 570395776672592691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eagle_all12_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 1066
+        y: 493
+        width: 447
+        height: 416
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e60868dfe453a3e0800000000000000
+      internalID: -2043696416791460125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eagle_all12_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 1587
+        y: 496
+        width: 437
+        height: 409
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea1249b0a1c99fb90800000000000000
+      internalID: -7207558092952428114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eagle_all12_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 2095
+        y: 488
+        width: 453
+        height: 426
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e146b3a445032d1b0800000000000000
+      internalID: -5633387045306276834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eagle_all12_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 2622
+        y: 496
+        width: 431
+        height: 409
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da6e26ce4a22357e0800000000000000
+      internalID: -1778039336145328467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eagle_all12_sheet_6
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 29
+        width: 453
+        height: 414
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f83f6354afbc319b0800000000000000
+      internalID: -5110516876371889265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eagle_all12_sheet_7
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 11
+        width: 497
+        height: 447
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89d53789fe0e3a270800000000000000
+      internalID: 8260693461187124632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eagle_all12_sheet_8
+      rect:
+        serializedVersion: 2
+        x: 1046
+        y: 31
+        width: 485
+        height: 404
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0a51c381b9fb0230800000000000000
+      internalID: 3606250467455228431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eagle_all12_sheet_9
+      rect:
+        serializedVersion: 2
+        x: 1585
+        y: 86
+        width: 254
+        height: 334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac8dcf4647d51dbe0800000000000000
+      internalID: -1454278450172077878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eagle_all12_sheet_10
+      rect:
+        serializedVersion: 2
+        x: 1839
+        y: 397
+        width: 15
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecf10b0298215ade0800000000000000
+      internalID: -1322630535395139634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eagle_all12_sheet_11
+      rect:
+        serializedVersion: 2
+        x: 1864
+        y: 402
+        width: 34
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4a7b4a68ff0e3c90800000000000000
+      internalID: -7188290395627095474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eagle_all12_sheet_12
+      rect:
+        serializedVersion: 2
+        x: 1882
+        y: 398
+        width: 45
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6674290c3953f13f0800000000000000
+      internalID: -927964089507756186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eagle_all12_sheet_13
+      rect:
+        serializedVersion: 2
+        x: 1900
+        y: 389
+        width: 40
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0467ecc134f60bcc0800000000000000
+      internalID: -3697332960034392512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eagle_all12_sheet_14
+      rect:
+        serializedVersion: 2
+        x: 2102
+        y: 26
+        width: 438
+        height: 415
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb544e44a4770dba0800000000000000
+      internalID: -6066217537200962116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eagle_all12_sheet_15
+      rect:
+        serializedVersion: 2
+        x: 2620
+        y: 26
+        width: 435
+        height: 415
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7058f3fde2efb88b0800000000000000
+      internalID: -5148742271700597497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eagle_all12_sheet_16
+      rect:
+        serializedVersion: 2
+        x: 1840
+        y: 90
+        width: 173
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60ed1c73e8f95c6c0800000000000000
+      internalID: -4123714450618196474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eagle_all12_sheet_17
+      rect:
+        serializedVersion: 2
+        x: 1901
+        y: 347
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d31f5058cb1a24870800000000000000
+      internalID: 8665666464071938365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eagle_all12_sheet_18
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 240
+        width: 31
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15ab142785f434c50800000000000000
+      internalID: 6648244716221610577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eagle_all12_sheet_19
+      rect:
+        serializedVersion: 2
+        x: 1804
+        y: 34
+        width: 107
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d38690e96b92f4a70800000000000000
+      internalID: 8813308860099553341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eagle_all12_sheet_20
+      rect:
+        serializedVersion: 2
+        x: 1984
+        y: 74
+        width: 44
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 490562676d4d4b580800000000000000
+      internalID: -8812184553286905708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eagle_all12_sheet_21
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 24
+        width: 20
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf9bc7fd7af48a7a0800000000000000
+      internalID: -6365750490860570117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eagle_all12_sheet_22
+      rect:
+        serializedVersion: 2
+        x: 1917
+        y: 41
+        width: 9
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac481682b96df5380800000000000000
+      internalID: -8980223170067725110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eagle_all12_sheet_23
+      rect:
+        serializedVersion: 2
+        x: 1949
+        y: 37
+        width: 35
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1e2c62aed1121910800000000000000
+      internalID: 1806526048434400795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eagle_all12_sheet_24
+      rect:
+        serializedVersion: 2
+        x: 1984
+        y: 47
+        width: 25
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e13a396845c71ced0800000000000000
+      internalID: -2395496824307473634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eagle_all12_sheet_25
+      rect:
+        serializedVersion: 2
+        x: 1985
+        y: 59
+        width: 36
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29ed06a4f3f762e70800000000000000
+      internalID: 9090092807701454482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      eagle_all12_sheet_0: 3381137079445166255
+      eagle_all12_sheet_1: 570395776672592691
+      eagle_all12_sheet_10: -1322630535395139634
+      eagle_all12_sheet_11: -7188290395627095474
+      eagle_all12_sheet_12: -927964089507756186
+      eagle_all12_sheet_13: -3697332960034392512
+      eagle_all12_sheet_14: -6066217537200962116
+      eagle_all12_sheet_15: -5148742271700597497
+      eagle_all12_sheet_16: -4123714450618196474
+      eagle_all12_sheet_17: 8665666464071938365
+      eagle_all12_sheet_18: 6648244716221610577
+      eagle_all12_sheet_19: 8813308860099553341
+      eagle_all12_sheet_2: -2043696416791460125
+      eagle_all12_sheet_20: -8812184553286905708
+      eagle_all12_sheet_21: -6365750490860570117
+      eagle_all12_sheet_22: -8980223170067725110
+      eagle_all12_sheet_23: 1806526048434400795
+      eagle_all12_sheet_24: -2395496824307473634
+      eagle_all12_sheet_25: 9090092807701454482
+      eagle_all12_sheet_3: -7207558092952428114
+      eagle_all12_sheet_4: -5633387045306276834
+      eagle_all12_sheet_5: -1778039336145328467
+      eagle_all12_sheet_6: -5110516876371889265
+      eagle_all12_sheet_7: 8260693461187124632
+      eagle_all12_sheet_8: 3606250467455228431
+      eagle_all12_sheet_9: -1454278450172077878
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

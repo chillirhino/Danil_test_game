@@ -1,0 +1,3 @@
+using UnityEngine;
+public class Where { static Bounds RB(Transform t){ Bounds b=new Bounds(t.position,Vector3.zero); bool f=false; foreach(var r in t.GetComponentsInChildren<Renderer>()){ if(!f){b=r.bounds;f=true;} else b.Encapsulate(r.bounds);} return b; }
+  public static string Main(){ var cam=GameObject.Find("Main Camera").transform; var wh=GameObject.Find("WeaponHand"); Transform rh=null; foreach(Transform c in wh.transform) if(c.name.ToLower().Contains("right")) rh=c; var vm=GameObject.Find("HandVM"); return "HandVM active="+vm.activeInHierarchy+" localPos="+vm.transform.localPosition.ToString("0.00")+" | rightHand camLocal="+cam.InverseTransformPoint(RB(rh).center).ToString("0.00"); } }

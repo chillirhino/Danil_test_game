@@ -1,0 +1,24 @@
+
+Run Tool
+  Tool: package-list
+  URL: http://localhost:20984/api/tools/package-list
+  Auth: from config
+──────────────────────────────────────────────────
+Calling package-list...
+SUCCESS: package-list completed
+SUCCESS: Response:
+{
+  "status": "success",
+  "structured": {
+    "result": [
+      {
+        "Name": "com.unity.render-pipelines.universal",
+        "DisplayName": "Universal Render Pipeline",
+        "Version": "17.5.0",
+        "Description": "The Universal Render Pipeline (URP) is a prebuilt Scriptable Render Pipeline, made by Unity. URP provides artist-friendly workflows that let you quickly and easily create optimized graphics across a range of platforms, from mobile to high-end consoles and PCs.",
+        "Source": "BuiltIn",
+        "Category": ""
+      }
+    ]
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "botToken": "PASTE_TOKEN_FROM_BOTFATHER",
+  "allowedChatId": "GET_MY_ID",
+  "projectDir": "D:\\Unity Projects\\Danil_test_game",
+  "skipPermissions": true,
+  "claudeBin": "claude",
+  "timeoutMinutes": 15,
+  "showToolResults": true,
+  "resultTruncChars": 600
+}

@@ -1,0 +1,1197 @@
+{
+  "last_node_id": 200,
+  "last_link_id": 36,
+  "nodes": [
+    {
+      "id": 4,
+      "type": "CheckpointLoaderSimple",
+      "pos": [
+        40,
+        500
+      ],
+      "size": [
+        320,
+        98
+      ],
+      "flags": {},
+      "order": 4,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "MODEL",
+          "type": "MODEL",
+          "links": [
+            6,
+            12,
+            18,
+            24
+          ],
+          "slot_index": 0
+        },
+        {
+          "name": "CLIP",
+          "type": "CLIP",
+          "links": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "slot_index": 1
+        },
+        {
+          "name": "VAE",
+          "type": "VAE",
+          "links": [
+            11,
+            17,
+            23,
+            29
+          ],
+          "slot_index": 2
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "CheckpointLoaderSimple"
+      },
+      "widgets_values": [
+        "DreamShaper_8_pruned.safetensors"
+      ],
+      "title": "Модель"
+    },
+    {
+      "id": 5,
+      "type": "EmptyLatentImage",
+      "pos": [
+        40,
+        640
+      ],
+      "size": [
+        320,
+        106
+      ],
+      "flags": {},
+      "order": 5,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "LATENT",
+          "type": "LATENT",
+          "links": [
+            7,
+            13,
+            19,
+            25
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "EmptyLatentImage"
+      },
+      "widgets_values": [
+        512,
+        512,
+        1
+      ],
+      "title": "Размер кадра 512x512"
+    },
+    {
+      "id": 7,
+      "type": "CLIPTextEncode",
+      "pos": [
+        40,
+        790
+      ],
+      "size": [
+        400,
+        140
+      ],
+      "flags": {},
+      "order": 7,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "clip",
+          "type": "CLIP",
+          "link": 1
+        }
+      ],
+      "outputs": [
+        {
+          "name": "CONDITIONING",
+          "type": "CONDITIONING",
+          "links": [
+            8,
+            14,
+            20,
+            26
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "CLIPTextEncode"
+      },
+      "widgets_values": [
+        "white circle, glowing orb, sun, moon, halo, vignette, gradient, pink feathers, realistic, photograph, 3d render, pixel art, text, watermark, extra wings, deformed, ugly, human, scenery"
+      ],
+      "title": "NEGATIVE (общий)"
+    },
+    {
+      "id": 61,
+      "type": "CLIPTextEncode",
+      "pos": [
+        480,
+        40
+      ],
+      "size": [
+        430,
+        150
+      ],
+      "flags": {},
+      "order": 61,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "clip",
+          "type": "CLIP",
+          "link": 2
+        }
+      ],
+      "outputs": [
+        {
+          "name": "CONDITIONING",
+          "type": "CONDITIONING",
+          "links": [
+            9
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "CLIPTextEncode"
+      },
+      "widgets_values": [
+        "cute cartoon eagle mascot, flat vector illustration, clean smooth rounded shapes, big friendly eyes, chubby body, warm brown wings and back, white head and belly, yellow beak, orange feet, kawaii mobile game character, soft cel shading, thick clean outline, full body, side view facing right, flying mid-air, both wings raised straight up high above the body, upstroke, isolated on plain solid uniform flat green background, empty single color backdrop, centered"
+      ],
+      "title": "POSITIVE кадр 1"
+    },
+    {
+      "id": 31,
+      "type": "KSampler",
+      "pos": [
+        950,
+        40
+      ],
+      "size": [
+        300,
+        262
+      ],
+      "flags": {},
+      "order": 31,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "model",
+          "type": "MODEL",
+          "link": 6
+        },
+        {
+          "name": "positive",
+          "type": "CONDITIONING",
+          "link": 9
+        },
+        {
+          "name": "negative",
+          "type": "CONDITIONING",
+          "link": 8
+        },
+        {
+          "name": "latent_image",
+          "type": "LATENT",
+          "link": 7
+        }
+      ],
+      "outputs": [
+        {
+          "name": "LATENT",
+          "type": "LATENT",
+          "links": [
+            10
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "KSampler"
+      },
+      "widgets_values": [
+        22,
+        "fixed",
+        30,
+        8,
+        "dpmpp_2m",
+        "karras",
+        1
+      ],
+      "title": "KSampler кадр 1"
+    },
+    {
+      "id": 81,
+      "type": "VAEDecode",
+      "pos": [
+        1290,
+        40
+      ],
+      "size": [
+        210,
+        46
+      ],
+      "flags": {},
+      "order": 81,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "samples",
+          "type": "LATENT",
+          "link": 10
+        },
+        {
+          "name": "vae",
+          "type": "VAE",
+          "link": 11
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            30
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "VAEDecode"
+      },
+      "widgets_values": []
+    },
+    {
+      "id": 62,
+      "type": "CLIPTextEncode",
+      "pos": [
+        480,
+        300
+      ],
+      "size": [
+        430,
+        150
+      ],
+      "flags": {},
+      "order": 62,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "clip",
+          "type": "CLIP",
+          "link": 3
+        }
+      ],
+      "outputs": [
+        {
+          "name": "CONDITIONING",
+          "type": "CONDITIONING",
+          "links": [
+            15
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "CLIPTextEncode"
+      },
+      "widgets_values": [
+        "cute cartoon eagle mascot, flat vector illustration, clean smooth rounded shapes, big friendly eyes, chubby body, warm brown wings and back, white head and belly, yellow beak, orange feet, kawaii mobile game character, soft cel shading, thick clean outline, full body, side view facing right, flying mid-air, both wings spread out wide horizontally to the sides, gliding, isolated on plain solid uniform flat green background, empty single color backdrop, centered"
+      ],
+      "title": "POSITIVE кадр 2"
+    },
+    {
+      "id": 32,
+      "type": "KSampler",
+      "pos": [
+        950,
+        300
+      ],
+      "size": [
+        300,
+        262
+      ],
+      "flags": {},
+      "order": 32,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "model",
+          "type": "MODEL",
+          "link": 12
+        },
+        {
+          "name": "positive",
+          "type": "CONDITIONING",
+          "link": 15
+        },
+        {
+          "name": "negative",
+          "type": "CONDITIONING",
+          "link": 14
+        },
+        {
+          "name": "latent_image",
+          "type": "LATENT",
+          "link": 13
+        }
+      ],
+      "outputs": [
+        {
+          "name": "LATENT",
+          "type": "LATENT",
+          "links": [
+            16
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "KSampler"
+      },
+      "widgets_values": [
+        22,
+        "fixed",
+        30,
+        8,
+        "dpmpp_2m",
+        "karras",
+        1
+      ],
+      "title": "KSampler кадр 2"
+    },
+    {
+      "id": 82,
+      "type": "VAEDecode",
+      "pos": [
+        1290,
+        300
+      ],
+      "size": [
+        210,
+        46
+      ],
+      "flags": {},
+      "order": 82,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "samples",
+          "type": "LATENT",
+          "link": 16
+        },
+        {
+          "name": "vae",
+          "type": "VAE",
+          "link": 17
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            31
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "VAEDecode"
+      },
+      "widgets_values": []
+    },
+    {
+      "id": 63,
+      "type": "CLIPTextEncode",
+      "pos": [
+        480,
+        560
+      ],
+      "size": [
+        430,
+        150
+      ],
+      "flags": {},
+      "order": 63,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "clip",
+          "type": "CLIP",
+          "link": 4
+        }
+      ],
+      "outputs": [
+        {
+          "name": "CONDITIONING",
+          "type": "CONDITIONING",
+          "links": [
+            21
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "CLIPTextEncode"
+      },
+      "widgets_values": [
+        "cute cartoon eagle mascot, flat vector illustration, clean smooth rounded shapes, big friendly eyes, chubby body, warm brown wings and back, white head and belly, yellow beak, orange feet, kawaii mobile game character, soft cel shading, thick clean outline, full body, side view facing right, flying mid-air, both wings angled downward, mid flap, isolated on plain solid uniform flat green background, empty single color backdrop, centered"
+      ],
+      "title": "POSITIVE кадр 3"
+    },
+    {
+      "id": 33,
+      "type": "KSampler",
+      "pos": [
+        950,
+        560
+      ],
+      "size": [
+        300,
+        262
+      ],
+      "flags": {},
+      "order": 33,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "model",
+          "type": "MODEL",
+          "link": 18
+        },
+        {
+          "name": "positive",
+          "type": "CONDITIONING",
+          "link": 21
+        },
+        {
+          "name": "negative",
+          "type": "CONDITIONING",
+          "link": 20
+        },
+        {
+          "name": "latent_image",
+          "type": "LATENT",
+          "link": 19
+        }
+      ],
+      "outputs": [
+        {
+          "name": "LATENT",
+          "type": "LATENT",
+          "links": [
+            22
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "KSampler"
+      },
+      "widgets_values": [
+        22,
+        "fixed",
+        30,
+        8,
+        "dpmpp_2m",
+        "karras",
+        1
+      ],
+      "title": "KSampler кадр 3"
+    },
+    {
+      "id": 83,
+      "type": "VAEDecode",
+      "pos": [
+        1290,
+        560
+      ],
+      "size": [
+        210,
+        46
+      ],
+      "flags": {},
+      "order": 83,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "samples",
+          "type": "LATENT",
+          "link": 22
+        },
+        {
+          "name": "vae",
+          "type": "VAE",
+          "link": 23
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            33
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "VAEDecode"
+      },
+      "widgets_values": []
+    },
+    {
+      "id": 64,
+      "type": "CLIPTextEncode",
+      "pos": [
+        480,
+        820
+      ],
+      "size": [
+        430,
+        150
+      ],
+      "flags": {},
+      "order": 64,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "clip",
+          "type": "CLIP",
+          "link": 5
+        }
+      ],
+      "outputs": [
+        {
+          "name": "CONDITIONING",
+          "type": "CONDITIONING",
+          "links": [
+            27
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "CLIPTextEncode"
+      },
+      "widgets_values": [
+        "cute cartoon eagle mascot, flat vector illustration, clean smooth rounded shapes, big friendly eyes, chubby body, warm brown wings and back, white head and belly, yellow beak, orange feet, kawaii mobile game character, soft cel shading, thick clean outline, full body, side view facing right, flying mid-air, both wings pushed fully down below the body, downstroke, isolated on plain solid uniform flat green background, empty single color backdrop, centered"
+      ],
+      "title": "POSITIVE кадр 4"
+    },
+    {
+      "id": 34,
+      "type": "KSampler",
+      "pos": [
+        950,
+        820
+      ],
+      "size": [
+        300,
+        262
+      ],
+      "flags": {},
+      "order": 34,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "model",
+          "type": "MODEL",
+          "link": 24
+        },
+        {
+          "name": "positive",
+          "type": "CONDITIONING",
+          "link": 27
+        },
+        {
+          "name": "negative",
+          "type": "CONDITIONING",
+          "link": 26
+        },
+        {
+          "name": "latent_image",
+          "type": "LATENT",
+          "link": 25
+        }
+      ],
+      "outputs": [
+        {
+          "name": "LATENT",
+          "type": "LATENT",
+          "links": [
+            28
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "KSampler"
+      },
+      "widgets_values": [
+        22,
+        "fixed",
+        30,
+        8,
+        "dpmpp_2m",
+        "karras",
+        1
+      ],
+      "title": "KSampler кадр 4"
+    },
+    {
+      "id": 84,
+      "type": "VAEDecode",
+      "pos": [
+        1290,
+        820
+      ],
+      "size": [
+        210,
+        46
+      ],
+      "flags": {},
+      "order": 84,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "samples",
+          "type": "LATENT",
+          "link": 28
+        },
+        {
+          "name": "vae",
+          "type": "VAE",
+          "link": 29
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            35
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "VAEDecode"
+      },
+      "widgets_values": []
+    },
+    {
+      "id": 101,
+      "type": "ImageStitch",
+      "pos": [
+        1550,
+        120
+      ],
+      "size": [
+        300,
+        150
+      ],
+      "flags": {},
+      "order": 101,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "image1",
+          "type": "IMAGE",
+          "link": 30
+        },
+        {
+          "name": "image2",
+          "type": "IMAGE",
+          "link": 31,
+          "shape": 7
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            32
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "ImageStitch"
+      },
+      "widgets_values": [
+        "right",
+        true,
+        0,
+        "white"
+      ],
+      "title": "Склейка 1"
+    },
+    {
+      "id": 102,
+      "type": "ImageStitch",
+      "pos": [
+        1550,
+        300
+      ],
+      "size": [
+        300,
+        150
+      ],
+      "flags": {},
+      "order": 102,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "image1",
+          "type": "IMAGE",
+          "link": 32
+        },
+        {
+          "name": "image2",
+          "type": "IMAGE",
+          "link": 33,
+          "shape": 7
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            34
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "ImageStitch"
+      },
+      "widgets_values": [
+        "right",
+        true,
+        0,
+        "white"
+      ],
+      "title": "Склейка 2"
+    },
+    {
+      "id": 103,
+      "type": "ImageStitch",
+      "pos": [
+        1550,
+        480
+      ],
+      "size": [
+        300,
+        150
+      ],
+      "flags": {},
+      "order": 103,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "image1",
+          "type": "IMAGE",
+          "link": 34
+        },
+        {
+          "name": "image2",
+          "type": "IMAGE",
+          "link": 35,
+          "shape": 7
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            36
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "ImageStitch"
+      },
+      "widgets_values": [
+        "right",
+        true,
+        0,
+        "white"
+      ],
+      "title": "Склейка 3"
+    },
+    {
+      "id": 9,
+      "type": "SaveImage",
+      "pos": [
+        1900,
+        120
+      ],
+      "size": [
+        400,
+        450
+      ],
+      "flags": {},
+      "order": 9,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 36
+        }
+      ],
+      "outputs": [],
+      "properties": {
+        "Node name for S&R": "SaveImage"
+      },
+      "widgets_values": [
+        "eagle_frames_sheet"
+      ],
+      "title": "Сохранить PNG-лист"
+    },
+    {
+      "id": 200,
+      "type": "Note",
+      "pos": [
+        480,
+        -120
+      ],
+      "size": [
+        760,
+        150
+      ],
+      "flags": {},
+      "order": 200,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [],
+      "properties": {
+        "text": "ОРЁЛ — КАДРЫ НА ОДНОМ PNG\n\n1) Жми Queue Prompt.\n2) Результат — 4 кадра взмаха в одном PNG (папка ComfyUI/output, префикс eagle_frames_sheet).\n\nКак менять:\n- Позы/вид — правь тексты в жёлтых нодах POSITIVE кадр 1..4.\n- Seed (одинаковый = единый персонаж) — в любой KSampler.\n- Больше кадров — дублируй связку POSITIVE+KSampler+VAEDecode и добавь ещё ImageStitch.\n\nФон зелёный (chroma) — вырезать в прозрачность отдельно (green screen)."
+      },
+      "widgets_values": [
+        "ОРЁЛ — КАДРЫ НА ОДНОМ PNG\n\n1) Жми Queue Prompt.\n2) Результат — 4 кадра взмаха в одном PNG (папка ComfyUI/output, префикс eagle_frames_sheet).\n\nКак менять:\n- Позы/вид — правь тексты в жёлтых нодах POSITIVE кадр 1..4.\n- Seed (одинаковый = единый персонаж) — в любой KSampler.\n- Больше кадров — дублируй связку POSITIVE+KSampler+VAEDecode и добавь ещё ImageStitch.\n\nФон зелёный (chroma) — вырезать в прозрачность отдельно (green screen)."
+      ],
+      "title": "ИНСТРУКЦИЯ"
+    }
+  ],
+  "links": [
+    [
+      1,
+      4,
+      1,
+      7,
+      0,
+      "CLIP"
+    ],
+    [
+      2,
+      4,
+      1,
+      61,
+      0,
+      "CLIP"
+    ],
+    [
+      3,
+      4,
+      1,
+      62,
+      0,
+      "CLIP"
+    ],
+    [
+      4,
+      4,
+      1,
+      63,
+      0,
+      "CLIP"
+    ],
+    [
+      5,
+      4,
+      1,
+      64,
+      0,
+      "CLIP"
+    ],
+    [
+      6,
+      4,
+      0,
+      31,
+      0,
+      "MODEL"
+    ],
+    [
+      7,
+      5,
+      0,
+      31,
+      3,
+      "LATENT"
+    ],
+    [
+      8,
+      7,
+      0,
+      31,
+      2,
+      "CONDITIONING"
+    ],
+    [
+      9,
+      61,
+      0,
+      31,
+      1,
+      "CONDITIONING"
+    ],
+    [
+      10,
+      31,
+      0,
+      81,
+      0,
+      "LATENT"
+    ],
+    [
+      11,
+      4,
+      2,
+      81,
+      1,
+      "VAE"
+    ],
+    [
+      12,
+      4,
+      0,
+      32,
+      0,
+      "MODEL"
+    ],
+    [
+      13,
+      5,
+      0,
+      32,
+      3,
+      "LATENT"
+    ],
+    [
+      14,
+      7,
+      0,
+      32,
+      2,
+      "CONDITIONING"
+    ],
+    [
+      15,
+      62,
+      0,
+      32,
+      1,
+      "CONDITIONING"
+    ],
+    [
+      16,
+      32,
+      0,
+      82,
+      0,
+      "LATENT"
+    ],
+    [
+      17,
+      4,
+      2,
+      82,
+      1,
+      "VAE"
+    ],
+    [
+      18,
+      4,
+      0,
+      33,
+      0,
+      "MODEL"
+    ],
+    [
+      19,
+      5,
+      0,
+      33,
+      3,
+      "LATENT"
+    ],
+    [
+      20,
+      7,
+      0,
+      33,
+      2,
+      "CONDITIONING"
+    ],
+    [
+      21,
+      63,
+      0,
+      33,
+      1,
+      "CONDITIONING"
+    ],
+    [
+      22,
+      33,
+      0,
+      83,
+      0,
+      "LATENT"
+    ],
+    [
+      23,
+      4,
+      2,
+      83,
+      1,
+      "VAE"
+    ],
+    [
+      24,
+      4,
+      0,
+      34,
+      0,
+      "MODEL"
+    ],
+    [
+      25,
+      5,
+      0,
+      34,
+      3,
+      "LATENT"
+    ],
+    [
+      26,
+      7,
+      0,
+      34,
+      2,
+      "CONDITIONING"
+    ],
+    [
+      27,
+      64,
+      0,
+      34,
+      1,
+      "CONDITIONING"
+    ],
+    [
+      28,
+      34,
+      0,
+      84,
+      0,
+      "LATENT"
+    ],
+    [
+      29,
+      4,
+      2,
+      84,
+      1,
+      "VAE"
+    ],
+    [
+      30,
+      81,
+      0,
+      101,
+      0,
+      "IMAGE"
+    ],
+    [
+      31,
+      82,
+      0,
+      101,
+      1,
+      "IMAGE"
+    ],
+    [
+      32,
+      101,
+      0,
+      102,
+      0,
+      "IMAGE"
+    ],
+    [
+      33,
+      83,
+      0,
+      102,
+      1,
+      "IMAGE"
+    ],
+    [
+      34,
+      102,
+      0,
+      103,
+      0,
+      "IMAGE"
+    ],
+    [
+      35,
+      84,
+      0,
+      103,
+      1,
+      "IMAGE"
+    ],
+    [
+      36,
+      103,
+      0,
+      9,
+      0,
+      "IMAGE"
+    ]
+  ],
+  "groups": [],
+  "config": {},
+  "extra": {},
+  "version": 0.4
+}

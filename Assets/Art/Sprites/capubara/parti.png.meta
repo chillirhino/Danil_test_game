@@ -1,0 +1,4316 @@
+fileFormatVersion: 2
+guid: 2bd9b437c73a83747a158c9bd59e5506
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3194493834147955450
+    second: parti_0
+  - first:
+      213: 5543652575683479680
+    second: parti_1
+  - first:
+      213: -8329147659288739681
+    second: parti_2
+  - first:
+      213: 5623407149620065768
+    second: parti_3
+  - first:
+      213: -2852532569648981531
+    second: parti_4
+  - first:
+      213: -455287675666615546
+    second: parti_5
+  - first:
+      213: 6508301971105382707
+    second: parti_6
+  - first:
+      213: -448434035223772660
+    second: parti_7
+  - first:
+      213: 381267526502649221
+    second: parti_8
+  - first:
+      213: -1550524761937081126
+    second: parti_9
+  - first:
+      213: 3172846090183704173
+    second: parti_10
+  - first:
+      213: 8074586570020911001
+    second: parti_11
+  - first:
+      213: 6839245881063588923
+    second: parti_12
+  - first:
+      213: -2178396937469781998
+    second: parti_13
+  - first:
+      213: 9071735558691764667
+    second: parti_14
+  - first:
+      213: -5128685958275694539
+    second: parti_15
+  - first:
+      213: 9155787930919087894
+    second: parti_16
+  - first:
+      213: -2323496832528159933
+    second: parti_17
+  - first:
+      213: 5486209945666569033
+    second: parti_18
+  - first:
+      213: 4001577186763552106
+    second: parti_19
+  - first:
+      213: 2181459553121567504
+    second: parti_20
+  - first:
+      213: 6582545039444113278
+    second: parti_21
+  - first:
+      213: -1836504087690572138
+    second: parti_22
+  - first:
+      213: 2238042932102004314
+    second: parti_23
+  - first:
+      213: 5993593021135834656
+    second: parti_24
+  - first:
+      213: -2035982685491467025
+    second: parti_25
+  - first:
+      213: -5260121047824136018
+    second: parti_26
+  - first:
+      213: 3572510000747912628
+    second: parti_27
+  - first:
+      213: -4323314665852801574
+    second: parti_28
+  - first:
+      213: -1921329353648548514
+    second: parti_29
+  - first:
+      213: -2863522778887399795
+    second: parti_30
+  - first:
+      213: -2623945964313455333
+    second: parti_31
+  - first:
+      213: -1840772333578571579
+    second: parti_32
+  - first:
+      213: -4449366842056290611
+    second: parti_33
+  - first:
+      213: 8002206549469223793
+    second: parti_34
+  - first:
+      213: 740519949286736165
+    second: parti_35
+  - first:
+      213: 3036379101219127258
+    second: parti_36
+  - first:
+      213: -710312337787864988
+    second: parti_37
+  - first:
+      213: -8173780068366732757
+    second: parti_38
+  - first:
+      213: 8615797088694525141
+    second: parti_39
+  - first:
+      213: -8214808137098057322
+    second: parti_40
+  - first:
+      213: 6254318655642218721
+    second: parti_41
+  - first:
+      213: 3735371445112277688
+    second: parti_42
+  - first:
+      213: -7695354106450336830
+    second: parti_43
+  - first:
+      213: -6265253659111705214
+    second: parti_44
+  - first:
+      213: -8880893531755252219
+    second: parti_45
+  - first:
+      213: 1920900064553893393
+    second: parti_46
+  - first:
+      213: 3443452476068502652
+    second: parti_47
+  - first:
+      213: 4469946866632814892
+    second: parti_48
+  - first:
+      213: 1080157379595560945
+    second: parti_49
+  - first:
+      213: -8254555018813629457
+    second: parti_50
+  - first:
+      213: -1861058891608784828
+    second: parti_51
+  - first:
+      213: 6137163274215600633
+    second: parti_52
+  - first:
+      213: -5497560369503897459
+    second: parti_53
+  - first:
+      213: -7973720892781530143
+    second: parti_54
+  - first:
+      213: -2223797801117665925
+    second: parti_55
+  - first:
+      213: -8654985350394965864
+    second: parti_56
+  - first:
+      213: -1433225088441718118
+    second: parti_57
+  - first:
+      213: 1518084918430043823
+    second: parti_58
+  - first:
+      213: -4611341319730902196
+    second: parti_59
+  - first:
+      213: 6177399712895729315
+    second: parti_60
+  - first:
+      213: -9053336295034609573
+    second: parti_61
+  - first:
+      213: 4532344605489437308
+    second: parti_62
+  - first:
+      213: -633140961916806894
+    second: parti_63
+  - first:
+      213: -5206877736471635662
+    second: parti_64
+  - first:
+      213: -7388352542678306936
+    second: parti_65
+  - first:
+      213: 6366835090687259874
+    second: parti_66
+  - first:
+      213: 8979811869900420432
+    second: parti_67
+  - first:
+      213: -8769113049872893625
+    second: parti_68
+  - first:
+      213: -4151198301204326820
+    second: parti_69
+  - first:
+      213: -7085349367433823804
+    second: parti_70
+  - first:
+      213: -6518110442773951252
+    second: parti_71
+  - first:
+      213: 5823234662847446513
+    second: parti_72
+  - first:
+      213: -7111158720350372682
+    second: parti_73
+  - first:
+      213: 6463102783138969199
+    second: parti_74
+  - first:
+      213: -3587571984577745487
+    second: parti_75
+  - first:
+      213: -1655302141981473087
+    second: parti_76
+  - first:
+      213: 155347455006033081
+    second: parti_77
+  - first:
+      213: 1440624955282131228
+    second: parti_78
+  - first:
+      213: -2456517915581549099
+    second: parti_79
+  - first:
+      213: 5913155736540590196
+    second: parti_80
+  - first:
+      213: 2966217194496205830
+    second: parti_81
+  - first:
+      213: 1205607305073661174
+    second: parti_82
+  - first:
+      213: -8849233543771126561
+    second: parti_83
+  - first:
+      213: 2846738615352419459
+    second: parti_84
+  - first:
+      213: -3869776096941249637
+    second: parti_85
+  - first:
+      213: -877190292961298184
+    second: parti_86
+  - first:
+      213: -8427167729418235734
+    second: parti_87
+  - first:
+      213: 6630338945941895361
+    second: parti_88
+  - first:
+      213: -4525669762710624731
+    second: parti_89
+  - first:
+      213: 1176724056119903812
+    second: parti_90
+  - first:
+      213: 2684805392486870312
+    second: parti_91
+  - first:
+      213: 4119268675700826386
+    second: parti_92
+  - first:
+      213: 5667847299492651049
+    second: parti_93
+  - first:
+      213: -2881151975920769680
+    second: parti_94
+  - first:
+      213: 8265222710546963504
+    second: parti_95
+  - first:
+      213: -7750339005560087417
+    second: parti_96
+  - first:
+      213: 7062116769384016294
+    second: parti_97
+  - first:
+      213: -7806670795194726419
+    second: parti_98
+  - first:
+      213: -8101392611999718114
+    second: parti_99
+  - first:
+      213: 628043415484996055
+    second: parti_100
+  - first:
+      213: -9063087574975137230
+    second: parti_101
+  - first:
+      213: 66451494571174409
+    second: parti_102
+  - first:
+      213: -6319031134590344304
+    second: parti_103
+  - first:
+      213: 7967478574708358753
+    second: parti_104
+  - first:
+      213: -2154919347279656815
+    second: parti_105
+  - first:
+      213: -7819997844428115795
+    second: parti_106
+  - first:
+      213: 2601830224643658030
+    second: parti_107
+  - first:
+      213: 2952447706848055842
+    second: parti_108
+  - first:
+      213: 3523960239319230015
+    second: parti_109
+  - first:
+      213: 3310732123684486450
+    second: parti_110
+  - first:
+      213: 2780898396029061314
+    second: parti_111
+  - first:
+      213: -4674663191287929433
+    second: parti_112
+  - first:
+      213: -9021196351927779937
+    second: parti_113
+  - first:
+      213: 40089939031659636
+    second: parti_114
+  - first:
+      213: -2724301240141238005
+    second: parti_115
+  - first:
+      213: -5435847258244666506
+    second: parti_116
+  - first:
+      213: -8169906496239312387
+    second: parti_117
+  - first:
+      213: 2130484412548029167
+    second: parti_118
+  - first:
+      213: 3341779328052863701
+    second: parti_119
+  - first:
+      213: -5517705111804826478
+    second: parti_120
+  - first:
+      213: -5736462442884613647
+    second: parti_121
+  - first:
+      213: -3529854942816295747
+    second: parti_122
+  - first:
+      213: -3454455415556231301
+    second: parti_123
+  - first:
+      213: 7095373610345622590
+    second: parti_124
+  - first:
+      213: -7011575200862479471
+    second: parti_125
+  - first:
+      213: 819622687606320000
+    second: parti_126
+  - first:
+      213: 7348296136191752703
+    second: parti_127
+  - first:
+      213: -3554932870789558059
+    second: parti_128
+  - first:
+      213: -6021560130519569652
+    second: parti_129
+  - first:
+      213: 8661806930601361488
+    second: parti_130
+  - first:
+      213: -7972984165022942573
+    second: parti_131
+  - first:
+      213: 8824083656826004754
+    second: parti_132
+  - first:
+      213: 9185516484792981409
+    second: parti_133
+  - first:
+      213: -2836443090283236830
+    second: parti_134
+  - first:
+      213: -4096224162519756494
+    second: parti_135
+  - first:
+      213: 2013948051621209569
+    second: parti_136
+  - first:
+      213: -7229380678612251866
+    second: parti_137
+  - first:
+      213: -6937434670794320544
+    second: parti_138
+  - first:
+      213: -4143267062030520995
+    second: parti_139
+  - first:
+      213: 2463452666202390883
+    second: parti_140
+  - first:
+      213: 6909264783119612229
+    second: parti_141
+  - first:
+      213: 6191597258295525256
+    second: parti_142
+  - first:
+      213: 6663210347907349265
+    second: parti_143
+  - first:
+      213: 1463673574474198680
+    second: parti_144
+  - first:
+      213: -5175990314956567062
+    second: parti_145
+  - first:
+      213: -1279149966913449082
+    second: parti_146
+  - first:
+      213: 2290557052971084749
+    second: parti_147
+  - first:
+      213: -3020748330948427616
+    second: parti_148
+  - first:
+      213: 4780902124610040718
+    second: parti_149
+  - first:
+      213: -2564168265144307920
+    second: parti_150
+  - first:
+      213: -3076228036374710742
+    second: parti_151
+  - first:
+      213: -199370690898262068
+    second: parti_152
+  - first:
+      213: -8268165822725017786
+    second: parti_153
+  - first:
+      213: -3727738385478438509
+    second: parti_154
+  - first:
+      213: -7164946584903995665
+    second: parti_155
+  - first:
+      213: -279122014198191628
+    second: parti_156
+  - first:
+      213: 3551943804672373940
+    second: parti_157
+  - first:
+      213: -3856222754028662816
+    second: parti_158
+  - first:
+      213: 4196496248191058915
+    second: parti_159
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: parti_0
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 536
+        width: 218
+        height: 484
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60d7f6278c0eaa3d0800000000000000
+      internalID: -3194493834147955450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parti_1
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 782
+        width: 34
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0880bc365a20fec40800000000000000
+      internalID: 5543652575683479680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parti_2
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 703
+        width: 204
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f908156655ce86c80800000000000000
+      internalID: -8329147659288739681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parti_3
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 813
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e5fe7c220b5a0e40800000000000000
+      internalID: 5623407149620065768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parti_4
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 807
+        width: 269
+        height: 217
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e917d3cdb4c968d0800000000000000
+      internalID: -2852532569648981531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parti_5
+      rect:
+        serializedVersion: 2
+        x: 1007
+        y: 744
+        width: 69
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 603374d654e7ea9f0800000000000000
+      internalID: -455287675666615546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parti_6
+      rect:
+        serializedVersion: 2
+        x: 1247
+        y: 700
+        width: 146
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33106b60922225a50800000000000000
+      internalID: 6508301971105382707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parti_7
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 779
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c02ca41fe97d6c9f0800000000000000
+      internalID: -448434035223772660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parti_8
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 749
+        width: 45
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58d05999bc88a4500800000000000000
+      internalID: 381267526502649221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parti_9
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 782
+        width: 28
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adc0b4da1fd6b7ae0800000000000000
+      internalID: -1550524761937081126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parti_10
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 705
+        width: 112
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6ef26465b6380c20800000000000000
+      internalID: 3172846090183704173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parti_11
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 579
+        width: 232
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9977c3654b1be0070800000000000000
+      internalID: 8074586570020911001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parti_12
+      rect:
+        serializedVersion: 2
+        x: 999
+        y: 793
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b34495894e1e9ee50800000000000000
+      internalID: 6839245881063588923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parti_13
+      rect:
+        serializedVersion: 2
+        x: 1365
+        y: 759
+        width: 65
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 218905ae687c4c1e0800000000000000
+      internalID: -2178396937469781998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parti_14
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 751
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb93a103d6745ed70800000000000000
+      internalID: 9071735558691764667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parti_15
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 767
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 530817c3b4f33d8b0800000000000000
+      internalID: -5128685958275694539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parti_16
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 753
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61fad3d1d94ef0f70800000000000000
+      internalID: 9155787930919087894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parti_17
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 743
+        width: 52
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34be964f0f741cfd0800000000000000
+      internalID: -2323496832528159933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parti_18
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 761
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 943cbaed0eee22c40800000000000000
+      internalID: 5486209945666569033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parti_19
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 767
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6539560045788730800000000000000
+      internalID: 4001577186763552106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parti_20
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 758
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01381bbd7e9164e10800000000000000
+      internalID: 2181459553121567504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parti_21
+      rect:
+        serializedVersion: 2
+        x: 861
+        y: 760
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e77731a66d5e95b50800000000000000
+      internalID: 6582545039444113278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parti_22
+      rect:
+        serializedVersion: 2
+        x: 1127
+        y: 755
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69e86a0334d6386e0800000000000000
+      internalID: -1836504087690572138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parti_23
+      rect:
+        serializedVersion: 2
+        x: 1231
+        y: 743
+        width: 36
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5e730860302f0f10800000000000000
+      internalID: 2238042932102004314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parti_24
+      rect:
+        serializedVersion: 2
+        x: 1422
+        y: 752
+        width: 33
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02ecf09e8158d2350800000000000000
+      internalID: 5993593021135834656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parti_25
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 743
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fec6f6ed88cbeb3e0800000000000000
+      internalID: -2035982685491467025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parti_26
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 703
+        width: 70
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea803ecb6cb4007b0800000000000000
+      internalID: -5260121047824136018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parti_27
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 739
+        width: 27
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bd1c1feaea149130800000000000000
+      internalID: 3572510000747912628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parti_28
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 729
+        width: 35
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: add6b91a7308004c0800000000000000
+      internalID: -4323314665852801574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parti_29
+      rect:
+        serializedVersion: 2
+        x: 1078
+        y: 733
+        width: 52
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e555f3be1211655e0800000000000000
+      internalID: -1921329353648548514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parti_30
+      rect:
+        serializedVersion: 2
+        x: 1212
+        y: 751
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d865d264439b248d0800000000000000
+      internalID: -2863522778887399795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parti_31
+      rect:
+        serializedVersion: 2
+        x: 1370
+        y: 730
+        width: 42
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b15d6473c0fd59bd0800000000000000
+      internalID: -2623945964313455333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parti_32
+      rect:
+        serializedVersion: 2
+        x: 1415
+        y: 754
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c0bea0c0534476e0800000000000000
+      internalID: -1840772333578571579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parti_33
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 718
+        width: 46
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dce45df4e6ca042c0800000000000000
+      internalID: -4449366842056290611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parti_34
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 719
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17bda60957c8d0f60800000000000000
+      internalID: 8002206549469223793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parti_35
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 719
+        width: 20
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 521835e68fad64a00800000000000000
+      internalID: 740519949286736165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parti_36
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 714
+        width: 58
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adff59384b2632a20800000000000000
+      internalID: 3036379101219127258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parti_37
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 709
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 468b39231b67426f0800000000000000
+      internalID: -710312337787864988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parti_38
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 730
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2235d89556e09e80800000000000000
+      internalID: -8173780068366732757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parti_39
+      rect:
+        serializedVersion: 2
+        x: 1199
+        y: 711
+        width: 67
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5dc5b70cdc5719770800000000000000
+      internalID: 8615797088694525141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parti_40
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 703
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6992842f5832ffd80800000000000000
+      internalID: -8214808137098057322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parti_41
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 699
+        width: 20
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e037a53eadcbc650800000000000000
+      internalID: 6254318655642218721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parti_42
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 702
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ba0e0ad984b6d330800000000000000
+      internalID: 3735371445112277688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parti_43
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 569
+        width: 9
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c32f20463c943590800000000000000
+      internalID: -7695354106450336830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parti_44
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 697
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2853ee4edf85d09a0800000000000000
+      internalID: -6265253659111705214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parti_45
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 695
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 506f9a7c26ab0c480800000000000000
+      internalID: -8880893531755252219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parti_46
+      rect:
+        serializedVersion: 2
+        x: 1388
+        y: 714
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11e72cc6e6868aa10800000000000000
+      internalID: 1920900064553893393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parti_47
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 695
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7c900568c999cf20800000000000000
+      internalID: 3443452476068502652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parti_48
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 700
+        width: 19
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c21f48e0ef0780e30800000000000000
+      internalID: 4469946866632814892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parti_49
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 688
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f76f40f96d7dfe00800000000000000
+      internalID: 1080157379595560945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parti_50
+      rect:
+        serializedVersion: 2
+        x: 1030
+        y: 688
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: feb12b4e1fde17d80800000000000000
+      internalID: -8254555018813629457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parti_51
+      rect:
+        serializedVersion: 2
+        x: 1283
+        y: 694
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44083936cc03c26e0800000000000000
+      internalID: -1861058891608784828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parti_52
+      rect:
+        serializedVersion: 2
+        x: 1329
+        y: 687
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f1b1385b759b2550800000000000000
+      internalID: 6137163274215600633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parti_53
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 463
+        width: 117
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d887474a8fdb4b3b0800000000000000
+      internalID: -5497560369503897459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parti_54
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 519
+        width: 43
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e375a73817a75190800000000000000
+      internalID: -7973720892781530143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parti_55
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 337
+        width: 217
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b75361c9eab7321e0800000000000000
+      internalID: -2223797801117665925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parti_56
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 462
+        width: 107
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8909f7d0ea053e780800000000000000
+      internalID: -8654985350394965864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parti_57
+      rect:
+        serializedVersion: 2
+        x: 797
+        y: 518
+        width: 59
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9ae04820692c1ce0800000000000000
+      internalID: -1433225088441718118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parti_58
+      rect:
+        serializedVersion: 2
+        x: 958
+        y: 459
+        width: 116
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fae86eda032511510800000000000000
+      internalID: 1518084918430043823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parti_59
+      rect:
+        serializedVersion: 2
+        x: 1072
+        y: 521
+        width: 33
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4bcb5b60893100c0800000000000000
+      internalID: -4611341319730902196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parti_60
+      rect:
+        serializedVersion: 2
+        x: 1103
+        y: 549
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3aeffb24f488ab550800000000000000
+      internalID: 6177399712895729315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parti_61
+      rect:
+        serializedVersion: 2
+        x: 1214
+        y: 519
+        width: 24
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b50af463b961c5280800000000000000
+      internalID: -9053336295034609573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parti_62
+      rect:
+        serializedVersion: 2
+        x: 1328
+        y: 508
+        width: 40
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7a1bd1c76f16ee30800000000000000
+      internalID: 4532344605489437308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parti_63
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 518
+        width: 26
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 219133056a1a637f0800000000000000
+      internalID: -633140961916806894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parti_64
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 532
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 239d7b039447db7b0800000000000000
+      internalID: -5206877736471635662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parti_65
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 522
+        width: 28
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88f2e42f18c477990800000000000000
+      internalID: -7388352542678306936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parti_66
+      rect:
+        serializedVersion: 2
+        x: 943
+        y: 525
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e4f7e338ca8b5850800000000000000
+      internalID: 6366835090687259874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parti_67
+      rect:
+        serializedVersion: 2
+        x: 1116
+        y: 535
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 055304f8153be9c70800000000000000
+      internalID: 8979811869900420432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parti_68
+      rect:
+        serializedVersion: 2
+        x: 1259
+        y: 465
+        width: 129
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7497513542add4680800000000000000
+      internalID: -8769113049872893625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parti_69
+      rect:
+        serializedVersion: 2
+        x: 1372
+        y: 537
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c56d288932bf366c0800000000000000
+      internalID: -4151198301204326820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parti_70
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 502
+        width: 35
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c971944a48cbad90800000000000000
+      internalID: -7085349367433823804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parti_71
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 511
+        width: 28
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cecc1b336150b85a0800000000000000
+      internalID: -6518110442773951252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parti_72
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 513
+        width: 24
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fd73c2b21940d050800000000000000
+      internalID: 5823234662847446513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parti_73
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 497
+        width: 50
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bc381402d6105d90800000000000000
+      internalID: -7111158720350372682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parti_74
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 520
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6636dffcbd81b950800000000000000
+      internalID: 6463102783138969199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parti_75
+      rect:
+        serializedVersion: 2
+        x: 1061
+        y: 517
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bda91da942663ec0800000000000000
+      internalID: -3587571984577745487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parti_76
+      rect:
+        serializedVersion: 2
+        x: 1094
+        y: 515
+        width: 6
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c64047d87f2709e0800000000000000
+      internalID: -1655302141981473087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parti_77
+      rect:
+        serializedVersion: 2
+        x: 1098
+        y: 502
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b44560ffa7e72200800000000000000
+      internalID: 155347455006033081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parti_78
+      rect:
+        serializedVersion: 2
+        x: 1375
+        y: 526
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c19872a93c02ef310800000000000000
+      internalID: 1440624955282131228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parti_79
+      rect:
+        serializedVersion: 2
+        x: 1378
+        y: 515
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d5f06198f1b8edd0800000000000000
+      internalID: -2456517915581549099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parti_80
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 493
+        width: 28
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 470b01a20dfbf0250800000000000000
+      internalID: 5913155736540590196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parti_81
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 495
+        width: 49
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6042a9c92de1a2920800000000000000
+      internalID: 2966217194496205830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parti_82
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 462
+        width: 73
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f41885d47d2bb010800000000000000
+      internalID: 1205607305073661174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parti_83
+      rect:
+        serializedVersion: 2
+        x: 865
+        y: 511
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd40d092af4313580800000000000000
+      internalID: -8849233543771126561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parti_84
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 500
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 384e77020b5a18720800000000000000
+      internalID: 2846738615352419459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parti_85
+      rect:
+        serializedVersion: 2
+        x: 943
+        y: 503
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9be48d842bcb4ac0800000000000000
+      internalID: -3869776096941249637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parti_86
+      rect:
+        serializedVersion: 2
+        x: 1063
+        y: 483
+        width: 42
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f8fe9b731893d3f0800000000000000
+      internalID: -877190292961298184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parti_87
+      rect:
+        serializedVersion: 2
+        x: 1239
+        y: 503
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa01461699fac0b80800000000000000
+      internalID: -8427167729418235734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parti_88
+      rect:
+        serializedVersion: 2
+        x: 1390
+        y: 488
+        width: 38
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c8fd4d6422b30c50800000000000000
+      internalID: 6630338945941895361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parti_89
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 384
+        width: 168
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52628ee24579131c0800000000000000
+      internalID: -4525669762710624731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parti_90
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 462
+        width: 21
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4460fa36b40945010800000000000000
+      internalID: 1176724056119903812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parti_91
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 472
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82dab3e9748524520800000000000000
+      internalID: 2684805392486870312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parti_92
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 487
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 211aa8529059a2930800000000000000
+      internalID: 4119268675700826386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parti_93
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 473
+        width: 63
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 920aa6fd61d38ae40800000000000000
+      internalID: 5667847299492651049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parti_94
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 475
+        width: 19
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 075e35bfa871408d0800000000000000
+      internalID: -2881151975920769680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parti_95
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 474
+        width: 27
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03c94a3a348f3b270800000000000000
+      internalID: 8265222710546963504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parti_96
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 337
+        width: 65
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78c9cbcccb3417490800000000000000
+      internalID: -7750339005560087417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parti_97
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 347
+        width: 102
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a9a679f8cda10260800000000000000
+      internalID: 7062116769384016294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parti_98
+      rect:
+        serializedVersion: 2
+        x: 1095
+        y: 476
+        width: 23
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de78006f54229a390800000000000000
+      internalID: -7806670795194726419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parti_99
+      rect:
+        serializedVersion: 2
+        x: 1206
+        y: 471
+        width: 59
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1568c7a752129f80800000000000000
+      internalID: -8101392611999718114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parti_100
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 457
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d9918ba82247b800800000000000000
+      internalID: 628043415484996055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parti_101
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 462
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23ab95d6ed1793280800000000000000
+      internalID: -9063087574975137230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parti_102
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 459
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90a65b048451ce000800000000000000
+      internalID: 66451494571174409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parti_103
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 459
+        width: 22
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 093eb1aa9aa4e48a0800000000000000
+      internalID: -6319031134590344304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parti_104
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 457
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16ef609dc8b229e60800000000000000
+      internalID: 7967478574708358753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parti_105
+      rect:
+        serializedVersion: 2
+        x: 1030
+        y: 457
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19887c955403812e0800000000000000
+      internalID: -2154919347279656815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parti_106
+      rect:
+        serializedVersion: 2
+        x: 1257
+        y: 463
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da0ba828469c97390800000000000000
+      internalID: -7819997844428115795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parti_107
+      rect:
+        serializedVersion: 2
+        x: 1290
+        y: 463
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2192c1edce8b1420800000000000000
+      internalID: 2601830224643658030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parti_108
+      rect:
+        serializedVersion: 2
+        x: 1326
+        y: 465
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2225890fb8339f820800000000000000
+      internalID: 2952447706848055842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parti_109
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 239
+        width: 118
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f36293bba2f97e030800000000000000
+      internalID: 3523960239319230015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parti_110
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 290
+        width: 40
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23d30b2535512fd20800000000000000
+      internalID: 3310732123684486450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parti_111
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 307
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c804cb7b5cb79620800000000000000
+      internalID: 2780898396029061314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parti_112
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 321
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a560be4892402fb0800000000000000
+      internalID: -4674663191287929433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parti_113
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 9
+        width: 147
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9d7b4ad6b54ec280800000000000000
+      internalID: -9021196351927779937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parti_114
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 327
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4749c0f469d6e8000800000000000000
+      internalID: 40089939031659636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parti_115
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 319
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b01b930c476513ad0800000000000000
+      internalID: -2724301240141238005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parti_116
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 327
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67bab0f08bdff84b0800000000000000
+      internalID: -5435847258244666506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parti_117
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 248
+        width: 130
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df1ef73e359ae9e80800000000000000
+      internalID: -8169906496239312387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parti_118
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 319
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fea9e611940019d10800000000000000
+      internalID: 2130484412548029167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parti_119
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 0
+        width: 211
+        height: 323
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d2a556e792606e20800000000000000
+      internalID: 3341779328052863701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parti_120
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 296
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29c24835f6c2d63b0800000000000000
+      internalID: -5517705111804826478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parti_121
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 295
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f93e702dcdf360b0800000000000000
+      internalID: -5736462442884613647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parti_122
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 296
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db427c8a1af630fc0800000000000000
+      internalID: -3529854942816295747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parti_123
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 1
+        width: 121
+        height: 325
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7fa85f1a1f4f00d0800000000000000
+      internalID: -3454455415556231301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parti_124
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 301
+        width: 33
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3ce459a4b4d77260800000000000000
+      internalID: 7095373610345622590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parti_125
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 283
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19b57a4f081e1be90800000000000000
+      internalID: -7011575200862479471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parti_126
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 294
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08b20a8ed72ef5b00800000000000000
+      internalID: 819622687606320000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parti_127
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 251
+        width: 67
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff9b51627646af560800000000000000
+      internalID: 7348296136191752703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parti_128
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 302
+        width: 33
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d09a3c83675aaec0800000000000000
+      internalID: -3554932870789558059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parti_129
+      rect:
+        serializedVersion: 2
+        x: 1074
+        y: 303
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0be9b207fe1f6ca0800000000000000
+      internalID: -6021560130519569652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parti_130
+      rect:
+        serializedVersion: 2
+        x: 1085
+        y: 283
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 050c28bd28be43870800000000000000
+      internalID: 8661806930601361488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parti_131
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 302
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39a3ef305254a5190800000000000000
+      internalID: -7972984165022942573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parti_132
+      rect:
+        serializedVersion: 2
+        x: 1262
+        y: 272
+        width: 37
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 215a1797551757a70800000000000000
+      internalID: 8824083656826004754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parti_133
+      rect:
+        serializedVersion: 2
+        x: 1294
+        y: 295
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a794927392897f70800000000000000
+      internalID: 9185516484792981409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parti_134
+      rect:
+        serializedVersion: 2
+        x: 1318
+        y: 271
+        width: 40
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2227e0a990ee2a8d0800000000000000
+      internalID: -2836443090283236830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parti_135
+      rect:
+        serializedVersion: 2
+        x: 1375
+        y: 293
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23153a0b3d94727c0800000000000000
+      internalID: -4096224162519756494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parti_136
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 255
+        width: 63
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e5e8f4251bf2fb10800000000000000
+      internalID: 2013948051621209569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parti_137
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 263
+        width: 49
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62b8e3163941cab90800000000000000
+      internalID: -7229380678612251866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parti_138
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 263
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06553da4ce749bf90800000000000000
+      internalID: -6937434670794320544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parti_139
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 271
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5d281e1f882086c0800000000000000
+      internalID: -4143267062030520995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parti_140
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 263
+        width: 44
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3618bf1e521ff2220800000000000000
+      internalID: 2463452666202390883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parti_141
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 249
+        width: 42
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 549f5f0a6b3a2ef50800000000000000
+      internalID: 6909264783119612229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parti_142
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 265
+        width: 39
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88fbcf4e6e8fce550800000000000000
+      internalID: 6191597258295525256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parti_143
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 1
+        width: 78
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11b79ba128a787c50800000000000000
+      internalID: 6663210347907349265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parti_144
+      rect:
+        serializedVersion: 2
+        x: 1055
+        y: 273
+        width: 38
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89e29a17c53005410800000000000000
+      internalID: 1463673574474198680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parti_145
+      rect:
+        serializedVersion: 2
+        x: 1214
+        y: 250
+        width: 51
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aedc62c6b303b28b0800000000000000
+      internalID: -5175990314956567062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parti_146
+      rect:
+        serializedVersion: 2
+        x: 1239
+        y: 280
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 683dbafd1eb8f3ee0800000000000000
+      internalID: -1279149966913449082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parti_147
+      rect:
+        serializedVersion: 2
+        x: 1288
+        y: 255
+        width: 43
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcb6b18f081b9cf10800000000000000
+      internalID: 2290557052971084749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parti_148
+      rect:
+        serializedVersion: 2
+        x: 1357
+        y: 17
+        width: 148
+        height: 281
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a007f9c5652416d0800000000000000
+      internalID: -3020748330948427616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parti_149
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 249
+        width: 23
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e83ba4be62d295240800000000000000
+      internalID: 4780902124610040718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parti_150
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 267
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03f6eb36c8e3a6cd0800000000000000
+      internalID: -2564168265144307920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parti_151
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 249
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a26b9c346ea0f45d0800000000000000
+      internalID: -3076228036374710742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parti_152
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 258
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc78266b961bb3df0800000000000000
+      internalID: -199370690898262068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parti_153
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 260
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64f2378adf2914d80800000000000000
+      internalID: -8268165822725017786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parti_154
+      rect:
+        serializedVersion: 2
+        x: 1043
+        y: 0
+        width: 174
+        height: 276
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39138f550b9644cc0800000000000000
+      internalID: -3727738385478438509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parti_155
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 244
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fee2624ea0ff09c90800000000000000
+      internalID: -7164946584903995665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parti_156
+      rect:
+        serializedVersion: 2
+        x: 983
+        y: 247
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f9a9b6c10c502cf0800000000000000
+      internalID: -279122014198191628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parti_157
+      rect:
+        serializedVersion: 2
+        x: 1039
+        y: 246
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b475a3421a0b4130800000000000000
+      internalID: 3551943804672373940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parti_158
+      rect:
+        serializedVersion: 2
+        x: 1272
+        y: 248
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0efc75b16d1fb7ac0800000000000000
+      internalID: -3856222754028662816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parti_159
+      rect:
+        serializedVersion: 2
+        x: 1333
+        y: 249
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e300be8a13fc3a30800000000000000
+      internalID: 4196496248191058915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      parti_0: -3194493834147955450
+      parti_1: 5543652575683479680
+      parti_10: 3172846090183704173
+      parti_100: 628043415484996055
+      parti_101: -9063087574975137230
+      parti_102: 66451494571174409
+      parti_103: -6319031134590344304
+      parti_104: 7967478574708358753
+      parti_105: -2154919347279656815
+      parti_106: -7819997844428115795
+      parti_107: 2601830224643658030
+      parti_108: 2952447706848055842
+      parti_109: 3523960239319230015
+      parti_11: 8074586570020911001
+      parti_110: 3310732123684486450
+      parti_111: 2780898396029061314
+      parti_112: -4674663191287929433
+      parti_113: -9021196351927779937
+      parti_114: 40089939031659636
+      parti_115: -2724301240141238005
+      parti_116: -5435847258244666506
+      parti_117: -8169906496239312387
+      parti_118: 2130484412548029167
+      parti_119: 3341779328052863701
+      parti_12: 6839245881063588923
+      parti_120: -5517705111804826478
+      parti_121: -5736462442884613647
+      parti_122: -3529854942816295747
+      parti_123: -3454455415556231301
+      parti_124: 7095373610345622590
+      parti_125: -7011575200862479471
+      parti_126: 819622687606320000
+      parti_127: 7348296136191752703
+      parti_128: -3554932870789558059
+      parti_129: -6021560130519569652
+      parti_13: -2178396937469781998
+      parti_130: 8661806930601361488
+      parti_131: -7972984165022942573
+      parti_132: 8824083656826004754
+      parti_133: 9185516484792981409
+      parti_134: -2836443090283236830
+      parti_135: -4096224162519756494
+      parti_136: 2013948051621209569
+      parti_137: -7229380678612251866
+      parti_138: -6937434670794320544
+      parti_139: -4143267062030520995
+      parti_14: 9071735558691764667
+      parti_140: 2463452666202390883
+      parti_141: 6909264783119612229
+      parti_142: 6191597258295525256
+      parti_143: 6663210347907349265
+      parti_144: 1463673574474198680
+      parti_145: -5175990314956567062
+      parti_146: -1279149966913449082
+      parti_147: 2290557052971084749
+      parti_148: -3020748330948427616
+      parti_149: 4780902124610040718
+      parti_15: -5128685958275694539
+      parti_150: -2564168265144307920
+      parti_151: -3076228036374710742
+      parti_152: -199370690898262068
+      parti_153: -8268165822725017786
+      parti_154: -3727738385478438509
+      parti_155: -7164946584903995665
+      parti_156: -279122014198191628
+      parti_157: 3551943804672373940
+      parti_158: -3856222754028662816
+      parti_159: 4196496248191058915
+      parti_16: 9155787930919087894
+      parti_17: -2323496832528159933
+      parti_18: 5486209945666569033
+      parti_19: 4001577186763552106
+      parti_2: -8329147659288739681
+      parti_20: 2181459553121567504
+      parti_21: 6582545039444113278
+      parti_22: -1836504087690572138
+      parti_23: 2238042932102004314
+      parti_24: 5993593021135834656
+      parti_25: -2035982685491467025
+      parti_26: -5260121047824136018
+      parti_27: 3572510000747912628
+      parti_28: -4323314665852801574
+      parti_29: -1921329353648548514
+      parti_3: 5623407149620065768
+      parti_30: -2863522778887399795
+      parti_31: -2623945964313455333
+      parti_32: -1840772333578571579
+      parti_33: -4449366842056290611
+      parti_34: 8002206549469223793
+      parti_35: 740519949286736165
+      parti_36: 3036379101219127258
+      parti_37: -710312337787864988
+      parti_38: -8173780068366732757
+      parti_39: 8615797088694525141
+      parti_4: -2852532569648981531
+      parti_40: -8214808137098057322
+      parti_41: 6254318655642218721
+      parti_42: 3735371445112277688
+      parti_43: -7695354106450336830
+      parti_44: -6265253659111705214
+      parti_45: -8880893531755252219
+      parti_46: 1920900064553893393
+      parti_47: 3443452476068502652
+      parti_48: 4469946866632814892
+      parti_49: 1080157379595560945
+      parti_5: -455287675666615546
+      parti_50: -8254555018813629457
+      parti_51: -1861058891608784828
+      parti_52: 6137163274215600633
+      parti_53: -5497560369503897459
+      parti_54: -7973720892781530143
+      parti_55: -2223797801117665925
+      parti_56: -8654985350394965864
+      parti_57: -1433225088441718118
+      parti_58: 1518084918430043823
+      parti_59: -4611341319730902196
+      parti_6: 6508301971105382707
+      parti_60: 6177399712895729315
+      parti_61: -9053336295034609573
+      parti_62: 4532344605489437308
+      parti_63: -633140961916806894
+      parti_64: -5206877736471635662
+      parti_65: -7388352542678306936
+      parti_66: 6366835090687259874
+      parti_67: 8979811869900420432
+      parti_68: -8769113049872893625
+      parti_69: -4151198301204326820
+      parti_7: -448434035223772660
+      parti_70: -7085349367433823804
+      parti_71: -6518110442773951252
+      parti_72: 5823234662847446513
+      parti_73: -7111158720350372682
+      parti_74: 6463102783138969199
+      parti_75: -3587571984577745487
+      parti_76: -1655302141981473087
+      parti_77: 155347455006033081
+      parti_78: 1440624955282131228
+      parti_79: -2456517915581549099
+      parti_8: 381267526502649221
+      parti_80: 5913155736540590196
+      parti_81: 2966217194496205830
+      parti_82: 1205607305073661174
+      parti_83: -8849233543771126561
+      parti_84: 2846738615352419459
+      parti_85: -3869776096941249637
+      parti_86: -877190292961298184
+      parti_87: -8427167729418235734
+      parti_88: 6630338945941895361
+      parti_89: -4525669762710624731
+      parti_9: -1550524761937081126
+      parti_90: 1176724056119903812
+      parti_91: 2684805392486870312
+      parti_92: 4119268675700826386
+      parti_93: 5667847299492651049
+      parti_94: -2881151975920769680
+      parti_95: 8265222710546963504
+      parti_96: -7750339005560087417
+      parti_97: 7062116769384016294
+      parti_98: -7806670795194726419
+      parti_99: -8101392611999718114
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

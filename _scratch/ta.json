@@ -1,0 +1,1 @@
+{"csharpCode":"using UnityEngine;\npublic class TrigAtk { public static string Main(){ var b=GameObject.Find(\"FPBody\"); var a=b.GetComponentInChildren<Animator>(); a.SetTrigger(\"Attack\"); return \"triggered\"; } }\n","className":"TrigAtk","methodName":"Main"}

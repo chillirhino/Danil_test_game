@@ -1,0 +1,608 @@
+
+Run Tool
+  Tool: console-get-logs
+  URL: http://localhost:20984/api/tools/console-get-logs
+  Auth: from config
+──────────────────────────────────────────────────
+Calling console-get-logs...
+SUCCESS: console-get-logs completed
+SUCCESS: Response:
+{
+  "status": "success",
+  "structured": {
+    "result": [
+      {
+        "LogType": "Exception",
+        "Message": "InvalidOperationException: You are trying to read Input using the UnityEngine.Input class, but you have switched active Input handling to Input System package in Player Settings.",
+        "Timestamp": "2026-07-09T12:44:12.8072329+02:00",
+        "StackTrace": "UnityEngine.Input.get_mousePosition () (at <1fbf520707494e6fb187ca6d516a21b5>:0)\nUnityEngine.EventSystems.BaseInput.get_mousePosition () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/InputModules/BaseInput.cs:75)\nUnityEngine.EventSystems.StandaloneInputModule.UpdateModule () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/InputModules/StandaloneInputModule.cs:176)\nUnityEngine.EventSystems.EventSystem.TickModules () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/EventSystem.cs:462)\nUnityEngine.EventSystems.EventSystem.Update () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/EventSystem.cs:482)\n"
+      },
+      {
+        "LogType": "Exception",
+        "Message": "InvalidOperationException: You are trying to read Input using the UnityEngine.Input class, but you have switched active Input handling to Input System package in Player Settings.",
+        "Timestamp": "2026-07-09T12:44:12.8092384+02:00",
+        "StackTrace": "UnityEngine.Input.get_mousePosition () (at <1fbf520707494e6fb187ca6d516a21b5>:0)\nUnityEngine.EventSystems.BaseInput.get_mousePosition () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/InputModules/BaseInput.cs:75)\nUnityEngine.EventSystems.StandaloneInputModule.UpdateModule () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/InputModules/StandaloneInputModule.cs:176)\nUnityEngine.EventSystems.EventSystem.TickModules () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/EventSystem.cs:462)\nUnityEngine.EventSystems.EventSystem.Update () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/EventSystem.cs:482)\n"
+      },
+      {
+        "LogType": "Exception",
+        "Message": "InvalidOperationException: You are trying to read Input using the UnityEngine.Input class, but you have switched active Input handling to Input System package in Player Settings.",
+        "Timestamp": "2026-07-09T12:44:12.8129996+02:00",
+        "StackTrace": "UnityEngine.Input.get_mousePosition () (at <1fbf520707494e6fb187ca6d516a21b5>:0)\nUnityEngine.EventSystems.BaseInput.get_mousePosition () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/InputModules/BaseInput.cs:75)\nUnityEngine.EventSystems.StandaloneInputModule.UpdateModule () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/InputModules/StandaloneInputModule.cs:176)\nUnityEngine.EventSystems.EventSystem.TickModules () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/EventSystem.cs:462)\nUnityEngine.EventSystems.EventSystem.Update () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/EventSystem.cs:482)\n"
+      },
+      {
+        "LogType": "Exception",
+        "Message": "InvalidOperationException: You are trying to read Input using the UnityEngine.Input class, but you have switched active Input handling to Input System package in Player Settings.",
+        "Timestamp": "2026-07-09T12:44:12.8163529+02:00",
+        "StackTrace": "UnityEngine.Input.get_mousePosition () (at <1fbf520707494e6fb187ca6d516a21b5>:0)\nUnityEngine.EventSystems.BaseInput.get_mousePosition () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/InputModules/BaseInput.cs:75)\nUnityEngine.EventSystems.StandaloneInputModule.UpdateModule () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/InputModules/StandaloneInputModule.cs:176)\nUnityEngine.EventSystems.EventSystem.TickModules () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/EventSystem.cs:462)\nUnityEngine.EventSystems.EventSystem.Update () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/EventSystem.cs:482)\n"
+      },
+      {
+        "LogType": "Exception",
+        "Message": "InvalidOperationException: You are trying to read Input using the UnityEngine.Input class, but you have switched active Input handling to Input System package in Player Settings.",
+        "Timestamp": "2026-07-09T12:44:12.8193587+02:00",
+        "StackTrace": "UnityEngine.Input.get_mousePosition () (at <1fbf520707494e6fb187ca6d516a21b5>:0)\nUnityEngine.EventSystems.BaseInput.get_mousePosition () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/InputModules/BaseInput.cs:75)\nUnityEngine.EventSystems.StandaloneInputModule.UpdateModule () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/InputModules/StandaloneInputModule.cs:176)\nUnityEngine.EventSystems.EventSystem.TickModules () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/EventSystem.cs:462)\nUnityEngine.EventSystems.EventSystem.Update () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/EventSystem.cs:482)\n"
+      },
+      {
+        "LogType": "Exception",
+        "Message": "InvalidOperationException: You are trying to read Input using the UnityEngine.Input class, but you have switched active Input handling to Input System package in Player Settings.",
+        "Timestamp": "2026-07-09T12:44:12.8240051+02:00",
+        "StackTrace": "UnityEngine.Input.get_mousePosition () (at <1fbf520707494e6fb187ca6d516a21b5>:0)\nUnityEngine.EventSystems.BaseInput.get_mousePosition () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/InputModules/BaseInput.cs:75)\nUnityEngine.EventSystems.StandaloneInputModule.UpdateModule () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/InputModules/StandaloneInputModule.cs:176)\nUnityEngine.EventSystems.EventSystem.TickModules () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/EventSystem.cs:462)\nUnityEngine.EventSystems.EventSystem.Update () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/EventSystem.cs:482)\n"
+      },
+      {
+        "LogType": "Exception",
+        "Message": "InvalidOperationException: You are trying to read Input using the UnityEngine.Input class, but you have switched active Input handling to Input System package in Player Settings.",
+        "Timestamp": "2026-07-09T12:44:12.8265206+02:00",
+        "StackTrace": "UnityEngine.Input.get_mousePosition () (at <1fbf520707494e6fb187ca6d516a21b5>:0)\nUnityEngine.EventSystems.BaseInput.get_mousePosition () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/InputModules/BaseInput.cs:75)\nUnityEngine.EventSystems.StandaloneInputModule.UpdateModule () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/InputModules/StandaloneInputModule.cs:176)\nUnityEngine.EventSystems.EventSystem.TickModules () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/EventSystem.cs:462)\nUnityEngine.EventSystems.EventSystem.Update () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/EventSystem.cs:482)\n"
+      },
+      {
+        "LogType": "Exception",
+        "Message": "InvalidOperationException: You are trying to read Input using the UnityEngine.Input class, but you have switched active Input handling to Input System package in Player Settings.",
+        "Timestamp": "2026-07-09T12:44:12.8312651+02:00",
+        "StackTrace": "UnityEngine.Input.get_mousePosition () (at <1fbf520707494e6fb187ca6d516a21b5>:0)\nUnityEngine.EventSystems.BaseInput.get_mousePosition () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/InputModules/BaseInput.cs:75)\nUnityEngine.EventSystems.StandaloneInputModule.UpdateModule () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/InputModules/StandaloneInputModule.cs:176)\nUnityEngine.EventSystems.EventSystem.TickModules () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/EventSystem.cs:462)\nUnityEngine.EventSystems.EventSystem.Update () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/EventSystem.cs:482)\n"
+      },
+      {
+        "LogType": "Exception",
+        "Message": "InvalidOperationException: You are trying to read Input using the UnityEngine.Input class, but you have switched active Input handling to Input System package in Player Settings.",
+        "Timestamp": "2026-07-09T12:44:12.8337761+02:00",
+        "StackTrace": "UnityEngine.Input.get_mousePosition () (at <1fbf520707494e6fb187ca6d516a21b5>:0)\nUnityEngine.EventSystems.BaseInput.get_mousePosition () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/InputModules/BaseInput.cs:75)\nUnityEngine.EventSystems.StandaloneInputModule.UpdateModule () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/InputModules/StandaloneInputModule.cs:176)\nUnityEngine.EventSystems.EventSystem.TickModules () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/EventSystem.cs:462)\nUnityEngine.EventSystems.EventSystem.Update () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/EventSystem.cs:482)\n"
+      },
+      {
+        "LogType": "Exception",
+        "Message": "InvalidOperationException: You are trying to read Input using the UnityEngine.Input class, but you have switched active Input handling to Input System package in Player Settings.",
+        "Timestamp": "2026-07-09T12:44:12.8363015+02:00",
+        "StackTrace": "UnityEngine.Input.get_mousePosition () (at <1fbf520707494e6fb187ca6d516a21b5>:0)\nUnityEngine.EventSystems.BaseInput.get_mousePosition () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/InputModules/BaseInput.cs:75)\nUnityEngine.EventSystems.StandaloneInputModule.UpdateModule () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/InputModules/StandaloneInputModule.cs:176)\nUnityEngine.EventSystems.EventSystem.TickModules () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/EventSystem.cs:462)\nUnityEngine.EventSystems.EventSystem.Update () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/EventSystem.cs:482)\n"
+      },
+      {
+        "LogType": "Exception",
+        "Message": "InvalidOperationException: You are trying to read Input using the UnityEngine.Input class, but you have switched active Input handling to Input System package in Player Settings.",
+        "Timestamp": "2026-07-09T12:44:12.8387941+02:00",
+        "StackTrace": "UnityEngine.Input.get_mousePosition () (at <1fbf520707494e6fb187ca6d516a21b5>:0)\nUnityEngine.EventSystems.BaseInput.get_mousePosition () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/InputModules/BaseInput.cs:75)\nUnityEngine.EventSystems.StandaloneInputModule.UpdateModule () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/InputModules/StandaloneInputModule.cs:176)\nUnityEngine.EventSystems.EventSystem.TickModules () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/EventSystem.cs:462)\nUnityEngine.EventSystems.EventSystem.Update () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/EventSystem.cs:482)\n"
+      },
+      {
+        "LogType": "Exception",
+        "Message": "InvalidOperationException: You are trying to read Input using the UnityEngine.Input class, but you have switched active Input handling to Input System package in Player Settings.",
+        "Timestamp": "2026-07-09T12:44:12.8424403+02:00",
+        "StackTrace": "UnityEngine.Input.get_mousePosition () (at <1fbf520707494e6fb187ca6d516a21b5>:0)\nUnityEngine.EventSystems.BaseInput.get_mousePosition () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/InputModules/BaseInput.cs:75)\nUnityEngine.EventSystems.StandaloneInputModule.UpdateModule () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/InputModules/StandaloneInputModule.cs:176)\nUnityEngine.EventSystems.EventSystem.TickModules () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/EventSystem.cs:462)\nUnityEngine.EventSystems.EventSystem.Update () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/EventSystem.cs:482)\n"
+      },
+      {
+        "LogType": "Exception",
+        "Message": "InvalidOperationException: You are trying to read Input using the UnityEngine.Input class, but you have switched active Input handling to Input System package in Player Settings.",
+        "Timestamp": "2026-07-09T12:44:12.8452390+02:00",
+        "StackTrace": "UnityEngine.Input.get_mousePosition () (at <1fbf520707494e6fb187ca6d516a21b5>:0)\nUnityEngine.EventSystems.BaseInput.get_mousePosition () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/InputModules/BaseInput.cs:75)\nUnityEngine.EventSystems.StandaloneInputModule.UpdateModule () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/InputModules/StandaloneInputModule.cs:176)\nUnityEngine.EventSystems.EventSystem.TickModules () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/EventSystem.cs:462)\nUnityEngine.EventSystems.EventSystem.Update () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/EventSystem.cs:482)\n"
+      },
+      {
+        "LogType": "Exception",
+        "Message": "InvalidOperationException: You are trying to read Input using the UnityEngine.Input class, but you have switched active Input handling to Input System package in Player Settings.",
+        "Timestamp": "2026-07-09T12:44:12.8487736+02:00",
+        "StackTrace": "UnityEngine.Input.get_mousePosition () (at <1fbf520707494e6fb187ca6d516a21b5>:0)\nUnityEngine.EventSystems.BaseInput.get_mousePosition () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/InputModules/BaseInput.cs:75)\nUnityEngine.EventSystems.StandaloneInputModule.UpdateModule () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/InputModules/StandaloneInputModule.cs:176)\nUnityEngine.EventSystems.EventSystem.TickModules () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/EventSystem.cs:462)\nUnityEngine.EventSystems.EventSystem.Update () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/EventSystem.cs:482)\n"
+      },
+      {
+        "LogType": "Exception",
+        "Message": "InvalidOperationException: You are trying to read Input using the UnityEngine.Input class, but you have switched active Input handling to Input System package in Player Settings.",
+        "Timestamp": "2026-07-09T12:44:12.8518343+02:00",
+        "StackTrace": "UnityEngine.Input.get_mousePosition () (at <1fbf520707494e6fb187ca6d516a21b5>:0)\nUnityEngine.EventSystems.BaseInput.get_mousePosition () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/InputModules/BaseInput.cs:75)\nUnityEngine.EventSystems.StandaloneInputModule.UpdateModule () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/InputModules/StandaloneInputModule.cs:176)\nUnityEngine.EventSystems.EventSystem.TickModules () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/EventSystem.cs:462)\nUnityEngine.EventSystems.EventSystem.Update () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/EventSystem.cs:482)\n"
+      },
+      {
+        "LogType": "Exception",
+        "Message": "InvalidOperationException: You are trying to read Input using the UnityEngine.Input class, but you have switched active Input handling to Input System package in Player Settings.",
+        "Timestamp": "2026-07-09T12:44:12.8548634+02:00",
+        "StackTrace": "UnityEngine.Input.get_mousePosition () (at <1fbf520707494e6fb187ca6d516a21b5>:0)\nUnityEngine.EventSystems.BaseInput.get_mousePosition () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/InputModules/BaseInput.cs:75)\nUnityEngine.EventSystems.StandaloneInputModule.UpdateModule () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/InputModules/StandaloneInputModule.cs:176)\nUnityEngine.EventSystems.EventSystem.TickModules () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/EventSystem.cs:462)\nUnityEngine.EventSystems.EventSystem.Update () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/EventSystem.cs:482)\n"
+      },
+      {
+        "LogType": "Exception",
+        "Message": "InvalidOperationException: You are trying to read Input using the UnityEngine.Input class, but you have switched active Input handling to Input System package in Player Settings.",
+        "Timestamp": "2026-07-09T12:44:12.8573896+02:00",
+        "StackTrace": "UnityEngine.Input.get_mousePosition () (at <1fbf520707494e6fb187ca6d516a21b5>:0)\nUnityEngine.EventSystems.BaseInput.get_mousePosition () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/InputModules/BaseInput.cs:75)\nUnityEngine.EventSystems.StandaloneInputModule.UpdateModule () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/InputModules/StandaloneInputModule.cs:176)\nUnityEngine.EventSystems.EventSystem.TickModules () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/EventSystem.cs:462)\nUnityEngine.EventSystems.EventSystem.Update () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/EventSystem.cs:482)\n"
+      },
+      {
+        "LogType": "Exception",
+        "Message": "InvalidOperationException: You are trying to read Input using the UnityEngine.Input class, but you have switched active Input handling to Input System package in Player Settings.",
+        "Timestamp": "2026-07-09T12:44:12.8608967+02:00",
+        "StackTrace": "UnityEngine.Input.get_mousePosition () (at <1fbf520707494e6fb187ca6d516a21b5>:0)\nUnityEngine.EventSystems.BaseInput.get_mousePosition () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/InputModules/BaseInput.cs:75)\nUnityEngine.EventSystems.StandaloneInputModule.UpdateModule () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/InputModules/StandaloneInputModule.cs:176)\nUnityEngine.EventSystems.EventSystem.TickModules () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/EventSystem.cs:462)\nUnityEngine.EventSystems.EventSystem.Update () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/EventSystem.cs:482)\n"
+      },
+      {
+        "LogType": "Exception",
+        "Message": "InvalidOperationException: You are trying to read Input using the UnityEngine.Input class, but you have switched active Input handling to Input System package in Player Settings.",
+        "Timestamp": "2026-07-09T12:44:12.8644149+02:00",
+        "StackTrace": "UnityEngine.Input.get_mousePosition () (at <1fbf520707494e6fb187ca6d516a21b5>:0)\nUnityEngine.EventSystems.BaseInput.get_mousePosition () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/InputModules/BaseInput.cs:75)\nUnityEngine.EventSystems.StandaloneInputModule.UpdateModule () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/InputModules/StandaloneInputModule.cs:176)\nUnityEngine.EventSystems.EventSystem.TickModules () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/EventSystem.cs:462)\nUnityEngine.EventSystems.EventSystem.Update () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/EventSystem.cs:482)\n"
+      },
+      {
+        "LogType": "Exception",
+        "Message": "InvalidOperationException: You are trying to read Input using the UnityEngine.Input class, but you have switched active Input handling to Input System package in Player Settings.",
+        "Timestamp": "2026-07-09T12:44:12.8669470+02:00",
+        "StackTrace": "UnityEngine.Input.get_mousePosition () (at <1fbf520707494e6fb187ca6d516a21b5>:0)\nUnityEngine.EventSystems.BaseInput.get_mousePosition () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/InputModules/BaseInput.cs:75)\nUnityEngine.EventSystems.StandaloneInputModule.UpdateModule () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/InputModules/StandaloneInputModule.cs:176)\nUnityEngine.EventSystems.EventSystem.TickModules () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/EventSystem.cs:462)\nUnityEngine.EventSystems.EventSystem.Update () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/EventSystem.cs:482)\n"
+      },
+      {
+        "LogType": "Exception",
+        "Message": "InvalidOperationException: You are trying to read Input using the UnityEngine.Input class, but you have switched active Input handling to Input System package in Player Settings.",
+        "Timestamp": "2026-07-09T12:44:12.8704874+02:00",
+        "StackTrace": "UnityEngine.Input.get_mousePosition () (at <1fbf520707494e6fb187ca6d516a21b5>:0)\nUnityEngine.EventSystems.BaseInput.get_mousePosition () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/InputModules/BaseInput.cs:75)\nUnityEngine.EventSystems.StandaloneInputModule.UpdateModule () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/InputModules/StandaloneInputModule.cs:176)\nUnityEngine.EventSystems.EventSystem.TickModules () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/EventSystem.cs:462)\nUnityEngine.EventSystems.EventSystem.Update () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/EventSystem.cs:482)\n"
+      },
+      {
+        "LogType": "Exception",
+        "Message": "InvalidOperationException: You are trying to read Input using the UnityEngine.Input class, but you have switched active Input handling to Input System package in Player Settings.",
+        "Timestamp": "2026-07-09T12:44:12.8724937+02:00",
+        "StackTrace": "UnityEngine.Input.get_mousePosition () (at <1fbf520707494e6fb187ca6d516a21b5>:0)\nUnityEngine.EventSystems.BaseInput.get_mousePosition () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/InputModules/BaseInput.cs:75)\nUnityEngine.EventSystems.StandaloneInputModule.UpdateModule () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/InputModules/StandaloneInputModule.cs:176)\nUnityEngine.EventSystems.EventSystem.TickModules () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/EventSystem.cs:462)\nUnityEngine.EventSystems.EventSystem.Update () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/EventSystem.cs:482)\n"
+      },
+      {
+        "LogType": "Exception",
+        "Message": "InvalidOperationException: You are trying to read Input using the UnityEngine.Input class, but you have switched active Input handling to Input System package in Player Settings.",
+        "Timestamp": "2026-07-09T12:44:12.8764806+02:00",
+        "StackTrace": "UnityEngine.Input.get_mousePosition () (at <1fbf520707494e6fb187ca6d516a21b5>:0)\nUnityEngine.EventSystems.BaseInput.get_mousePosition () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/InputModules/BaseInput.cs:75)\nUnityEngine.EventSystems.StandaloneInputModule.UpdateModule () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/InputModules/StandaloneInputModule.cs:176)\nUnityEngine.EventSystems.EventSystem.TickModules () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/EventSystem.cs:462)\nUnityEngine.EventSystems.EventSystem.Update () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/EventSystem.cs:482)\n"
+      },
+      {
+        "LogType": "Exception",
+        "Message": "InvalidOperationException: You are trying to read Input using the UnityEngine.Input class, but you have switched active Input handling to Input System package in Player Settings.",
+        "Timestamp": "2026-07-09T12:44:12.8799851+02:00",
+        "StackTrace": "UnityEngine.Input.get_mousePosition () (at <1fbf520707494e6fb187ca6d516a21b5>:0)\nUnityEngine.EventSystems.BaseInput.get_mousePosition () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/InputModules/BaseInput.cs:75)\nUnityEngine.EventSystems.StandaloneInputModule.UpdateModule () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/InputModules/StandaloneInputModule.cs:176)\nUnityEngine.EventSystems.EventSystem.TickModules () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/EventSystem.cs:462)\nUnityEngine.EventSystems.EventSystem.Update () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/EventSystem.cs:482)\n"
+      },
+      {
+        "LogType": "Exception",
+        "Message": "InvalidOperationException: You are trying to read Input using the UnityEngine.Input class, but you have switched active Input handling to Input System package in Player Settings.",
+        "Timestamp": "2026-07-09T12:44:12.8840185+02:00",
+        "StackTrace": "UnityEngine.Input.get_mousePosition () (at <1fbf520707494e6fb187ca6d516a21b5>:0)\nUnityEngine.EventSystems.BaseInput.get_mousePosition () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/InputModules/BaseInput.cs:75)\nUnityEngine.EventSystems.StandaloneInputModule.UpdateModule () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/InputModules/StandaloneInputModule.cs:176)\nUnityEngine.EventSystems.EventSystem.TickModules () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/EventSystem.cs:462)\nUnityEngine.EventSystems.EventSystem.Update () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/EventSystem.cs:482)\n"
+      },
+      {
+        "LogType": "Exception",
+        "Message": "InvalidOperationException: You are trying to read Input using the UnityEngine.Input class, but you have switched active Input handling to Input System package in Player Settings.",
+        "Timestamp": "2026-07-09T12:44:12.8880705+02:00",
+        "StackTrace": "UnityEngine.Input.get_mousePosition () (at <1fbf520707494e6fb187ca6d516a21b5>:0)\nUnityEngine.EventSystems.BaseInput.get_mousePosition () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/InputModules/BaseInput.cs:75)\nUnityEngine.EventSystems.StandaloneInputModule.UpdateModule () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/InputModules/StandaloneInputModule.cs:176)\nUnityEngine.EventSystems.EventSystem.TickModules () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/EventSystem.cs:462)\nUnityEngine.EventSystems.EventSystem.Update () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/EventSystem.cs:482)\n"
+      },
+      {
+        "LogType": "Exception",
+        "Message": "InvalidOperationException: You are trying to read Input using the UnityEngine.Input class, but you have switched active Input handling to Input System package in Player Settings.",
+        "Timestamp": "2026-07-09T12:44:12.8916181+02:00",
+        "StackTrace": "UnityEngine.Input.get_mousePosition () (at <1fbf520707494e6fb187ca6d516a21b5>:0)\nUnityEngine.EventSystems.BaseInput.get_mousePosition () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/InputModules/BaseInput.cs:75)\nUnityEngine.EventSystems.StandaloneInputModule.UpdateModule () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/InputModules/StandaloneInputModule.cs:176)\nUnityEngine.EventSystems.EventSystem.TickModules () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/EventSystem.cs:462)\nUnityEngine.EventSystems.EventSystem.Update () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/EventSystem.cs:482)\n"
+      },
+      {
+        "LogType": "Exception",
+        "Message": "InvalidOperationException: You are trying to read Input using the UnityEngine.Input class, but you have switched active Input handling to Input System package in Player Settings.",
+        "Timestamp": "2026-07-09T12:44:12.8951716+02:00",
+        "StackTrace": "UnityEngine.Input.get_mousePosition () (at <1fbf520707494e6fb187ca6d516a21b5>:0)\nUnityEngine.EventSystems.BaseInput.get_mousePosition () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/InputModules/BaseInput.cs:75)\nUnityEngine.EventSystems.StandaloneInputModule.UpdateModule () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/InputModules/StandaloneInputModule.cs:176)\nUnityEngine.EventSystems.EventSystem.TickModules () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/EventSystem.cs:462)\nUnityEngine.EventSystems.EventSystem.Update () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/EventSystem.cs:482)\n"
+      },
+      {
+        "LogType": "Exception",
+        "Message": "InvalidOperationException: You are trying to read Input using the UnityEngine.Input class, but you have switched active Input handling to Input System package in Player Settings.",
+        "Timestamp": "2026-07-09T12:44:12.8981975+02:00",
+        "StackTrace": "UnityEngine.Input.get_mousePosition () (at <1fbf520707494e6fb187ca6d516a21b5>:0)\nUnityEngine.EventSystems.BaseInput.get_mousePosition () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/InputModules/BaseInput.cs:75)\nUnityEngine.EventSystems.StandaloneInputModule.UpdateModule () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/InputModules/StandaloneInputModule.cs:176)\nUnityEngine.EventSystems.EventSystem.TickModules () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/EventSystem.cs:462)\nUnityEngine.EventSystems.EventSystem.Update () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/EventSystem.cs:482)\n"
+      },
+      {
+        "LogType": "Exception",
+        "Message": "InvalidOperationException: You are trying to read Input using the UnityEngine.Input class, but you have switched active Input handling to Input System package in Player Settings.",
+        "Timestamp": "2026-07-09T12:44:12.9003447+02:00",
+        "StackTrace": "UnityEngine.Input.get_mousePosition () (at <1fbf520707494e6fb187ca6d516a21b5>:0)\nUnityEngine.EventSystems.BaseInput.get_mousePosition () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/InputModules/BaseInput.cs:75)\nUnityEngine.EventSystems.StandaloneInputModule.UpdateModule () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/InputModules/StandaloneInputModule.cs:176)\nUnityEngine.EventSystems.EventSystem.TickModules () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/EventSystem.cs:462)\nUnityEngine.EventSystems.EventSystem.Update () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/EventSystem.cs:482)\n"
+      },
+      {
+        "LogType": "Exception",
+        "Message": "InvalidOperationException: You are trying to read Input using the UnityEngine.Input class, but you have switched active Input handling to Input System package in Player Settings.",
+        "Timestamp": "2026-07-09T12:44:12.9038988+02:00",
+        "StackTrace": "UnityEngine.Input.get_mousePosition () (at <1fbf520707494e6fb187ca6d516a21b5>:0)\nUnityEngine.EventSystems.BaseInput.get_mousePosition () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/InputModules/BaseInput.cs:75)\nUnityEngine.EventSystems.StandaloneInputModule.UpdateModule () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/InputModules/StandaloneInputModule.cs:176)\nUnityEngine.EventSystems.EventSystem.TickModules () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/EventSystem.cs:462)\nUnityEngine.EventSystems.EventSystem.Update () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/EventSystem.cs:482)\n"
+      },
+      {
+        "LogType": "Exception",
+        "Message": "InvalidOperationException: You are trying to read Input using the UnityEngine.Input class, but you have switched active Input handling to Input System package in Player Settings.",
+        "Timestamp": "2026-07-09T12:44:12.9059037+02:00",
+        "StackTrace": "UnityEngine.Input.get_mousePosition () (at <1fbf520707494e6fb187ca6d516a21b5>:0)\nUnityEngine.EventSystems.BaseInput.get_mousePosition () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/InputModules/BaseInput.cs:75)\nUnityEngine.EventSystems.StandaloneInputModule.UpdateModule () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/InputModules/StandaloneInputModule.cs:176)\nUnityEngine.EventSystems.EventSystem.TickModules () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/EventSystem.cs:462)\nUnityEngine.EventSystems.EventSystem.Update () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/EventSystem.cs:482)\n"
+      },
+      {
+        "LogType": "Exception",
+        "Message": "InvalidOperationException: You are trying to read Input using the UnityEngine.Input class, but you have switched active Input handling to Input System package in Player Settings.",
+        "Timestamp": "2026-07-09T12:44:12.9089437+02:00",
+        "StackTrace": "UnityEngine.Input.get_mousePosition () (at <1fbf520707494e6fb187ca6d516a21b5>:0)\nUnityEngine.EventSystems.BaseInput.get_mousePosition () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/InputModules/BaseInput.cs:75)\nUnityEngine.EventSystems.StandaloneInputModule.UpdateModule () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/InputModules/StandaloneInputModule.cs:176)\nUnityEngine.EventSystems.EventSystem.TickModules () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/EventSystem.cs:462)\nUnityEngine.EventSystems.EventSystem.Update () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/EventSystem.cs:482)\n"
+      },
+      {
+        "LogType": "Exception",
+        "Message": "InvalidOperationException: You are trying to read Input using the UnityEngine.Input class, but you have switched active Input handling to Input System package in Player Settings.",
+        "Timestamp": "2026-07-09T12:44:12.9136097+02:00",
+        "StackTrace": "UnityEngine.Input.get_mousePosition () (at <1fbf520707494e6fb187ca6d516a21b5>:0)\nUnityEngine.EventSystems.BaseInput.get_mousePosition () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/InputModules/BaseInput.cs:75)\nUnityEngine.EventSystems.StandaloneInputModule.UpdateModule () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/InputModules/StandaloneInputModule.cs:176)\nUnityEngine.EventSystems.EventSystem.TickModules () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/EventSystem.cs:462)\nUnityEngine.EventSystems.EventSystem.Update () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/EventSystem.cs:482)\n"
+      },
+      {
+        "LogType": "Exception",
+        "Message": "InvalidOperationException: You are trying to read Input using the UnityEngine.Input class, but you have switched active Input handling to Input System package in Player Settings.",
+        "Timestamp": "2026-07-09T12:44:12.9156150+02:00",
+        "StackTrace": "UnityEngine.Input.get_mousePosition () (at <1fbf520707494e6fb187ca6d516a21b5>:0)\nUnityEngine.EventSystems.BaseInput.get_mousePosition () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/InputModules/BaseInput.cs:75)\nUnityEngine.EventSystems.StandaloneInputModule.UpdateModule () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/InputModules/StandaloneInputModule.cs:176)\nUnityEngine.EventSystems.EventSystem.TickModules () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/EventSystem.cs:462)\nUnityEngine.EventSystems.EventSystem.Update () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/EventSystem.cs:482)\n"
+      },
+      {
+        "LogType": "Exception",
+        "Message": "InvalidOperationException: You are trying to read Input using the UnityEngine.Input class, but you have switched active Input handling to Input System package in Player Settings.",
+        "Timestamp": "2026-07-09T12:44:12.9186153+02:00",
+        "StackTrace": "UnityEngine.Input.get_mousePosition () (at <1fbf520707494e6fb187ca6d516a21b5>:0)\nUnityEngine.EventSystems.BaseInput.get_mousePosition () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/InputModules/BaseInput.cs:75)\nUnityEngine.EventSystems.StandaloneInputModule.UpdateModule () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/InputModules/StandaloneInputModule.cs:176)\nUnityEngine.EventSystems.EventSystem.TickModules () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/EventSystem.cs:462)\nUnityEngine.EventSystems.EventSystem.Update () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/EventSystem.cs:482)\n"
+      },
+      {
+        "LogType": "Exception",
+        "Message": "InvalidOperationException: You are trying to read Input using the UnityEngine.Input class, but you have switched active Input handling to Input System package in Player Settings.",
+        "Timestamp": "2026-07-09T12:44:12.9211598+02:00",
+        "StackTrace": "UnityEngine.Input.get_mousePosition () (at <1fbf520707494e6fb187ca6d516a21b5>:0)\nUnityEngine.EventSystems.BaseInput.get_mousePosition () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/InputModules/BaseInput.cs:75)\nUnityEngine.EventSystems.StandaloneInputModule.UpdateModule () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/InputModules/StandaloneInputModule.cs:176)\nUnityEngine.EventSystems.EventSystem.TickModules () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/EventSystem.cs:462)\nUnityEngine.EventSystems.EventSystem.Update () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/EventSystem.cs:482)\n"
+      },
+      {
+        "LogType": "Exception",
+        "Message": "InvalidOperationException: You are trying to read Input using the UnityEngine.Input class, but you have switched active Input handling to Input System package in Player Settings.",
+        "Timestamp": "2026-07-09T12:44:12.9243698+02:00",
+        "StackTrace": "UnityEngine.Input.get_mousePosition () (at <1fbf520707494e6fb187ca6d516a21b5>:0)\nUnityEngine.EventSystems.BaseInput.get_mousePosition () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/InputModules/BaseInput.cs:75)\nUnityEngine.EventSystems.StandaloneInputModule.UpdateModule () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/InputModules/StandaloneInputModule.cs:176)\nUnityEngine.EventSystems.EventSystem.TickModules () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/EventSystem.cs:462)\nUnityEngine.EventSystems.EventSystem.Update () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/EventSystem.cs:482)\n"
+      },
+      {
+        "LogType": "Exception",
+        "Message": "InvalidOperationException: You are trying to read Input using the UnityEngine.Input class, but you have switched active Input handling to Input System package in Player Settings.",
+        "Timestamp": "2026-07-09T12:44:12.9263708+02:00",
+        "StackTrace": "UnityEngine.Input.get_mousePosition () (at <1fbf520707494e6fb187ca6d516a21b5>:0)\nUnityEngine.EventSystems.BaseInput.get_mousePosition () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/InputModules/BaseInput.cs:75)\nUnityEngine.EventSystems.StandaloneInputModule.UpdateModule () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/InputModules/StandaloneInputModule.cs:176)\nUnityEngine.EventSystems.EventSystem.TickModules () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/EventSystem.cs:462)\nUnityEngine.EventSystems.EventSystem.Update () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/EventSystem.cs:482)\n"
+      },
+      {
+        "LogType": "Exception",
+        "Message": "InvalidOperationException: You are trying to read Input using the UnityEngine.Input class, but you have switched active Input handling to Input System package in Player Settings.",
+        "Timestamp": "2026-07-09T12:44:12.9288830+02:00",
+        "StackTrace": "UnityEngine.Input.get_mousePosition () (at <1fbf520707494e6fb187ca6d516a21b5>:0)\nUnityEngine.EventSystems.BaseInput.get_mousePosition () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/InputModules/BaseInput.cs:75)\nUnityEngine.EventSystems.StandaloneInputModule.UpdateModule () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/InputModules/StandaloneInputModule.cs:176)\nUnityEngine.EventSystems.EventSystem.TickModules () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/EventSystem.cs:462)\nUnityEngine.EventSystems.EventSystem.Update () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/EventSystem.cs:482)\n"
+      },
+      {
+        "LogType": "Exception",
+        "Message": "InvalidOperationException: You are trying to read Input using the UnityEngine.Input class, but you have switched active Input handling to Input System package in Player Settings.",
+        "Timestamp": "2026-07-09T12:44:12.9324244+02:00",
+        "StackTrace": "UnityEngine.Input.get_mousePosition () (at <1fbf520707494e6fb187ca6d516a21b5>:0)\nUnityEngine.EventSystems.BaseInput.get_mousePosition () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/InputModules/BaseInput.cs:75)\nUnityEngine.EventSystems.StandaloneInputModule.UpdateModule () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/InputModules/StandaloneInputModule.cs:176)\nUnityEngine.EventSystems.EventSystem.TickModules () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/EventSystem.cs:462)\nUnityEngine.EventSystems.EventSystem.Update () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/EventSystem.cs:482)\n"
+      },
+      {
+        "LogType": "Exception",
+        "Message": "InvalidOperationException: You are trying to read Input using the UnityEngine.Input class, but you have switched active Input handling to Input System package in Player Settings.",
+        "Timestamp": "2026-07-09T12:44:12.9349509+02:00",
+        "StackTrace": "UnityEngine.Input.get_mousePosition () (at <1fbf520707494e6fb187ca6d516a21b5>:0)\nUnityEngine.EventSystems.BaseInput.get_mousePosition () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/InputModules/BaseInput.cs:75)\nUnityEngine.EventSystems.StandaloneInputModule.UpdateModule () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/InputModules/StandaloneInputModule.cs:176)\nUnityEngine.EventSystems.EventSystem.TickModules () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/EventSystem.cs:462)\nUnityEngine.EventSystems.EventSystem.Update () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/EventSystem.cs:482)\n"
+      },
+      {
+        "LogType": "Exception",
+        "Message": "InvalidOperationException: You are trying to read Input using the UnityEngine.Input class, but you have switched active Input handling to Input System package in Player Settings.",
+        "Timestamp": "2026-07-09T12:44:12.9379531+02:00",
+        "StackTrace": "UnityEngine.Input.get_mousePosition () (at <1fbf520707494e6fb187ca6d516a21b5>:0)\nUnityEngine.EventSystems.BaseInput.get_mousePosition () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/InputModules/BaseInput.cs:75)\nUnityEngine.EventSystems.StandaloneInputModule.UpdateModule () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/InputModules/StandaloneInputModule.cs:176)\nUnityEngine.EventSystems.EventSystem.TickModules () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/EventSystem.cs:462)\nUnityEngine.EventSystems.EventSystem.Update () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/EventSystem.cs:482)\n"
+      },
+      {
+        "LogType": "Exception",
+        "Message": "InvalidOperationException: You are trying to read Input using the UnityEngine.Input class, but you have switched active Input handling to Input System package in Player Settings.",
+        "Timestamp": "2026-07-09T12:44:12.9400547+02:00",
+        "StackTrace": "UnityEngine.Input.get_mousePosition () (at <1fbf520707494e6fb187ca6d516a21b5>:0)\nUnityEngine.EventSystems.BaseInput.get_mousePosition () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/InputModules/BaseInput.cs:75)\nUnityEngine.EventSystems.StandaloneInputModule.UpdateModule () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/InputModules/StandaloneInputModule.cs:176)\nUnityEngine.EventSystems.EventSystem.TickModules () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/EventSystem.cs:462)\nUnityEngine.EventSystems.EventSystem.Update () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/EventSystem.cs:482)\n"
+      },
+      {
+        "LogType": "Exception",
+        "Message": "InvalidOperationException: You are trying to read Input using the UnityEngine.Input class, but you have switched active Input handling to Input System package in Player Settings.",
+        "Timestamp": "2026-07-09T12:44:12.9425919+02:00",
+        "StackTrace": "UnityEngine.Input.get_mousePosition () (at <1fbf520707494e6fb187ca6d516a21b5>:0)\nUnityEngine.EventSystems.BaseInput.get_mousePosition () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/InputModules/BaseInput.cs:75)\nUnityEngine.EventSystems.StandaloneInputModule.UpdateModule () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/InputModules/StandaloneInputModule.cs:176)\nUnityEngine.EventSystems.EventSystem.TickModules () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/EventSystem.cs:462)\nUnityEngine.EventSystems.EventSystem.Update () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/EventSystem.cs:482)\n"
+      },
+      {
+        "LogType": "Exception",
+        "Message": "InvalidOperationException: You are trying to read Input using the UnityEngine.Input class, but you have switched active Input handling to Input System package in Player Settings.",
+        "Timestamp": "2026-07-09T12:44:12.9445992+02:00",
+        "StackTrace": "UnityEngine.Input.get_mousePosition () (at <1fbf520707494e6fb187ca6d516a21b5>:0)\nUnityEngine.EventSystems.BaseInput.get_mousePosition () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/InputModules/BaseInput.cs:75)\nUnityEngine.EventSystems.StandaloneInputModule.UpdateModule () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/InputModules/StandaloneInputModule.cs:176)\nUnityEngine.EventSystems.EventSystem.TickModules () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/EventSystem.cs:462)\nUnityEngine.EventSystems.EventSystem.Update () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/EventSystem.cs:482)\n"
+      },
+      {
+        "LogType": "Exception",
+        "Message": "InvalidOperationException: You are trying to read Input using the UnityEngine.Input class, but you have switched active Input handling to Input System package in Player Settings.",
+        "Timestamp": "2026-07-09T12:44:12.9476012+02:00",
+        "StackTrace": "UnityEngine.Input.get_mousePosition () (at <1fbf520707494e6fb187ca6d516a21b5>:0)\nUnityEngine.EventSystems.BaseInput.get_mousePosition () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/InputModules/BaseInput.cs:75)\nUnityEngine.EventSystems.StandaloneInputModule.UpdateModule () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/InputModules/StandaloneInputModule.cs:176)\nUnityEngine.EventSystems.EventSystem.TickModules () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/EventSystem.cs:462)\nUnityEngine.EventSystems.EventSystem.Update () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/EventSystem.cs:482)\n"
+      },
+      {
+        "LogType": "Exception",
+        "Message": "InvalidOperationException: You are trying to read Input using the UnityEngine.Input class, but you have switched active Input handling to Input System package in Player Settings.",
+        "Timestamp": "2026-07-09T12:44:12.9502214+02:00",
+        "StackTrace": "UnityEngine.Input.get_mousePosition () (at <1fbf520707494e6fb187ca6d516a21b5>:0)\nUnityEngine.EventSystems.BaseInput.get_mousePosition () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/InputModules/BaseInput.cs:75)\nUnityEngine.EventSystems.StandaloneInputModule.UpdateModule () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/InputModules/StandaloneInputModule.cs:176)\nUnityEngine.EventSystems.EventSystem.TickModules () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/EventSystem.cs:462)\nUnityEngine.EventSystems.EventSystem.Update () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/EventSystem.cs:482)\n"
+      },
+      {
+        "LogType": "Exception",
+        "Message": "InvalidOperationException: You are trying to read Input using the UnityEngine.Input class, but you have switched active Input handling to Input System package in Player Settings.",
+        "Timestamp": "2026-07-09T12:44:12.9532636+02:00",
+        "StackTrace": "UnityEngine.Input.get_mousePosition () (at <1fbf520707494e6fb187ca6d516a21b5>:0)\nUnityEngine.EventSystems.BaseInput.get_mousePosition () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/InputModules/BaseInput.cs:75)\nUnityEngine.EventSystems.StandaloneInputModule.UpdateModule () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/InputModules/StandaloneInputModule.cs:176)\nUnityEngine.EventSystems.EventSystem.TickModules () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/EventSystem.cs:462)\nUnityEngine.EventSystems.EventSystem.Update () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/EventSystem.cs:482)\n"
+      },
+      {
+        "LogType": "Exception",
+        "Message": "InvalidOperationException: You are trying to read Input using the UnityEngine.Input class, but you have switched active Input handling to Input System package in Player Settings.",
+        "Timestamp": "2026-07-09T12:44:12.9572641+02:00",
+        "StackTrace": "UnityEngine.Input.get_mousePosition () (at <1fbf520707494e6fb187ca6d516a21b5>:0)\nUnityEngine.EventSystems.BaseInput.get_mousePosition () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/InputModules/BaseInput.cs:75)\nUnityEngine.EventSystems.StandaloneInputModule.UpdateModule () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/InputModules/StandaloneInputModule.cs:176)\nUnityEngine.EventSystems.EventSystem.TickModules () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/EventSystem.cs:462)\nUnityEngine.EventSystems.EventSystem.Update () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/EventSystem.cs:482)\n"
+      },
+      {
+        "LogType": "Exception",
+        "Message": "InvalidOperationException: You are trying to read Input using the UnityEngine.Input class, but you have switched active Input handling to Input System package in Player Settings.",
+        "Timestamp": "2026-07-09T12:44:12.9603213+02:00",
+        "StackTrace": "UnityEngine.Input.get_mousePosition () (at <1fbf520707494e6fb187ca6d516a21b5>:0)\nUnityEngine.EventSystems.BaseInput.get_mousePosition () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/InputModules/BaseInput.cs:75)\nUnityEngine.EventSystems.StandaloneInputModule.UpdateModule () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/InputModules/StandaloneInputModule.cs:176)\nUnityEngine.EventSystems.EventSystem.TickModules () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/EventSystem.cs:462)\nUnityEngine.EventSystems.EventSystem.Update () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/EventSystem.cs:482)\n"
+      },
+      {
+        "LogType": "Exception",
+        "Message": "InvalidOperationException: You are trying to read Input using the UnityEngine.Input class, but you have switched active Input handling to Input System package in Player Settings.",
+        "Timestamp": "2026-07-09T12:44:12.9638380+02:00",
+        "StackTrace": "UnityEngine.Input.get_mousePosition () (at <1fbf520707494e6fb187ca6d516a21b5>:0)\nUnityEngine.EventSystems.BaseInput.get_mousePosition () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/InputModules/BaseInput.cs:75)\nUnityEngine.EventSystems.StandaloneInputModule.UpdateModule () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/InputModules/StandaloneInputModule.cs:176)\nUnityEngine.EventSystems.EventSystem.TickModules () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/EventSystem.cs:462)\nUnityEngine.EventSystems.EventSystem.Update () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/EventSystem.cs:482)\n"
+      },
+      {
+        "LogType": "Exception",
+        "Message": "InvalidOperationException: You are trying to read Input using the UnityEngine.Input class, but you have switched active Input handling to Input System package in Player Settings.",
+        "Timestamp": "2026-07-09T12:44:12.9668392+02:00",
+        "StackTrace": "UnityEngine.Input.get_mousePosition () (at <1fbf520707494e6fb187ca6d516a21b5>:0)\nUnityEngine.EventSystems.BaseInput.get_mousePosition () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/InputModules/BaseInput.cs:75)\nUnityEngine.EventSystems.StandaloneInputModule.UpdateModule () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/InputModules/StandaloneInputModule.cs:176)\nUnityEngine.EventSystems.EventSystem.TickModules () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/EventSystem.cs:462)\nUnityEngine.EventSystems.EventSystem.Update () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/EventSystem.cs:482)\n"
+      },
+      {
+        "LogType": "Exception",
+        "Message": "InvalidOperationException: You are trying to read Input using the UnityEngine.Input class, but you have switched active Input handling to Input System package in Player Settings.",
+        "Timestamp": "2026-07-09T12:44:12.9693494+02:00",
+        "StackTrace": "UnityEngine.Input.get_mousePosition () (at <1fbf520707494e6fb187ca6d516a21b5>:0)\nUnityEngine.EventSystems.BaseInput.get_mousePosition () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/InputModules/BaseInput.cs:75)\nUnityEngine.EventSystems.StandaloneInputModule.UpdateModule () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/InputModules/StandaloneInputModule.cs:176)\nUnityEngine.EventSystems.EventSystem.TickModules () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/EventSystem.cs:462)\nUnityEngine.EventSystems.EventSystem.Update () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/EventSystem.cs:482)\n"
+      },
+      {
+        "LogType": "Exception",
+        "Message": "InvalidOperationException: You are trying to read Input using the UnityEngine.Input class, but you have switched active Input handling to Input System package in Player Settings.",
+        "Timestamp": "2026-07-09T12:44:12.9724581+02:00",
+        "StackTrace": "UnityEngine.Input.get_mousePosition () (at <1fbf520707494e6fb187ca6d516a21b5>:0)\nUnityEngine.EventSystems.BaseInput.get_mousePosition () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/InputModules/BaseInput.cs:75)\nUnityEngine.EventSystems.StandaloneInputModule.UpdateModule () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/InputModules/StandaloneInputModule.cs:176)\nUnityEngine.EventSystems.EventSystem.TickModules () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/EventSystem.cs:462)\nUnityEngine.EventSystems.EventSystem.Update () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/EventSystem.cs:482)\n"
+      },
+      {
+        "LogType": "Exception",
+        "Message": "InvalidOperationException: You are trying to read Input using the UnityEngine.Input class, but you have switched active Input handling to Input System package in Player Settings.",
+        "Timestamp": "2026-07-09T12:44:12.9754559+02:00",
+        "StackTrace": "UnityEngine.Input.get_mousePosition () (at <1fbf520707494e6fb187ca6d516a21b5>:0)\nUnityEngine.EventSystems.BaseInput.get_mousePosition () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/InputModules/BaseInput.cs:75)\nUnityEngine.EventSystems.StandaloneInputModule.UpdateModule () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/InputModules/StandaloneInputModule.cs:176)\nUnityEngine.EventSystems.EventSystem.TickModules () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/EventSystem.cs:462)\nUnityEngine.EventSystems.EventSystem.Update () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/EventSystem.cs:482)\n"
+      },
+      {
+        "LogType": "Exception",
+        "Message": "InvalidOperationException: You are trying to read Input using the UnityEngine.Input class, but you have switched active Input handling to Input System package in Player Settings.",
+        "Timestamp": "2026-07-09T12:44:12.9775999+02:00",
+        "StackTrace": "UnityEngine.Input.get_mousePosition () (at <1fbf520707494e6fb187ca6d516a21b5>:0)\nUnityEngine.EventSystems.BaseInput.get_mousePosition () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/InputModules/BaseInput.cs:75)\nUnityEngine.EventSystems.StandaloneInputModule.UpdateModule () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/InputModules/StandaloneInputModule.cs:176)\nUnityEngine.EventSystems.EventSystem.TickModules () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/EventSystem.cs:462)\nUnityEngine.EventSystems.EventSystem.Update () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/EventSystem.cs:482)\n"
+      },
+      {
+        "LogType": "Exception",
+        "Message": "InvalidOperationException: You are trying to read Input using the UnityEngine.Input class, but you have switched active Input handling to Input System package in Player Settings.",
+        "Timestamp": "2026-07-09T12:44:12.9806214+02:00",
+        "StackTrace": "UnityEngine.Input.get_mousePosition () (at <1fbf520707494e6fb187ca6d516a21b5>:0)\nUnityEngine.EventSystems.BaseInput.get_mousePosition () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/InputModules/BaseInput.cs:75)\nUnityEngine.EventSystems.StandaloneInputModule.UpdateModule () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/InputModules/StandaloneInputModule.cs:176)\nUnityEngine.EventSystems.EventSystem.TickModules () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/EventSystem.cs:462)\nUnityEngine.EventSystems.EventSystem.Update () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/EventSystem.cs:482)\n"
+      },
+      {
+        "LogType": "Exception",
+        "Message": "InvalidOperationException: You are trying to read Input using the UnityEngine.Input class, but you have switched active Input handling to Input System package in Player Settings.",
+        "Timestamp": "2026-07-09T12:44:12.9831435+02:00",
+        "StackTrace": "UnityEngine.Input.get_mousePosition () (at <1fbf520707494e6fb187ca6d516a21b5>:0)\nUnityEngine.EventSystems.BaseInput.get_mousePosition () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/InputModules/BaseInput.cs:75)\nUnityEngine.EventSystems.StandaloneInputModule.UpdateModule () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/InputModules/StandaloneInputModule.cs:176)\nUnityEngine.EventSystems.EventSystem.TickModules () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/EventSystem.cs:462)\nUnityEngine.EventSystems.EventSystem.Update () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/EventSystem.cs:482)\n"
+      },
+      {
+        "LogType": "Exception",
+        "Message": "InvalidOperationException: You are trying to read Input using the UnityEngine.Input class, but you have switched active Input handling to Input System package in Player Settings.",
+        "Timestamp": "2026-07-09T12:44:12.9871527+02:00",
+        "StackTrace": "UnityEngine.Input.get_mousePosition () (at <1fbf520707494e6fb187ca6d516a21b5>:0)\nUnityEngine.EventSystems.BaseInput.get_mousePosition () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/InputModules/BaseInput.cs:75)\nUnityEngine.EventSystems.StandaloneInputModule.UpdateModule () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/InputModules/StandaloneInputModule.cs:176)\nUnityEngine.EventSystems.EventSystem.TickModules () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/EventSystem.cs:462)\nUnityEngine.EventSystems.EventSystem.Update () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/EventSystem.cs:482)\n"
+      },
+      {
+        "LogType": "Exception",
+        "Message": "InvalidOperationException: You are trying to read Input using the UnityEngine.Input class, but you have switched active Input handling to Input System package in Player Settings.",
+        "Timestamp": "2026-07-09T12:44:12.9886792+02:00",
+        "StackTrace": "UnityEngine.Input.get_mousePosition () (at <1fbf520707494e6fb187ca6d516a21b5>:0)\nUnityEngine.EventSystems.BaseInput.get_mousePosition () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/InputModules/BaseInput.cs:75)\nUnityEngine.EventSystems.StandaloneInputModule.UpdateModule () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/InputModules/StandaloneInputModule.cs:176)\nUnityEngine.EventSystems.EventSystem.TickModules () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/EventSystem.cs:462)\nUnityEngine.EventSystems.EventSystem.Update () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/EventSystem.cs:482)\n"
+      },
+      {
+        "LogType": "Exception",
+        "Message": "InvalidOperationException: You are trying to read Input using the UnityEngine.Input class, but you have switched active Input handling to Input System package in Player Settings.",
+        "Timestamp": "2026-07-09T12:44:12.9929140+02:00",
+        "StackTrace": "UnityEngine.Input.get_mousePosition () (at <1fbf520707494e6fb187ca6d516a21b5>:0)\nUnityEngine.EventSystems.BaseInput.get_mousePosition () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/InputModules/BaseInput.cs:75)\nUnityEngine.EventSystems.StandaloneInputModule.UpdateModule () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/InputModules/StandaloneInputModule.cs:176)\nUnityEngine.EventSystems.EventSystem.TickModules () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/EventSystem.cs:462)\nUnityEngine.EventSystems.EventSystem.Update () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/EventSystem.cs:482)\n"
+      },
+      {
+        "LogType": "Exception",
+        "Message": "InvalidOperationException: You are trying to read Input using the UnityEngine.Input class, but you have switched active Input handling to Input System package in Player Settings.",
+        "Timestamp": "2026-07-09T12:44:12.9964469+02:00",
+        "StackTrace": "UnityEngine.Input.get_mousePosition () (at <1fbf520707494e6fb187ca6d516a21b5>:0)\nUnityEngine.EventSystems.BaseInput.get_mousePosition () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/InputModules/BaseInput.cs:75)\nUnityEngine.EventSystems.StandaloneInputModule.UpdateModule () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/InputModules/StandaloneInputModule.cs:176)\nUnityEngine.EventSystems.EventSystem.TickModules () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/EventSystem.cs:462)\nUnityEngine.EventSystems.EventSystem.Update () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/EventSystem.cs:482)\n"
+      },
+      {
+        "LogType": "Exception",
+        "Message": "InvalidOperationException: You are trying to read Input using the UnityEngine.Input class, but you have switched active Input handling to Input System package in Player Settings.",
+        "Timestamp": "2026-07-09T12:44:13.0002567+02:00",
+        "StackTrace": "UnityEngine.Input.get_mousePosition () (at <1fbf520707494e6fb187ca6d516a21b5>:0)\nUnityEngine.EventSystems.BaseInput.get_mousePosition () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/InputModules/BaseInput.cs:75)\nUnityEngine.EventSystems.StandaloneInputModule.UpdateModule () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/InputModules/StandaloneInputModule.cs:176)\nUnityEngine.EventSystems.EventSystem.TickModules () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/EventSystem.cs:462)\nUnityEngine.EventSystems.EventSystem.Update () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/EventSystem.cs:482)\n"
+      },
+      {
+        "LogType": "Exception",
+        "Message": "InvalidOperationException: You are trying to read Input using the UnityEngine.Input class, but you have switched active Input handling to Input System package in Player Settings.",
+        "Timestamp": "2026-07-09T12:44:13.0022686+02:00",
+        "StackTrace": "UnityEngine.Input.get_mousePosition () (at <1fbf520707494e6fb187ca6d516a21b5>:0)\nUnityEngine.EventSystems.BaseInput.get_mousePosition () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/InputModules/BaseInput.cs:75)\nUnityEngine.EventSystems.StandaloneInputModule.UpdateModule () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/InputModules/StandaloneInputModule.cs:176)\nUnityEngine.EventSystems.EventSystem.TickModules () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/EventSystem.cs:462)\nUnityEngine.EventSystems.EventSystem.Update () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/EventSystem.cs:482)\n"
+      },
+      {
+        "LogType": "Exception",
+        "Message": "InvalidOperationException: You are trying to read Input using the UnityEngine.Input class, but you have switched active Input handling to Input System package in Player Settings.",
+        "Timestamp": "2026-07-09T12:44:13.0057749+02:00",
+        "StackTrace": "UnityEngine.Input.get_mousePosition () (at <1fbf520707494e6fb187ca6d516a21b5>:0)\nUnityEngine.EventSystems.BaseInput.get_mousePosition () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/InputModules/BaseInput.cs:75)\nUnityEngine.EventSystems.StandaloneInputModule.UpdateModule () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/InputModules/StandaloneInputModule.cs:176)\nUnityEngine.EventSystems.EventSystem.TickModules () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/EventSystem.cs:462)\nUnityEngine.EventSystems.EventSystem.Update () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/EventSystem.cs:482)\n"
+      },
+      {
+        "LogType": "Exception",
+        "Message": "InvalidOperationException: You are trying to read Input using the UnityEngine.Input class, but you have switched active Input handling to Input System package in Player Settings.",
+        "Timestamp": "2026-07-09T12:44:13.0083012+02:00",
+        "StackTrace": "UnityEngine.Input.get_mousePosition () (at <1fbf520707494e6fb187ca6d516a21b5>:0)\nUnityEngine.EventSystems.BaseInput.get_mousePosition () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/InputModules/BaseInput.cs:75)\nUnityEngine.EventSystems.StandaloneInputModule.UpdateModule () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/InputModules/StandaloneInputModule.cs:176)\nUnityEngine.EventSystems.EventSystem.TickModules () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/EventSystem.cs:462)\nUnityEngine.EventSystems.EventSystem.Update () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/EventSystem.cs:482)\n"
+      },
+      {
+        "LogType": "Exception",
+        "Message": "InvalidOperationException: You are trying to read Input using the UnityEngine.Input class, but you have switched active Input handling to Input System package in Player Settings.",
+        "Timestamp": "2026-07-09T12:44:13.0103431+02:00",
+        "StackTrace": "UnityEngine.Input.get_mousePosition () (at <1fbf520707494e6fb187ca6d516a21b5>:0)\nUnityEngine.EventSystems.BaseInput.get_mousePosition () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/InputModules/BaseInput.cs:75)\nUnityEngine.EventSystems.StandaloneInputModule.UpdateModule () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/InputModules/StandaloneInputModule.cs:176)\nUnityEngine.EventSystems.EventSystem.TickModules () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/EventSystem.cs:462)\nUnityEngine.EventSystems.EventSystem.Update () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/EventSystem.cs:482)\n"
+      },
+      {
+        "LogType": "Exception",
+        "Message": "InvalidOperationException: You are trying to read Input using the UnityEngine.Input class, but you have switched active Input handling to Input System package in Player Settings.",
+        "Timestamp": "2026-07-09T12:44:13.0133502+02:00",
+        "StackTrace": "UnityEngine.Input.get_mousePosition () (at <1fbf520707494e6fb187ca6d516a21b5>:0)\nUnityEngine.EventSystems.BaseInput.get_mousePosition () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/InputModules/BaseInput.cs:75)\nUnityEngine.EventSystems.StandaloneInputModule.UpdateModule () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/InputModules/StandaloneInputModule.cs:176)\nUnityEngine.EventSystems.EventSystem.TickModules () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/EventSystem.cs:462)\nUnityEngine.EventSystems.EventSystem.Update () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/EventSystem.cs:482)\n"
+      },
+      {
+        "LogType": "Exception",
+        "Message": "InvalidOperationException: You are trying to read Input using the UnityEngine.Input class, but you have switched active Input handling to Input System package in Player Settings.",
+        "Timestamp": "2026-07-09T12:44:13.0158627+02:00",
+        "StackTrace": "UnityEngine.Input.get_mousePosition () (at <1fbf520707494e6fb187ca6d516a21b5>:0)\nUnityEngine.EventSystems.BaseInput.get_mousePosition () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/InputModules/BaseInput.cs:75)\nUnityEngine.EventSystems.StandaloneInputModule.UpdateModule () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/InputModules/StandaloneInputModule.cs:176)\nUnityEngine.EventSystems.EventSystem.TickModules () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/EventSystem.cs:462)\nUnityEngine.EventSystems.EventSystem.Update () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/EventSystem.cs:482)\n"
+      },
+      {
+        "LogType": "Exception",
+        "Message": "InvalidOperationException: You are trying to read Input using the UnityEngine.Input class, but you have switched active Input handling to Input System package in Player Settings.",
+        "Timestamp": "2026-07-09T12:44:13.0183680+02:00",
+        "StackTrace": "UnityEngine.Input.get_mousePosition () (at <1fbf520707494e6fb187ca6d516a21b5>:0)\nUnityEngine.EventSystems.BaseInput.get_mousePosition () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/InputModules/BaseInput.cs:75)\nUnityEngine.EventSystems.StandaloneInputModule.UpdateModule () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/InputModules/StandaloneInputModule.cs:176)\nUnityEngine.EventSystems.EventSystem.TickModules () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/EventSystem.cs:462)\nUnityEngine.EventSystems.EventSystem.Update () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/EventSystem.cs:482)\n"
+      },
+      {
+        "LogType": "Exception",
+        "Message": "InvalidOperationException: You are trying to read Input using the UnityEngine.Input class, but you have switched active Input handling to Input System package in Player Settings.",
+        "Timestamp": "2026-07-09T12:44:13.0214139+02:00",
+        "StackTrace": "UnityEngine.Input.get_mousePosition () (at <1fbf520707494e6fb187ca6d516a21b5>:0)\nUnityEngine.EventSystems.BaseInput.get_mousePosition () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/InputModules/BaseInput.cs:75)\nUnityEngine.EventSystems.StandaloneInputModule.UpdateModule () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/InputModules/StandaloneInputModule.cs:176)\nUnityEngine.EventSystems.EventSystem.TickModules () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/EventSystem.cs:462)\nUnityEngine.EventSystems.EventSystem.Update () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/EventSystem.cs:482)\n"
+      },
+      {
+        "LogType": "Exception",
+        "Message": "InvalidOperationException: You are trying to read Input using the UnityEngine.Input class, but you have switched active Input handling to Input System package in Player Settings.",
+        "Timestamp": "2026-07-09T12:44:13.0249215+02:00",
+        "StackTrace": "UnityEngine.Input.get_mousePosition () (at <1fbf520707494e6fb187ca6d516a21b5>:0)\nUnityEngine.EventSystems.BaseInput.get_mousePosition () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/InputModules/BaseInput.cs:75)\nUnityEngine.EventSystems.StandaloneInputModule.UpdateModule () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/InputModules/StandaloneInputModule.cs:176)\nUnityEngine.EventSystems.EventSystem.TickModules () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/EventSystem.cs:462)\nUnityEngine.EventSystems.EventSystem.Update () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/EventSystem.cs:482)\n"
+      },
+      {
+        "LogType": "Exception",
+        "Message": "InvalidOperationException: You are trying to read Input using the UnityEngine.Input class, but you have switched active Input handling to Input System package in Player Settings.",
+        "Timestamp": "2026-07-09T12:44:13.0264375+02:00",
+        "StackTrace": "UnityEngine.Input.get_mousePosition () (at <1fbf520707494e6fb187ca6d516a21b5>:0)\nUnityEngine.EventSystems.BaseInput.get_mousePosition () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/InputModules/BaseInput.cs:75)\nUnityEngine.EventSystems.StandaloneInputModule.UpdateModule () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/InputModules/StandaloneInputModule.cs:176)\nUnityEngine.EventSystems.EventSystem.TickModules () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/EventSystem.cs:462)\nUnityEngine.EventSystems.EventSystem.Update () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/EventSystem.cs:482)\n"
+      },
+      {
+        "LogType": "Exception",
+        "Message": "InvalidOperationException: You are trying to read Input using the UnityEngine.Input class, but you have switched active Input handling to Input System package in Player Settings.",
+        "Timestamp": "2026-07-09T12:44:13.0295533+02:00",
+        "StackTrace": "UnityEngine.Input.get_mousePosition () (at <1fbf520707494e6fb187ca6d516a21b5>:0)\nUnityEngine.EventSystems.BaseInput.get_mousePosition () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/InputModules/BaseInput.cs:75)\nUnityEngine.EventSystems.StandaloneInputModule.UpdateModule () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/InputModules/StandaloneInputModule.cs:176)\nUnityEngine.EventSystems.EventSystem.TickModules () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/EventSystem.cs:462)\nUnityEngine.EventSystems.EventSystem.Update () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/EventSystem.cs:482)\n"
+      },
+      {
+        "LogType": "Exception",
+        "Message": "InvalidOperationException: You are trying to read Input using the UnityEngine.Input class, but you have switched active Input handling to Input System package in Player Settings.",
+        "Timestamp": "2026-07-09T12:44:13.0320730+02:00",
+        "StackTrace": "UnityEngine.Input.get_mousePosition () (at <1fbf520707494e6fb187ca6d516a21b5>:0)\nUnityEngine.EventSystems.BaseInput.get_mousePosition () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/InputModules/BaseInput.cs:75)\nUnityEngine.EventSystems.StandaloneInputModule.UpdateModule () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/InputModules/StandaloneInputModule.cs:176)\nUnityEngine.EventSystems.EventSystem.TickModules () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/EventSystem.cs:462)\nUnityEngine.EventSystems.EventSystem.Update () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/EventSystem.cs:482)\n"
+      },
+      {
+        "LogType": "Exception",
+        "Message": "InvalidOperationException: You are trying to read Input using the UnityEngine.Input class, but you have switched active Input handling to Input System package in Player Settings.",
+        "Timestamp": "2026-07-09T12:44:13.0340705+02:00",
+        "StackTrace": "UnityEngine.Input.get_mousePosition () (at <1fbf520707494e6fb187ca6d516a21b5>:0)\nUnityEngine.EventSystems.BaseInput.get_mousePosition () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/InputModules/BaseInput.cs:75)\nUnityEngine.EventSystems.StandaloneInputModule.UpdateModule () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/InputModules/StandaloneInputModule.cs:176)\nUnityEngine.EventSystems.EventSystem.TickModules () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/EventSystem.cs:462)\nUnityEngine.EventSystems.EventSystem.Update () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/EventSystem.cs:482)\n"
+      },
+      {
+        "LogType": "Exception",
+        "Message": "InvalidOperationException: You are trying to read Input using the UnityEngine.Input class, but you have switched active Input handling to Input System package in Player Settings.",
+        "Timestamp": "2026-07-09T12:44:13.0370023+02:00",
+        "StackTrace": "UnityEngine.Input.get_mousePosition () (at <1fbf520707494e6fb187ca6d516a21b5>:0)\nUnityEngine.EventSystems.BaseInput.get_mousePosition () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/InputModules/BaseInput.cs:75)\nUnityEngine.EventSystems.StandaloneInputModule.UpdateModule () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/InputModules/StandaloneInputModule.cs:176)\nUnityEngine.EventSystems.EventSystem.TickModules () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/EventSystem.cs:462)\nUnityEngine.EventSystems.EventSystem.Update () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/EventSystem.cs:482)\n"
+      },
+      {
+        "LogType": "Exception",
+        "Message": "InvalidOperationException: You are trying to read Input using the UnityEngine.Input class, but you have switched active Input handling to Input System package in Player Settings.",
+        "Timestamp": "2026-07-09T12:44:13.0390090+02:00",
+        "StackTrace": "UnityEngine.Input.get_mousePosition () (at <1fbf520707494e6fb187ca6d516a21b5>:0)\nUnityEngine.EventSystems.BaseInput.get_mousePosition () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/InputModules/BaseInput.cs:75)\nUnityEngine.EventSystems.StandaloneInputModule.UpdateModule () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/InputModules/StandaloneInputModule.cs:176)\nUnityEngine.EventSystems.EventSystem.TickModules () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/EventSystem.cs:462)\nUnityEngine.EventSystems.EventSystem.Update () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/EventSystem.cs:482)\n"
+      },
+      {
+        "LogType": "Exception",
+        "Message": "InvalidOperationException: You are trying to read Input using the UnityEngine.Input class, but you have switched active Input handling to Input System package in Player Settings.",
+        "Timestamp": "2026-07-09T12:44:13.0420246+02:00",
+        "StackTrace": "UnityEngine.Input.get_mousePosition () (at <1fbf520707494e6fb187ca6d516a21b5>:0)\nUnityEngine.EventSystems.BaseInput.get_mousePosition () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/InputModules/BaseInput.cs:75)\nUnityEngine.EventSystems.StandaloneInputModule.UpdateModule () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/InputModules/StandaloneInputModule.cs:176)\nUnityEngine.EventSystems.EventSystem.TickModules () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/EventSystem.cs:462)\nUnityEngine.EventSystems.EventSystem.Update () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/EventSystem.cs:482)\n"
+      },
+      {
+        "LogType": "Exception",
+        "Message": "InvalidOperationException: You are trying to read Input using the UnityEngine.Input class, but you have switched active Input handling to Input System package in Player Settings.",
+        "Timestamp": "2026-07-09T12:44:13.0440276+02:00",
+        "StackTrace": "UnityEngine.Input.get_mousePosition () (at <1fbf520707494e6fb187ca6d516a21b5>:0)\nUnityEngine.EventSystems.BaseInput.get_mousePosition () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/InputModules/BaseInput.cs:75)\nUnityEngine.EventSystems.StandaloneInputModule.UpdateModule () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/InputModules/StandaloneInputModule.cs:176)\nUnityEngine.EventSystems.EventSystem.TickModules () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/EventSystem.cs:462)\nUnityEngine.EventSystems.EventSystem.Update () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/EventSystem.cs:482)\n"
+      },
+      {
+        "LogType": "Exception",
+        "Message": "InvalidOperationException: You are trying to read Input using the UnityEngine.Input class, but you have switched active Input handling to Input System package in Player Settings.",
+        "Timestamp": "2026-07-09T12:44:13.0476937+02:00",
+        "StackTrace": "UnityEngine.Input.get_mousePosition () (at <1fbf520707494e6fb187ca6d516a21b5>:0)\nUnityEngine.EventSystems.BaseInput.get_mousePosition () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/InputModules/BaseInput.cs:75)\nUnityEngine.EventSystems.StandaloneInputModule.UpdateModule () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/InputModules/StandaloneInputModule.cs:176)\nUnityEngine.EventSystems.EventSystem.TickModules () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/EventSystem.cs:462)\nUnityEngine.EventSystems.EventSystem.Update () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/EventSystem.cs:482)\n"
+      },
+      {
+        "LogType": "Exception",
+        "Message": "InvalidOperationException: You are trying to read Input using the UnityEngine.Input class, but you have switched active Input handling to Input System package in Player Settings.",
+        "Timestamp": "2026-07-09T12:44:13.0502114+02:00",
+        "StackTrace": "UnityEngine.Input.get_mousePosition () (at <1fbf520707494e6fb187ca6d516a21b5>:0)\nUnityEngine.EventSystems.BaseInput.get_mousePosition () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/InputModules/BaseInput.cs:75)\nUnityEngine.EventSystems.StandaloneInputModule.UpdateModule () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/InputModules/StandaloneInputModule.cs:176)\nUnityEngine.EventSystems.EventSystem.TickModules () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/EventSystem.cs:462)\nUnityEngine.EventSystems.EventSystem.Update () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/EventSystem.cs:482)\n"
+      },
+      {
+        "LogType": "Exception",
+        "Message": "InvalidOperationException: You are trying to read Input using the UnityEngine.Input class, but you have switched active Input handling to Input System package in Player Settings.",
+        "Timestamp": "2026-07-09T12:44:13.0582925+02:00",
+        "StackTrace": "UnityEngine.Input.get_mousePosition () (at <1fbf520707494e6fb187ca6d516a21b5>:0)\nUnityEngine.EventSystems.BaseInput.get_mousePosition () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/InputModules/BaseInput.cs:75)\nUnityEngine.EventSystems.StandaloneInputModule.UpdateModule () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/InputModules/StandaloneInputModule.cs:176)\nUnityEngine.EventSystems.EventSystem.TickModules () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/EventSystem.cs:462)\nUnityEngine.EventSystems.EventSystem.Update () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/EventSystem.cs:482)\n"
+      },
+      {
+        "LogType": "Error",
+        "Message": "The project path contains spaces, which may cause issues during usage of AI Game Developer. Please consider the move the project to a folder without spaces.",
+        "Timestamp": "2026-07-09T12:49:27.1210185+02:00",
+        "StackTrace": "UnityEngine.Debug:LogError (object)\ncom.IvanMurzak.Unity.MCP.Editor.Startup:.cctor () (at ./Library/PackageCache/com.ivanmurzak.unity.mcp@8d94ff2d09e4/Editor/Scripts/Startup.cs:33)\nUnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.ReadOnlySpan`1<intptr>)\n"
+      },
+      {
+        "LogType": "Error",
+        "Message": "EnvironmentDependencyValues requested are different than current active one (requested -> active):\n",
+        "Timestamp": "2026-07-09T12:44:18.2476248+02:00"
+      },
+      {
+        "LogType": "Error",
+        "Message": "  graphicsApiMask: 2048 -> 264192\n",
+        "Timestamp": "2026-07-09T12:44:18.2476248+02:00"
+      },
+      {
+        "LogType": "Error",
+        "Message": "EnvironmentDependencyValues requested are different than current active one (requested -> active):\n",
+        "Timestamp": "2026-07-09T12:49:15.0909153+02:00"
+      },
+      {
+        "LogType": "Error",
+        "Message": "  graphicsApiMask: 2048 -> 264192\n",
+        "Timestamp": "2026-07-09T12:49:15.0909153+02:00"
+      },
+      {
+        "LogType": "Error",
+        "Message": "The project path contains spaces, which may cause issues during usage of AI Game Developer. Please consider the move the project to a folder without spaces.",
+        "Timestamp": "2026-07-09T12:50:06.4441023+02:00",
+        "StackTrace": "UnityEngine.Debug:LogError (object)\ncom.IvanMurzak.Unity.MCP.Editor.Startup:.cctor () (at ./Library/PackageCache/com.ivanmurzak.unity.mcp@8d94ff2d09e4/Editor/Scripts/Startup.cs:33)\nUnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.ReadOnlySpan`1<intptr>)\n"
+      },
+      {
+        "LogType": "Exception",
+        "Message": "InvalidOperationException: You are trying to read Input using the UnityEngine.Input class, but you have switched active Input handling to Input System package in Player Settings.",
+        "Timestamp": "2026-07-09T12:50:13.6405866+02:00",
+        "StackTrace": "UnityEngine.Input.get_mousePosition () (at <1fbf520707494e6fb187ca6d516a21b5>:0)\nUnityEngine.EventSystems.BaseInput.get_mousePosition () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/InputModules/BaseInput.cs:75)\nUnityEngine.EventSystems.StandaloneInputModule.UpdateModule () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/InputModules/StandaloneInputModule.cs:176)\nUnityEngine.EventSystems.EventSystem.TickModules () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/EventSystem.cs:462)\nUnityEngine.EventSystems.EventSystem.Update () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/EventSystem.cs:482)\n"
+      },
+      {
+        "LogType": "Exception",
+        "Message": "InvalidOperationException: You are trying to read Input using the UnityEngine.Input class, but you have switched active Input handling to Input System package in Player Settings.",
+        "Timestamp": "2026-07-09T12:50:14.7046940+02:00",
+        "StackTrace": "UnityEngine.Input.get_mousePosition () (at <1fbf520707494e6fb187ca6d516a21b5>:0)\nUnityEngine.EventSystems.BaseInput.get_mousePosition () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/InputModules/BaseInput.cs:75)\nUnityEngine.EventSystems.StandaloneInputModule.UpdateModule () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/InputModules/StandaloneInputModule.cs:176)\nUnityEngine.EventSystems.EventSystem.TickModules () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/EventSystem.cs:462)\nUnityEngine.EventSystems.EventSystem.Update () (at ./Library/PackageCache/com.unity.ugui@377fd60ad87b/Runtime/UGUI/EventSystem/EventSystem.cs:482)\n"
+      },
+      {
+        "LogType": "Error",
+        "Message": "The project path contains spaces, which may cause issues during usage of AI Game Developer. Please consider the move the project to a folder without spaces.",
+        "Timestamp": "2026-07-09T12:50:24.6007438+02:00",
+        "StackTrace": "UnityEngine.Debug:LogError (object)\ncom.IvanMurzak.Unity.MCP.Editor.Startup:.cctor () (at ./Library/PackageCache/com.ivanmurzak.unity.mcp@8d94ff2d09e4/Editor/Scripts/Startup.cs:33)\nUnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.ReadOnlySpan`1<intptr>)\n"
+      },
+      {
+        "LogType": "Error",
+        "Message": "EnvironmentDependencyValues requested are different than current active one (requested -> active):\n",
+        "Timestamp": "2026-07-09T12:50:27.9671181+02:00"
+      },
+      {
+        "LogType": "Error",
+        "Message": "  graphicsApiMask: 2048 -> 264192\n",
+        "Timestamp": "2026-07-09T12:50:27.9681160+02:00"
+      },
+      {
+        "LogType": "Error",
+        "Message": "EnvironmentDependencyValues requested are different than current active one (requested -> active):\n",
+        "Timestamp": "2026-07-09T12:50:54.4210174+02:00"
+      },
+      {
+        "LogType": "Error",
+        "Message": "  graphicsApiMask: 2048 -> 264192\n",
+        "Timestamp": "2026-07-09T12:50:54.4210174+02:00"
+      },
+      {
+        "LogType": "Error",
+        "Message": "fail: [12:51:08:9792] [AI] ToolRunnerCollection Tool execution failed for 'Console / Clear Logs': One or more errors occurred. (The process cannot access the file 'D:\\Unity Projects\\Danil_test_game\\Temp\\mcp-server\\ai-editor-logs.txt' because it is being used by another process.)\n  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <816f70bc2a9c4332b0bd119906a8d40e>:0 \r\n  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <816f70bc2a9c4332b0bd119906a8d40e>:0 \r\n  at com.IvanMurzak.ReflectorNet.MethodWrapper.InvokeDict (System.Collections.Generic.IReadOnlyDictionary`2[TKey,TValue] namedParameters, System.Threading.CancellationToken cancellationToken) [0x0005d] in <8bc81e359af54b0dbb0e2779a627f67f>:0 \r\n  at com.IvanMurzak.McpPlugin.RunTool.Run (System.String requestId, System.Collections.Generic.IReadOnlyDictionary`2[TKey,TValue] namedParameters, System.Threading.CancellationToken cancellationToken) [0x000ab] in <a60a6af4c10448ed8e84fa69919ff98e>:0 ",
+        "Timestamp": "2026-07-09T12:51:08.9859495+02:00",
+        "StackTrace": "UnityEngine.Debug:LogError (object)\ncom.IvanMurzak.Unity.MCP.Utils.UnityLogger:Log<Microsoft.Extensions.Logging.FormattedLogValues> (Microsoft.Extensions.Logging.LogLevel,Microsoft.Extensions.Logging.EventId,Microsoft.Extensions.Logging.FormattedLogValues,System.Exception,System.Func`3<Microsoft.Extensions.Logging.FormattedLogValues, System.Exception, string>) (at ./Library/PackageCache/com.ivanmurzak.unity.mcp@8d94ff2d09e4/Runtime/Logger/UnityLogger.cs:119)\nMicrosoft.Extensions.Logging.LoggerExtensions:Log (Microsoft.Extensions.Logging.ILogger,Microsoft.Extensions.Logging.LogLevel,Microsoft.Extensions.Logging.EventId,System.Exception,string,object[])\nMicrosoft.Extensions.Logging.LoggerExtensions:Log (Microsoft.Extensions.Logging.ILogger,Microsoft.Extensions.Logging.LogLevel,System.Exception,string,object[])\nMicrosoft.Extensions.Logging.LoggerExtensions:LogError (Microsoft.Extensions.Logging.ILogger,System.Exception,string,object[])\ncom.IvanMurzak.McpPlugin.RunTool/<Run>d__52:MoveNext ()\nSystem.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<com.IvanMurzak.McpPlugin.Common.Model.ResponseCallTool>:Start<com.IvanMurzak.McpPlugin.RunTool/<Run>d__52> (com.IvanMurzak.McpPlugin.RunTool/<Run>d__52&)\ncom.IvanMurzak.McpPlugin.RunTool:Run (string,System.Collections.Generic.IReadOnlyDictionary`2<string, System.Text.Json.JsonElement>,System.Threading.CancellationToken)\ncom.IvanMurzak.McpPlugin.McpToolManager/<RunCallTool>d__26:MoveNext ()\nSystem.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<com.IvanMurzak.McpPlugin.Common.Model.ResponseData`1<com.IvanMurzak.McpPlugin.Common.Model.ResponseCallTool>>:Start<com.IvanMurzak.McpPlugin.McpToolManager/<RunCallTool>d__26> (com.IvanMurzak.McpPlugin.McpToolManager/<RunCallTool>d__26&)\ncom.IvanMurzak.McpPlugin.McpToolManager:RunCallTool (com.IvanMurzak.McpPlugin.Common.Model.RequestCallTool,System.Threading.CancellationToken)\ncom.IvanMurzak.McpPlugin.McpToolManager:RunCallTool (com.IvanMurzak.McpPlugin.Common.Model.RequestCallTool)\ncom.IvanMurzak.McpPlugin.McpManagerClientHub/<>c__DisplayClass4_0:<SubscribeOnServerEvents>b__4 (com.IvanMurzak.McpPlugin.Common.Model.RequestCallTool)\nMicrosoft.AspNetCore.SignalR.Client.HubConnectionExtensions/<>c__DisplayClass56_0`2<com.IvanMurzak.McpPlugin.Common.Model.RequestCallTool, com.IvanMurzak.McpPlugin.Common.Model.ResponseData`1<com.IvanMurzak.McpPlugin.Common.Model.ResponseCallTool>>:<On>b__0 (object[])\nMicrosoft.AspNetCore.SignalR.Client.HubConnectionExtensions/<>c__45`1/<<On>b__45_0>d<com.IvanMurzak.McpPlugin.Common.Model.ResponseData`1<com.IvanMurzak.McpPlugin.Common.Model.ResponseCallTool>>:MoveNext ()\nSystem.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<object>:Start<Microsoft.AspNetCore.SignalR.Client.HubConnectionExtensions/<>c__45`1/<<On>b__45_0>d<com.IvanMurzak.McpPlugin.Common.Model.ResponseData`1<com.IvanMurzak.McpPlugin.Common.Model.ResponseCallTool>>> (Microsoft.AspNetCore.SignalR.Client.HubConnectionExtensions/<>c__45`1/<<On>b__45_0>d<com.IvanMurzak.McpPlugin.Common.Model.ResponseData`1<com.IvanMurzak.McpPlugin.Common.Model.ResponseCallTool>>&)\nMicrosoft.AspNetCore.SignalR.Client.HubConnectionExtensions/<>c__45`1<com.IvanMurzak.McpPlugin.Common.Model.ResponseData`1<com.IvanMurzak.McpPlugin.Common.Model.ResponseCallTool>>:<On>b__45_0 (object[],object)\nMicrosoft.AspNetCore.SignalR.Client.HubConnection/InvocationHandler:InvokeAsync (object[])\nMicrosoft.AspNetCore.SignalR.Client.HubConnection/<DispatchInvocationAsync>d__77:MoveNext ()\nSystem.Runtime.CompilerServices.AsyncTaskMethodBuilder:Start<Microsoft.AspNetCore.SignalR.Client.HubConnection/<DispatchInvocationAsync>d__77> (Microsoft.AspNetCore.SignalR.Client.HubConnection/<DispatchInvocationAsync>d__77&)\nMicrosoft.AspNetCore.SignalR.Client.HubConnection:DispatchInvocationAsync (Microsoft.AspNetCore.SignalR.Protocol.InvocationMessage,Microsoft.AspNetCore.SignalR.Client.HubConnection/ConnectionState)\nMicrosoft.AspNetCore.SignalR.Client.HubConnection/<>c__DisplayClass82_0/<<ReceiveLoop>g__StartProcessingInvocationMessages|0>d:MoveNext ()\nSystem.Threading._ThreadPoolWaitCallback:PerformWaitCallback ()\n"
+      },
+      {
+        "LogType": "Error",
+        "Message": "fail: [12:51:08:9869] [AI] McpToolManager Error Response to AI:\nTool execution failed for 'Console / Clear Logs': One or more errors occurred. (The process cannot access the file 'D:\\Unity Projects\\Danil_test_game\\Temp\\mcp-server\\ai-editor-logs.txt' because it is being used by another process.)",
+        "Timestamp": "2026-07-09T12:51:08.9869188+02:00",
+        "StackTrace": "UnityEngine.Debug:LogError (object)\ncom.IvanMurzak.Unity.MCP.Utils.UnityLogger:Log<Microsoft.Extensions.Logging.FormattedLogValues> (Microsoft.Extensions.Logging.LogLevel,Microsoft.Extensions.Logging.EventId,Microsoft.Extensions.Logging.FormattedLogValues,System.Exception,System.Func`3<Microsoft.Extensions.Logging.FormattedLogValues, System.Exception, string>) (at ./Library/PackageCache/com.ivanmurzak.unity.mcp@8d94ff2d09e4/Runtime/Logger/UnityLogger.cs:119)\nMicrosoft.Extensions.Logging.Logger:<Log>g__LoggerLog|14_0<Microsoft.Extensions.Logging.FormattedLogValues> (Microsoft.Extensions.Logging.LogLevel,Microsoft.Extensions.Logging.EventId,Microsoft.Extensions.Logging.ILogger,System.Exception,System.Func`3<Microsoft.Extensions.Logging.FormattedLogValues, System.Exception, string>,System.Collections.Generic.List`1<System.Exception>&,Microsoft.Extensions.Logging.FormattedLogValues&)\nMicrosoft.Extensions.Logging.Logger:Log<Microsoft.Extensions.Logging.FormattedLogValues> (Microsoft.Extensions.Logging.LogLevel,Microsoft.Extensions.Logging.EventId,Microsoft.Extensions.Logging.FormattedLogValues,System.Exception,System.Func`3<Microsoft.Extensions.Logging.FormattedLogValues, System.Exception, string>)\nMicrosoft.Extensions.Logging.Logger`1<com.IvanMurzak.McpPlugin.McpToolManager>:Microsoft.Extensions.Logging.ILogger.Log<Microsoft.Extensions.Logging.FormattedLogValues> (Microsoft.Extensions.Logging.LogLevel,Microsoft.Extensions.Logging.EventId,Microsoft.Extensions.Logging.FormattedLogValues,System.Exception,System.Func`3<Microsoft.Extensions.Logging.FormattedLogValues, System.Exception, string>)\nMicrosoft.Extensions.Logging.LoggerExtensions:Log (Microsoft.Extensions.Logging.ILogger,Microsoft.Extensions.Logging.LogLevel,Microsoft.Extensions.Logging.EventId,System.Exception,string,object[])\nMicrosoft.Extensions.Logging.LoggerExtensions:Log (Microsoft.Extensions.Logging.ILogger,Microsoft.Extensions.Logging.LogLevel,System.Exception,string,object[])\nMicrosoft.Extensions.Logging.LoggerExtensions:LogError (Microsoft.Extensions.Logging.ILogger,System.Exception,string,object[])\ncom.IvanMurzak.McpPlugin.Common.Model.ResponseCallToolExtensions:Log (com.IvanMurzak.McpPlugin.Common.Model.ResponseCallTool,Microsoft.Extensions.Logging.ILogger,System.Exception)\ncom.IvanMurzak.McpPlugin.McpToolManager/<RunCallTool>d__26:MoveNext ()\nSystem.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<com.IvanMurzak.McpPlugin.Common.Model.ResponseData`1<com.IvanMurzak.McpPlugin.Common.Model.ResponseCallTool>>:Start<com.IvanMurzak.McpPlugin.McpToolManager/<RunCallTool>d__26> (com.IvanMurzak.McpPlugin.McpToolManager/<RunCallTool>d__26&)\ncom.IvanMurzak.McpPlugin.McpToolManager:RunCallTool (com.IvanMurzak.McpPlugin.Common.Model.RequestCallTool,System.Threading.CancellationToken)\ncom.IvanMurzak.McpPlugin.McpToolManager:RunCallTool (com.IvanMurzak.McpPlugin.Common.Model.RequestCallTool)\ncom.IvanMurzak.McpPlugin.McpManagerClientHub/<>c__DisplayClass4_0:<SubscribeOnServerEvents>b__4 (com.IvanMurzak.McpPlugin.Common.Model.RequestCallTool)\nMicrosoft.AspNetCore.SignalR.Client.HubConnectionExtensions/<>c__DisplayClass56_0`2<com.IvanMurzak.McpPlugin.Common.Model.RequestCallTool, com.IvanMurzak.McpPlugin.Common.Model.ResponseData`1<com.IvanMurzak.McpPlugin.Common.Model.ResponseCallTool>>:<On>b__0 (object[])\nMicrosoft.AspNetCore.SignalR.Client.HubConnectionExtensions/<>c__45`1/<<On>b__45_0>d<com.IvanMurzak.McpPlugin.Common.Model.ResponseData`1<com.IvanMurzak.McpPlugin.Common.Model.ResponseCallTool>>:MoveNext ()\nSystem.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<object>:Start<Microsoft.AspNetCore.SignalR.Client.HubConnectionExtensions/<>c__45`1/<<On>b__45_0>d<com.IvanMurzak.McpPlugin.Common.Model.ResponseData`1<com.IvanMurzak.McpPlugin.Common.Model.ResponseCallTool>>> (Microsoft.AspNetCore.SignalR.Client.HubConnectionExtensions/<>c__45`1/<<On>b__45_0>d<com.IvanMurzak.McpPlugin.Common.Model.ResponseData`1<com.IvanMurzak.McpPlugin.Common.Model.ResponseCallTool>>&)\nMicrosoft.AspNetCore.SignalR.Client.HubConnectionExtensions/<>c__45`1<com.IvanMurzak.McpPlugin.Common.Model.ResponseData`1<com.IvanMurzak.McpPlugin.Common.Model.ResponseCallTool>>:<On>b__45_0 (object[],object)\nMicrosoft.AspNetCore.SignalR.Client.HubConnection/InvocationHandler:InvokeAsync (object[])\nMicrosoft.AspNetCore.SignalR.Client.HubConnection/<DispatchInvocationAsync>d__77:MoveNext ()\nSystem.Runtime.CompilerServices.AsyncTaskMethodBuilder:Start<Microsoft.AspNetCore.SignalR.Client.HubConnection/<DispatchInvocationAsync>d__77> (Microsoft.AspNetCore.SignalR.Client.HubConnection/<DispatchInvocationAsync>d__77&)\nMicrosoft.AspNetCore.SignalR.Client.HubConnection:DispatchInvocationAsync (Microsoft.AspNetCore.SignalR.Protocol.InvocationMessage,Microsoft.AspNetCore.SignalR.Client.HubConnection/ConnectionState)\nMicrosoft.AspNetCore.SignalR.Client.HubConnection/<>c__DisplayClass82_0/<<ReceiveLoop>g__StartProcessingInvocationMessages|0>d:MoveNext ()\nSystem.Threading._ThreadPoolWaitCallback:PerformWaitCallback ()\n"
+      },
+      {
+        "LogType": "Error",
+        "Message": "The project path contains spaces, which may cause issues during usage of AI Game Developer. Please consider the move the project to a folder without spaces.",
+        "Timestamp": "2026-07-09T12:51:15.7957403+02:00",
+        "StackTrace": "UnityEngine.Debug:LogError (object)\ncom.IvanMurzak.Unity.MCP.Editor.Startup:.cctor () (at ./Library/PackageCache/com.ivanmurzak.unity.mcp@8d94ff2d09e4/Editor/Scripts/Startup.cs:33)\nUnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.ReadOnlySpan`1<intptr>)\n"
+      }
+    ]
+  }
+}

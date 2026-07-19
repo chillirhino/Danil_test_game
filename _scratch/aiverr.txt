@@ -1,0 +1,543 @@
+
+Run Tool
+  Tool: console-get-logs
+  URL: http://localhost:20984/api/tools/console-get-logs
+  Auth: from config
+──────────────────────────────────────────────────
+Calling console-get-logs...
+SUCCESS: console-get-logs completed
+SUCCESS: Response:
+{
+  "status": "success",
+  "structured": {
+    "result": [
+      {
+        "LogType": "Error",
+        "Message": "EnvironmentDependencyValues requested are different than current active one (requested -> active):\n",
+        "Timestamp": "2026-07-09T15:39:31.7323452+02:00"
+      },
+      {
+        "LogType": "Error",
+        "Message": "  graphicsApiMask: 2048 -> 264192\n",
+        "Timestamp": "2026-07-09T15:39:31.7323452+02:00"
+      },
+      {
+        "LogType": "Error",
+        "Message": "EnvironmentDependencyValues requested are different than current active one (requested -> active):\n",
+        "Timestamp": "2026-07-09T15:45:29.9929217+02:00"
+      },
+      {
+        "LogType": "Error",
+        "Message": "  graphicsApiMask: 2048 -> 264192\n",
+        "Timestamp": "2026-07-09T15:45:29.9929217+02:00"
+      },
+      {
+        "LogType": "Error",
+        "Message": "EnvironmentDependencyValues requested are different than current active one (requested -> active):\n",
+        "Timestamp": "2026-07-09T15:45:54.2830509+02:00"
+      },
+      {
+        "LogType": "Error",
+        "Message": "  graphicsApiMask: 2048 -> 264192\n",
+        "Timestamp": "2026-07-09T15:45:54.2830509+02:00"
+      },
+      {
+        "LogType": "Error",
+        "Message": "fail: [15:40:56:8855] [AI] ToolRunnerCollection Tool execution failed for 'Script / Execute': One or more errors occurred. (Execution failed. TargetInvocationException: This cannot be used during play mode.\n  at (wrapper managed-to-native) UnityEditor.SceneManagement.EditorSceneManager.SaveSceneInternal_Injected(UnityEngine.SceneManagement.Scene&,UnityEngine.Bindings.ManagedSpanWrapper&,bool)\r\n  at UnityEditor.SceneManagement.EditorSceneManager.SaveSceneInternal (UnityEngine.SceneManagement.Scene scene, System.String dstScenePath, System.Boolean saveAsCopy) [0x0002b] in <2608e8670e87477ba4f8f33d8e275d95>:0 \r\n  at UnityEditor.SceneManagement.EditorSceneManager.SaveScene (UnityEngine.SceneManagement.Scene scene, System.String dstScenePath, System.Boolean saveAsCopy) [0x00017] in <2608e8670e87477ba4f8f33d8e275d95>:0 \r\n  at UnityEditor.SceneManagement.EditorSceneManager.SaveScene (UnityEngine.SceneManagement.Scene scene) [0x00008] in <2608e8670e87477ba4f8f33d8e275d95>:0 \r\n  at CleanArms.Main () [0x000c6] in <f7dde36f87ca4f6b8c3641e20028cdda>:0 \r\n  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)\r\n  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <816f70bc2a9c4332b0bd119906a8d40e>:0 )\n  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <816f70bc2a9c4332b0bd119906a8d40e>:0 \r\n  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <816f70bc2a9c4332b0bd119906a8d40e>:0 \r\n  at com.IvanMurzak.ReflectorNet.MethodWrapper.InvokeDict (System.Collections.Generic.IReadOnlyDictionary`2[TKey,TValue] namedParameters, System.Threading.CancellationToken cancellationToken) [0x0005d] in <8bc81e359af54b0dbb0e2779a627f67f>:0 \r\n  at com.IvanMurzak.McpPlugin.RunTool.Run (System.String requestId, System.Collections.Generic.IReadOnlyDictionary`2[TKey,TValue] namedParameters, System.Threading.CancellationToken cancellationToken) [0x000ab] in <a60a6af4c10448ed8e84fa69919ff98e>:0 ",
+        "Timestamp": "2026-07-09T15:40:56.8901966+02:00",
+        "StackTrace": "UnityEngine.Debug:LogError (object)\ncom.IvanMurzak.Unity.MCP.Utils.UnityLogger:Log<Microsoft.Extensions.Logging.FormattedLogValues> (Microsoft.Extensions.Logging.LogLevel,Microsoft.Extensions.Logging.EventId,Microsoft.Extensions.Logging.FormattedLogValues,System.Exception,System.Func`3<Microsoft.Extensions.Logging.FormattedLogValues, System.Exception, string>) (at ./Library/PackageCache/com.ivanmurzak.unity.mcp@8d94ff2d09e4/Runtime/Logger/UnityLogger.cs:119)\nMicrosoft.Extensions.Logging.LoggerExtensions:Log (Microsoft.Extensions.Logging.ILogger,Microsoft.Extensions.Logging.LogLevel,Microsoft.Extensions.Logging.EventId,System.Exception,string,object[])\nMicrosoft.Extensions.Logging.LoggerExtensions:Log (Microsoft.Extensions.Logging.ILogger,Microsoft.Extensions.Logging.LogLevel,System.Exception,string,object[])\nMicrosoft.Extensions.Logging.LoggerExtensions:LogError (Microsoft.Extensions.Logging.ILogger,System.Exception,string,object[])\ncom.IvanMurzak.McpPlugin.RunTool/<Run>d__52:MoveNext ()\nSystem.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<com.IvanMurzak.McpPlugin.Common.Model.ResponseCallTool>:Start<com.IvanMurzak.McpPlugin.RunTool/<Run>d__52> (com.IvanMurzak.McpPlugin.RunTool/<Run>d__52&)\ncom.IvanMurzak.McpPlugin.RunTool:Run (string,System.Collections.Generic.IReadOnlyDictionary`2<string, System.Text.Json.JsonElement>,System.Threading.CancellationToken)\ncom.IvanMurzak.McpPlugin.McpToolManager/<RunCallTool>d__26:MoveNext ()\nSystem.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<com.IvanMurzak.McpPlugin.Common.Model.ResponseData`1<com.IvanMurzak.McpPlugin.Common.Model.ResponseCallTool>>:Start<com.IvanMurzak.McpPlugin.McpToolManager/<RunCallTool>d__26> (com.IvanMurzak.McpPlugin.McpToolManager/<RunCallTool>d__26&)\ncom.IvanMurzak.McpPlugin.McpToolManager:RunCallTool (com.IvanMurzak.McpPlugin.Common.Model.RequestCallTool,System.Threading.CancellationToken)\ncom.IvanMurzak.McpPlugin.McpToolManager:RunCallTool (com.IvanMurzak.McpPlugin.Common.Model.RequestCallTool)\ncom.IvanMurzak.McpPlugin.McpManagerClientHub/<>c__DisplayClass4_0:<SubscribeOnServerEvents>b__4 (com.IvanMurzak.McpPlugin.Common.Model.RequestCallTool)\nMicrosoft.AspNetCore.SignalR.Client.HubConnectionExtensions/<>c__DisplayClass56_0`2<com.IvanMurzak.McpPlugin.Common.Model.RequestCallTool, com.IvanMurzak.McpPlugin.Common.Model.ResponseData`1<com.IvanMurzak.McpPlugin.Common.Model.ResponseCallTool>>:<On>b__0 (object[])\nMicrosoft.AspNetCore.SignalR.Client.HubConnectionExtensions/<>c__45`1/<<On>b__45_0>d<com.IvanMurzak.McpPlugin.Common.Model.ResponseData`1<com.IvanMurzak.McpPlugin.Common.Model.ResponseCallTool>>:MoveNext ()\nSystem.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<object>:Start<Microsoft.AspNetCore.SignalR.Client.HubConnectionExtensions/<>c__45`1/<<On>b__45_0>d<com.IvanMurzak.McpPlugin.Common.Model.ResponseData`1<com.IvanMurzak.McpPlugin.Common.Model.ResponseCallTool>>> (Microsoft.AspNetCore.SignalR.Client.HubConnectionExtensions/<>c__45`1/<<On>b__45_0>d<com.IvanMurzak.McpPlugin.Common.Model.ResponseData`1<com.IvanMurzak.McpPlugin.Common.Model.ResponseCallTool>>&)\nMicrosoft.AspNetCore.SignalR.Client.HubConnectionExtensions/<>c__45`1<com.IvanMurzak.McpPlugin.Common.Model.ResponseData`1<com.IvanMurzak.McpPlugin.Common.Model.ResponseCallTool>>:<On>b__45_0 (object[],object)\nMicrosoft.AspNetCore.SignalR.Client.HubConnection/InvocationHandler:InvokeAsync (object[])\nMicrosoft.AspNetCore.SignalR.Client.HubConnection/<DispatchInvocationAsync>d__77:MoveNext ()\nSystem.Runtime.CompilerServices.AsyncTaskMethodBuilder:Start<Microsoft.AspNetCore.SignalR.Client.HubConnection/<DispatchInvocationAsync>d__77> (Microsoft.AspNetCore.SignalR.Client.HubConnection/<DispatchInvocationAsync>d__77&)\nMicrosoft.AspNetCore.SignalR.Client.HubConnection:DispatchInvocationAsync (Microsoft.AspNetCore.SignalR.Protocol.InvocationMessage,Microsoft.AspNetCore.SignalR.Client.HubConnection/ConnectionState)\nMicrosoft.AspNetCore.SignalR.Client.HubConnection/<>c__DisplayClass82_0/<<ReceiveLoop>g__StartProcessingInvocationMessages|0>d:MoveNext ()\nSystem.Threading._ThreadPoolWaitCallback:PerformWaitCallback ()\n"
+      },
+      {
+        "LogType": "Error",
+        "Message": "fail: [15:40:56:8919] [AI] McpToolManager Error Response to AI:\nTool execution failed for 'Script / Execute': One or more errors occurred. (Execution failed. TargetInvocationException: This cannot be used during play mode.\n  at (wrapper managed-to-native) UnityEditor.SceneManagement.EditorSceneManager.SaveSceneInternal_Injected(UnityEngine.SceneManagement.Scene&,UnityEngine.Bindings.ManagedSpanWrapper&,bool)\r\n  at UnityEditor.SceneManagement.EditorSceneManager.SaveSceneInternal (UnityEngine.SceneManagement.Scene scene, System.String dstScenePath, System.Boolean saveAsCopy) [0x0002b] in <2608e8670e87477ba4f8f33d8e275d95>:0 \r\n  at UnityEditor.SceneManagement.EditorSceneManager.SaveScene (UnityEngine.SceneManagement.Scene scene, System.String dstScenePath, System.Boolean saveAsCopy) [0x00017] in <2608e8670e87477ba4f8f33d8e275d95>:0 \r\n  at UnityEditor.SceneManagement.EditorSceneManager.SaveScene (UnityEngine.SceneManagement.Scene scene) [0x00008] in <2608e8670e87477ba4f8f33d8e275d95>:0 \r\n  at CleanArms.Main () [0x000c6] in <f7dde36f87ca4f6b8c3641e20028cdda>:0 \r\n  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)\r\n  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <816f70bc2a9c4332b0bd119906a8d40e>:0 )",
+        "Timestamp": "2026-07-09T15:40:56.8919451+02:00",
+        "StackTrace": "UnityEngine.Debug:LogError (object)\ncom.IvanMurzak.Unity.MCP.Utils.UnityLogger:Log<Microsoft.Extensions.Logging.FormattedLogValues> (Microsoft.Extensions.Logging.LogLevel,Microsoft.Extensions.Logging.EventId,Microsoft.Extensions.Logging.FormattedLogValues,System.Exception,System.Func`3<Microsoft.Extensions.Logging.FormattedLogValues, System.Exception, string>) (at ./Library/PackageCache/com.ivanmurzak.unity.mcp@8d94ff2d09e4/Runtime/Logger/UnityLogger.cs:119)\nMicrosoft.Extensions.Logging.Logger:<Log>g__LoggerLog|14_0<Microsoft.Extensions.Logging.FormattedLogValues> (Microsoft.Extensions.Logging.LogLevel,Microsoft.Extensions.Logging.EventId,Microsoft.Extensions.Logging.ILogger,System.Exception,System.Func`3<Microsoft.Extensions.Logging.FormattedLogValues, System.Exception, string>,System.Collections.Generic.List`1<System.Exception>&,Microsoft.Extensions.Logging.FormattedLogValues&)\nMicrosoft.Extensions.Logging.Logger:Log<Microsoft.Extensions.Logging.FormattedLogValues> (Microsoft.Extensions.Logging.LogLevel,Microsoft.Extensions.Logging.EventId,Microsoft.Extensions.Logging.FormattedLogValues,System.Exception,System.Func`3<Microsoft.Extensions.Logging.FormattedLogValues, System.Exception, string>)\nMicrosoft.Extensions.Logging.Logger`1<com.IvanMurzak.McpPlugin.McpToolManager>:Microsoft.Extensions.Logging.ILogger.Log<Microsoft.Extensions.Logging.FormattedLogValues> (Microsoft.Extensions.Logging.LogLevel,Microsoft.Extensions.Logging.EventId,Microsoft.Extensions.Logging.FormattedLogValues,System.Exception,System.Func`3<Microsoft.Extensions.Logging.FormattedLogValues, System.Exception, string>)\nMicrosoft.Extensions.Logging.LoggerExtensions:Log (Microsoft.Extensions.Logging.ILogger,Microsoft.Extensions.Logging.LogLevel,Microsoft.Extensions.Logging.EventId,System.Exception,string,object[])\nMicrosoft.Extensions.Logging.LoggerExtensions:Log (Microsoft.Extensions.Logging.ILogger,Microsoft.Extensions.Logging.LogLevel,System.Exception,string,object[])\nMicrosoft.Extensions.Logging.LoggerExtensions:LogError (Microsoft.Extensions.Logging.ILogger,System.Exception,string,object[])\ncom.IvanMurzak.McpPlugin.Common.Model.ResponseCallToolExtensions:Log (com.IvanMurzak.McpPlugin.Common.Model.ResponseCallTool,Microsoft.Extensions.Logging.ILogger,System.Exception)\ncom.IvanMurzak.McpPlugin.McpToolManager/<RunCallTool>d__26:MoveNext ()\nSystem.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<com.IvanMurzak.McpPlugin.Common.Model.ResponseData`1<com.IvanMurzak.McpPlugin.Common.Model.ResponseCallTool>>:Start<com.IvanMurzak.McpPlugin.McpToolManager/<RunCallTool>d__26> (com.IvanMurzak.McpPlugin.McpToolManager/<RunCallTool>d__26&)\ncom.IvanMurzak.McpPlugin.McpToolManager:RunCallTool (com.IvanMurzak.McpPlugin.Common.Model.RequestCallTool,System.Threading.CancellationToken)\ncom.IvanMurzak.McpPlugin.McpToolManager:RunCallTool (com.IvanMurzak.McpPlugin.Common.Model.RequestCallTool)\ncom.IvanMurzak.McpPlugin.McpManagerClientHub/<>c__DisplayClass4_0:<SubscribeOnServerEvents>b__4 (com.IvanMurzak.McpPlugin.Common.Model.RequestCallTool)\nMicrosoft.AspNetCore.SignalR.Client.HubConnectionExtensions/<>c__DisplayClass56_0`2<com.IvanMurzak.McpPlugin.Common.Model.RequestCallTool, com.IvanMurzak.McpPlugin.Common.Model.ResponseData`1<com.IvanMurzak.McpPlugin.Common.Model.ResponseCallTool>>:<On>b__0 (object[])\nMicrosoft.AspNetCore.SignalR.Client.HubConnectionExtensions/<>c__45`1/<<On>b__45_0>d<com.IvanMurzak.McpPlugin.Common.Model.ResponseData`1<com.IvanMurzak.McpPlugin.Common.Model.ResponseCallTool>>:MoveNext ()\nSystem.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<object>:Start<Microsoft.AspNetCore.SignalR.Client.HubConnectionExtensions/<>c__45`1/<<On>b__45_0>d<com.IvanMurzak.McpPlugin.Common.Model.ResponseData`1<com.IvanMurzak.McpPlugin.Common.Model.ResponseCallTool>>> (Microsoft.AspNetCore.SignalR.Client.HubConnectionExtensions/<>c__45`1/<<On>b__45_0>d<com.IvanMurzak.McpPlugin.Common.Model.ResponseData`1<com.IvanMurzak.McpPlugin.Common.Model.ResponseCallTool>>&)\nMicrosoft.AspNetCore.SignalR.Client.HubConnectionExtensions/<>c__45`1<com.IvanMurzak.McpPlugin.Common.Model.ResponseData`1<com.IvanMurzak.McpPlugin.Common.Model.ResponseCallTool>>:<On>b__45_0 (object[],object)\nMicrosoft.AspNetCore.SignalR.Client.HubConnection/InvocationHandler:InvokeAsync (object[])\nMicrosoft.AspNetCore.SignalR.Client.HubConnection/<DispatchInvocationAsync>d__77:MoveNext ()\nSystem.Runtime.CompilerServices.AsyncTaskMethodBuilder:Start<Microsoft.AspNetCore.SignalR.Client.HubConnection/<DispatchInvocationAsync>d__77> (Microsoft.AspNetCore.SignalR.Client.HubConnection/<DispatchInvocationAsync>d__77&)\nMicrosoft.AspNetCore.SignalR.Client.HubConnection:DispatchInvocationAsync (Microsoft.AspNetCore.SignalR.Protocol.InvocationMessage,Microsoft.AspNetCore.SignalR.Client.HubConnection/ConnectionState)\nMicrosoft.AspNetCore.SignalR.Client.HubConnection/<>c__DisplayClass82_0/<<ReceiveLoop>g__StartProcessingInvocationMessages|0>d:MoveNext ()\nSystem.Threading._ThreadPoolWaitCallback:PerformWaitCallback ()\n"
+      },
+      {
+        "LogType": "Exception",
+        "Message": "Exception: Execution failed. TargetInvocationException: This cannot be used during play mode.\n  at (wrapper managed-to-native) UnityEditor.SceneManagement.EditorSceneManager.SaveSceneInternal_Injected(UnityEngine.SceneManagement.Scene&,UnityEngine.Bindings.ManagedSpanWrapper&,bool)\r\n  at UnityEditor.SceneManagement.EditorSceneManager.SaveSceneInternal (UnityEngine.SceneManagement.Scene scene, System.String dstScenePath, System.Boolean saveAsCopy) [0x0002b] in <2608e8670e87477ba4f8f33d8e275d95>:0 \r\n  at UnityEditor.SceneManagement.EditorSceneManager.SaveScene (UnityEngine.SceneManagement.Scene scene, System.String dstScenePath, System.Boolean saveAsCopy) [0x00017] in <2608e8670e87477ba4f8f33d8e275d95>:0 \r\n  at UnityEditor.SceneManagement.EditorSceneManager.SaveScene (UnityEngine.SceneManagement.Scene scene) [0x00008] in <2608e8670e87477ba4f8f33d8e275d95>:0 \r\n  at InstChar.Main () [0x0014b] in <51b99fe2d84340e3a717f87742688d5a>:0 \r\n  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)\r\n  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <816f70bc2a9c4332b0bd119906a8d40e>:0 ",
+        "Timestamp": "2026-07-09T15:44:28.5978164+02:00",
+        "StackTrace": "com.IvanMurzak.Unity.MCP.Editor.API.Tool_Script+<>c__DisplayClass3_0.<Execute>b__0 () (at ./Library/PackageCache/com.ivanmurzak.unity.mcp@8d94ff2d09e4/Editor/Scripts/API/Tool/Script.Execute.cs:159)\ncom.IvanMurzak.Unity.MCP.Runtime.Utils.UnityMainThread+<>c__DisplayClass6_0`1[T].<Dispatch>g__Execute|0 () (at ./Library/PackageCache/com.ivanmurzak.unity.mcp@8d94ff2d09e4/Runtime/Utils/MainThread.Editor.cs:53)\nRethrow as AggregateException: One or more errors occurred. (Execution failed. TargetInvocationException: This cannot be used during play mode.\nUnityEditor.SceneManagement.EditorSceneManager.SaveSceneInternal (UnityEngine.SceneManagement.Scene scene, System.String dstScenePath, System.Boolean saveAsCopy) (at <2608e8670e87477ba4f8f33d8e275d95>:0)\nUnityEditor.SceneManagement.EditorSceneManager.SaveScene (UnityEngine.SceneManagement.Scene scene, System.String dstScenePath, System.Boolean saveAsCopy) (at <2608e8670e87477ba4f8f33d8e275d95>:0)\nUnityEditor.SceneManagement.EditorSceneManager.SaveScene (UnityEngine.SceneManagement.Scene scene) (at <2608e8670e87477ba4f8f33d8e275d95>:0)\nInstChar.Main () (at <51b99fe2d84340e3a717f87742688d5a>:0)\nSystem.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at <816f70bc2a9c4332b0bd119906a8d40e>:0 ))\nSystem.Threading.Tasks.Task.ThrowIfExceptional (System.Boolean includeTaskCanceledExceptions) (at <816f70bc2a9c4332b0bd119906a8d40e>:0)\nSystem.Threading.Tasks.Task`1[TResult].GetResultCore (System.Boolean waitCompletionNotification) (at <816f70bc2a9c4332b0bd119906a8d40e>:0)\nSystem.Threading.Tasks.Task`1[TResult].get_Result () (at <816f70bc2a9c4332b0bd119906a8d40e>:0)\ncom.IvanMurzak.ReflectorNet.Utils.MainThread.Run[T] (System.Func`1[TResult] func) (at <8bc81e359af54b0dbb0e2779a627f67f>:0)\ncom.IvanMurzak.Unity.MCP.Editor.API.Tool_Script.Execute (System.String csharpCode, System.String className, System.String methodName, com.IvanMurzak.ReflectorNet.Model.SerializedMemberList parameters, System.Boolean isMethodBody) (at ./Library/PackageCache/com.ivanmurzak.unity.mcp@8d94ff2d09e4/Editor/Scripts/API/Tool/Script.Execute.cs:117)\nSystem.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at <816f70bc2a9c4332b0bd119906a8d40e>:0)\nRethrow as TargetInvocationException: Exception has been thrown by the target of an invocation.\nSystem.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at <816f70bc2a9c4332b0bd119906a8d40e>:0)\nSystem.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) (at <816f70bc2a9c4332b0bd119906a8d40e>:0)\ncom.IvanMurzak.ReflectorNet.MethodWrapper.InvokeDict (System.Collections.Generic.IReadOnlyDictionary`2[TKey,TValue] namedParameters, System.Threading.CancellationToken cancellationToken) (at <8bc81e359af54b0dbb0e2779a627f67f>:0)\ncom.IvanMurzak.McpPlugin.RunTool.Run (System.String requestId, System.Collections.Generic.IReadOnlyDictionary`2[TKey,TValue] namedParameters, System.Threading.CancellationToken cancellationToken) (at <a60a6af4c10448ed8e84fa69919ff98e>:0)\nUnityEngine.Debug:LogException(Exception)\ncom.IvanMurzak.Unity.MCP.Utils.UnityLogger:Log(LogLevel, EventId, FormattedLogValues, Exception, Func`3) (at ./Library/PackageCache/com.ivanmurzak.unity.mcp@8d94ff2d09e4/Runtime/Logger/UnityLogger.cs:118)\nMicrosoft.Extensions.Logging.LoggerExtensions:Log(ILogger, LogLevel, EventId, Exception, String, Object[])\nMicrosoft.Extensions.Logging.LoggerExtensions:Log(ILogger, LogLevel, Exception, String, Object[])\nMicrosoft.Extensions.Logging.LoggerExtensions:LogError(ILogger, Exception, String, Object[])\ncom.IvanMurzak.McpPlugin.<Run>d__52:MoveNext()\nSystem.Runtime.CompilerServices.AsyncTaskMethodBuilder`1:Start(<Run>d__52&)\ncom.IvanMurzak.McpPlugin.RunTool:Run(String, IReadOnlyDictionary`2, CancellationToken)\ncom.IvanMurzak.McpPlugin.<RunCallTool>d__26:MoveNext()\nSystem.Runtime.CompilerServices.AsyncTaskMethodBuilder`1:Start(<RunCallTool>d__26&)\ncom.IvanMurzak.McpPlugin.McpToolManager:RunCallTool(RequestCallTool, CancellationToken)\ncom.IvanMurzak.McpPlugin.McpToolManager:RunCallTool(RequestCallTool)\ncom.IvanMurzak.McpPlugin.<>c__DisplayClass4_0:<SubscribeOnServerEvents>b__4(RequestCallTool)\nMicrosoft.AspNetCore.SignalR.Client.<>c__DisplayClass56_0`2:<On>b__0(Object[])\nMicrosoft.AspNetCore.SignalR.Client.<<On>b__45_0>d:MoveNext()\nSystem.Runtime.CompilerServices.AsyncTaskMethodBuilder`1:Start(<<On>b__45_0>d&)\nMicrosoft.AspNetCore.SignalR.Client.<>c__45`1:<On>b__45_0(Object[], Object)\nMicrosoft.AspNetCore.SignalR.Client.InvocationHandler:InvokeAsync(Object[])\nMicrosoft.AspNetCore.SignalR.Client.<DispatchInvocationAsync>d__77:MoveNext()\nSystem.Runtime.CompilerServices.AsyncTaskMethodBuilder:Start(<DispatchInvocationAsync>d__77&)\nMicrosoft.AspNetCore.SignalR.Client.HubConnection:DispatchInvocationAsync(InvocationMessage, ConnectionState)\nMicrosoft.AspNetCore.SignalR.Client.<<ReceiveLoop>g__StartProcessingInvocationMessages|0>d:MoveNext()\nSystem.Threading._ThreadPoolWaitCallback:PerformWaitCallback()\n"
+      },
+      {
+        "LogType": "Error",
+        "Message": "fail: [15:44:28:5968] [AI] ToolRunnerCollection Tool execution failed for 'Script / Execute': One or more errors occurred. (Execution failed. TargetInvocationException: This cannot be used during play mode.\n  at (wrapper managed-to-native) UnityEditor.SceneManagement.EditorSceneManager.SaveSceneInternal_Injected(UnityEngine.SceneManagement.Scene&,UnityEngine.Bindings.ManagedSpanWrapper&,bool)\r\n  at UnityEditor.SceneManagement.EditorSceneManager.SaveSceneInternal (UnityEngine.SceneManagement.Scene scene, System.String dstScenePath, System.Boolean saveAsCopy) [0x0002b] in <2608e8670e87477ba4f8f33d8e275d95>:0 \r\n  at UnityEditor.SceneManagement.EditorSceneManager.SaveScene (UnityEngine.SceneManagement.Scene scene, System.String dstScenePath, System.Boolean saveAsCopy) [0x00017] in <2608e8670e87477ba4f8f33d8e275d95>:0 \r\n  at UnityEditor.SceneManagement.EditorSceneManager.SaveScene (UnityEngine.SceneManagement.Scene scene) [0x00008] in <2608e8670e87477ba4f8f33d8e275d95>:0 \r\n  at InstChar.Main () [0x0014b] in <51b99fe2d84340e3a717f87742688d5a>:0 \r\n  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)\r\n  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <816f70bc2a9c4332b0bd119906a8d40e>:0 )\n  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <816f70bc2a9c4332b0bd119906a8d40e>:0 \r\n  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <816f70bc2a9c4332b0bd119906a8d40e>:0 \r\n  at com.IvanMurzak.ReflectorNet.MethodWrapper.InvokeDict (System.Collections.Generic.IReadOnlyDictionary`2[TKey,TValue] namedParameters, System.Threading.CancellationToken cancellationToken) [0x0005d] in <8bc81e359af54b0dbb0e2779a627f67f>:0 \r\n  at com.IvanMurzak.McpPlugin.RunTool.Run (System.String requestId, System.Collections.Generic.IReadOnlyDictionary`2[TKey,TValue] namedParameters, System.Threading.CancellationToken cancellationToken) [0x000ab] in <a60a6af4c10448ed8e84fa69919ff98e>:0 ",
+        "Timestamp": "2026-07-09T15:44:28.5988355+02:00",
+        "StackTrace": "UnityEngine.Debug:LogError (object)\ncom.IvanMurzak.Unity.MCP.Utils.UnityLogger:Log<Microsoft.Extensions.Logging.FormattedLogValues> (Microsoft.Extensions.Logging.LogLevel,Microsoft.Extensions.Logging.EventId,Microsoft.Extensions.Logging.FormattedLogValues,System.Exception,System.Func`3<Microsoft.Extensions.Logging.FormattedLogValues, System.Exception, string>) (at ./Library/PackageCache/com.ivanmurzak.unity.mcp@8d94ff2d09e4/Runtime/Logger/UnityLogger.cs:119)\nMicrosoft.Extensions.Logging.LoggerExtensions:Log (Microsoft.Extensions.Logging.ILogger,Microsoft.Extensions.Logging.LogLevel,Microsoft.Extensions.Logging.EventId,System.Exception,string,object[])\nMicrosoft.Extensions.Logging.LoggerExtensions:Log (Microsoft.Extensions.Logging.ILogger,Microsoft.Extensions.Logging.LogLevel,System.Exception,string,object[])\nMicrosoft.Extensions.Logging.LoggerExtensions:LogError (Microsoft.Extensions.Logging.ILogger,System.Exception,string,object[])\ncom.IvanMurzak.McpPlugin.RunTool/<Run>d__52:MoveNext ()\nSystem.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<com.IvanMurzak.McpPlugin.Common.Model.ResponseCallTool>:Start<com.IvanMurzak.McpPlugin.RunTool/<Run>d__52> (com.IvanMurzak.McpPlugin.RunTool/<Run>d__52&)\ncom.IvanMurzak.McpPlugin.RunTool:Run (string,System.Collections.Generic.IReadOnlyDictionary`2<string, System.Text.Json.JsonElement>,System.Threading.CancellationToken)\ncom.IvanMurzak.McpPlugin.McpToolManager/<RunCallTool>d__26:MoveNext ()\nSystem.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<com.IvanMurzak.McpPlugin.Common.Model.ResponseData`1<com.IvanMurzak.McpPlugin.Common.Model.ResponseCallTool>>:Start<com.IvanMurzak.McpPlugin.McpToolManager/<RunCallTool>d__26> (com.IvanMurzak.McpPlugin.McpToolManager/<RunCallTool>d__26&)\ncom.IvanMurzak.McpPlugin.McpToolManager:RunCallTool (com.IvanMurzak.McpPlugin.Common.Model.RequestCallTool,System.Threading.CancellationToken)\ncom.IvanMurzak.McpPlugin.McpToolManager:RunCallTool (com.IvanMurzak.McpPlugin.Common.Model.RequestCallTool)\ncom.IvanMurzak.McpPlugin.McpManagerClientHub/<>c__DisplayClass4_0:<SubscribeOnServerEvents>b__4 (com.IvanMurzak.McpPlugin.Common.Model.RequestCallTool)\nMicrosoft.AspNetCore.SignalR.Client.HubConnectionExtensions/<>c__DisplayClass56_0`2<com.IvanMurzak.McpPlugin.Common.Model.RequestCallTool, com.IvanMurzak.McpPlugin.Common.Model.ResponseData`1<com.IvanMurzak.McpPlugin.Common.Model.ResponseCallTool>>:<On>b__0 (object[])\nMicrosoft.AspNetCore.SignalR.Client.HubConnectionExtensions/<>c__45`1/<<On>b__45_0>d<com.IvanMurzak.McpPlugin.Common.Model.ResponseData`1<com.IvanMurzak.McpPlugin.Common.Model.ResponseCallTool>>:MoveNext ()\nSystem.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<object>:Start<Microsoft.AspNetCore.SignalR.Client.HubConnectionExtensions/<>c__45`1/<<On>b__45_0>d<com.IvanMurzak.McpPlugin.Common.Model.ResponseData`1<com.IvanMurzak.McpPlugin.Common.Model.ResponseCallTool>>> (Microsoft.AspNetCore.SignalR.Client.HubConnectionExtensions/<>c__45`1/<<On>b__45_0>d<com.IvanMurzak.McpPlugin.Common.Model.ResponseData`1<com.IvanMurzak.McpPlugin.Common.Model.ResponseCallTool>>&)\nMicrosoft.AspNetCore.SignalR.Client.HubConnectionExtensions/<>c__45`1<com.IvanMurzak.McpPlugin.Common.Model.ResponseData`1<com.IvanMurzak.McpPlugin.Common.Model.ResponseCallTool>>:<On>b__45_0 (object[],object)\nMicrosoft.AspNetCore.SignalR.Client.HubConnection/InvocationHandler:InvokeAsync (object[])\nMicrosoft.AspNetCore.SignalR.Client.HubConnection/<DispatchInvocationAsync>d__77:MoveNext ()\nSystem.Runtime.CompilerServices.AsyncTaskMethodBuilder:Start<Microsoft.AspNetCore.SignalR.Client.HubConnection/<DispatchInvocationAsync>d__77> (Microsoft.AspNetCore.SignalR.Client.HubConnection/<DispatchInvocationAsync>d__77&)\nMicrosoft.AspNetCore.SignalR.Client.HubConnection:DispatchInvocationAsync (Microsoft.AspNetCore.SignalR.Protocol.InvocationMessage,Microsoft.AspNetCore.SignalR.Client.HubConnection/ConnectionState)\nMicrosoft.AspNetCore.SignalR.Client.HubConnection/<>c__DisplayClass82_0/<<ReceiveLoop>g__StartProcessingInvocationMessages|0>d:MoveNext ()\nSystem.Threading._ThreadPoolWaitCallback:PerformWaitCallback ()\n"
+      },
+      {
+        "LogType": "Error",
+        "Message": "fail: [15:44:28:5988] [AI] McpToolManager Error Response to AI:\nTool execution failed for 'Script / Execute': One or more errors occurred. (Execution failed. TargetInvocationException: This cannot be used during play mode.\n  at (wrapper managed-to-native) UnityEditor.SceneManagement.EditorSceneManager.SaveSceneInternal_Injected(UnityEngine.SceneManagement.Scene&,UnityEngine.Bindings.ManagedSpanWrapper&,bool)\r\n  at UnityEditor.SceneManagement.EditorSceneManager.SaveSceneInternal (UnityEngine.SceneManagement.Scene scene, System.String dstScenePath, System.Boolean saveAsCopy) [0x0002b] in <2608e8670e87477ba4f8f33d8e275d95>:0 \r\n  at UnityEditor.SceneManagement.EditorSceneManager.SaveScene (UnityEngine.SceneManagement.Scene scene, System.String dstScenePath, System.Boolean saveAsCopy) [0x00017] in <2608e8670e87477ba4f8f33d8e275d95>:0 \r\n  at UnityEditor.SceneManagement.EditorSceneManager.SaveScene (UnityEngine.SceneManagement.Scene scene) [0x00008] in <2608e8670e87477ba4f8f33d8e275d95>:0 \r\n  at InstChar.Main () [0x0014b] in <51b99fe2d84340e3a717f87742688d5a>:0 \r\n  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)\r\n  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <816f70bc2a9c4332b0bd119906a8d40e>:0 )",
+        "Timestamp": "2026-07-09T15:44:28.5988355+02:00",
+        "StackTrace": "UnityEngine.Debug:LogError (object)\ncom.IvanMurzak.Unity.MCP.Utils.UnityLogger:Log<Microsoft.Extensions.Logging.FormattedLogValues> (Microsoft.Extensions.Logging.LogLevel,Microsoft.Extensions.Logging.EventId,Microsoft.Extensions.Logging.FormattedLogValues,System.Exception,System.Func`3<Microsoft.Extensions.Logging.FormattedLogValues, System.Exception, string>) (at ./Library/PackageCache/com.ivanmurzak.unity.mcp@8d94ff2d09e4/Runtime/Logger/UnityLogger.cs:119)\nMicrosoft.Extensions.Logging.Logger:<Log>g__LoggerLog|14_0<Microsoft.Extensions.Logging.FormattedLogValues> (Microsoft.Extensions.Logging.LogLevel,Microsoft.Extensions.Logging.EventId,Microsoft.Extensions.Logging.ILogger,System.Exception,System.Func`3<Microsoft.Extensions.Logging.FormattedLogValues, System.Exception, string>,System.Collections.Generic.List`1<System.Exception>&,Microsoft.Extensions.Logging.FormattedLogValues&)\nMicrosoft.Extensions.Logging.Logger:Log<Microsoft.Extensions.Logging.FormattedLogValues> (Microsoft.Extensions.Logging.LogLevel,Microsoft.Extensions.Logging.EventId,Microsoft.Extensions.Logging.FormattedLogValues,System.Exception,System.Func`3<Microsoft.Extensions.Logging.FormattedLogValues, System.Exception, string>)\nMicrosoft.Extensions.Logging.Logger`1<com.IvanMurzak.McpPlugin.McpToolManager>:Microsoft.Extensions.Logging.ILogger.Log<Microsoft.Extensions.Logging.FormattedLogValues> (Microsoft.Extensions.Logging.LogLevel,Microsoft.Extensions.Logging.EventId,Microsoft.Extensions.Logging.FormattedLogValues,System.Exception,System.Func`3<Microsoft.Extensions.Logging.FormattedLogValues, System.Exception, string>)\nMicrosoft.Extensions.Logging.LoggerExtensions:Log (Microsoft.Extensions.Logging.ILogger,Microsoft.Extensions.Logging.LogLevel,Microsoft.Extensions.Logging.EventId,System.Exception,string,object[])\nMicrosoft.Extensions.Logging.LoggerExtensions:Log (Microsoft.Extensions.Logging.ILogger,Microsoft.Extensions.Logging.LogLevel,System.Exception,string,object[])\nMicrosoft.Extensions.Logging.LoggerExtensions:LogError (Microsoft.Extensions.Logging.ILogger,System.Exception,string,object[])\ncom.IvanMurzak.McpPlugin.Common.Model.ResponseCallToolExtensions:Log (com.IvanMurzak.McpPlugin.Common.Model.ResponseCallTool,Microsoft.Extensions.Logging.ILogger,System.Exception)\ncom.IvanMurzak.McpPlugin.McpToolManager/<RunCallTool>d__26:MoveNext ()\nSystem.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<com.IvanMurzak.McpPlugin.Common.Model.ResponseData`1<com.IvanMurzak.McpPlugin.Common.Model.ResponseCallTool>>:Start<com.IvanMurzak.McpPlugin.McpToolManager/<RunCallTool>d__26> (com.IvanMurzak.McpPlugin.McpToolManager/<RunCallTool>d__26&)\ncom.IvanMurzak.McpPlugin.McpToolManager:RunCallTool (com.IvanMurzak.McpPlugin.Common.Model.RequestCallTool,System.Threading.CancellationToken)\ncom.IvanMurzak.McpPlugin.McpToolManager:RunCallTool (com.IvanMurzak.McpPlugin.Common.Model.RequestCallTool)\ncom.IvanMurzak.McpPlugin.McpManagerClientHub/<>c__DisplayClass4_0:<SubscribeOnServerEvents>b__4 (com.IvanMurzak.McpPlugin.Common.Model.RequestCallTool)\nMicrosoft.AspNetCore.SignalR.Client.HubConnectionExtensions/<>c__DisplayClass56_0`2<com.IvanMurzak.McpPlugin.Common.Model.RequestCallTool, com.IvanMurzak.McpPlugin.Common.Model.ResponseData`1<com.IvanMurzak.McpPlugin.Common.Model.ResponseCallTool>>:<On>b__0 (object[])\nMicrosoft.AspNetCore.SignalR.Client.HubConnectionExtensions/<>c__45`1/<<On>b__45_0>d<com.IvanMurzak.McpPlugin.Common.Model.ResponseData`1<com.IvanMurzak.McpPlugin.Common.Model.ResponseCallTool>>:MoveNext ()\nSystem.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<object>:Start<Microsoft.AspNetCore.SignalR.Client.HubConnectionExtensions/<>c__45`1/<<On>b__45_0>d<com.IvanMurzak.McpPlugin.Common.Model.ResponseData`1<com.IvanMurzak.McpPlugin.Common.Model.ResponseCallTool>>> (Microsoft.AspNetCore.SignalR.Client.HubConnectionExtensions/<>c__45`1/<<On>b__45_0>d<com.IvanMurzak.McpPlugin.Common.Model.ResponseData`1<com.IvanMurzak.McpPlugin.Common.Model.ResponseCallTool>>&)\nMicrosoft.AspNetCore.SignalR.Client.HubConnectionExtensions/<>c__45`1<com.IvanMurzak.McpPlugin.Common.Model.ResponseData`1<com.IvanMurzak.McpPlugin.Common.Model.ResponseCallTool>>:<On>b__45_0 (object[],object)\nMicrosoft.AspNetCore.SignalR.Client.HubConnection/InvocationHandler:InvokeAsync (object[])\nMicrosoft.AspNetCore.SignalR.Client.HubConnection/<DispatchInvocationAsync>d__77:MoveNext ()\nSystem.Runtime.CompilerServices.AsyncTaskMethodBuilder:Start<Microsoft.AspNetCore.SignalR.Client.HubConnection/<DispatchInvocationAsync>d__77> (Microsoft.AspNetCore.SignalR.Client.HubConnection/<DispatchInvocationAsync>d__77&)\nMicrosoft.AspNetCore.SignalR.Client.HubConnection:DispatchInvocationAsync (Microsoft.AspNetCore.SignalR.Protocol.InvocationMessage,Microsoft.AspNetCore.SignalR.Client.HubConnection/ConnectionState)\nMicrosoft.AspNetCore.SignalR.Client.HubConnection/<>c__DisplayClass82_0/<<ReceiveLoop>g__StartProcessingInvocationMessages|0>d:MoveNext ()\nSystem.Threading._ThreadPoolWaitCallback:PerformWaitCallback ()\n"
+      },
+      {
+        "LogType": "Exception",
+        "Message": "Exception: Execution failed. TargetInvocationException: This cannot be used during play mode.\n  at (wrapper managed-to-native) UnityEditor.SceneManagement.EditorSceneManager.SaveSceneInternal_Injected(UnityEngine.SceneManagement.Scene&,UnityEngine.Bindings.ManagedSpanWrapper&,bool)\r\n  at UnityEditor.SceneManagement.EditorSceneManager.SaveSceneInternal (UnityEngine.SceneManagement.Scene scene, System.String dstScenePath, System.Boolean saveAsCopy) [0x0002b] in <2608e8670e87477ba4f8f33d8e275d95>:0 \r\n  at UnityEditor.SceneManagement.EditorSceneManager.SaveScene (UnityEngine.SceneManagement.Scene scene, System.String dstScenePath, System.Boolean saveAsCopy) [0x00017] in <2608e8670e87477ba4f8f33d8e275d95>:0 \r\n  at UnityEditor.SceneManagement.EditorSceneManager.SaveScene (UnityEngine.SceneManagement.Scene scene) [0x00008] in <2608e8670e87477ba4f8f33d8e275d95>:0 \r\n  at InstChar.Main () [0x0014b] in <e64730414b4e441999cd2a8518cf803c>:0 \r\n  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)\r\n  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <816f70bc2a9c4332b0bd119906a8d40e>:0 ",
+        "Timestamp": "2026-07-09T15:45:01.6959015+02:00",
+        "StackTrace": "com.IvanMurzak.Unity.MCP.Editor.API.Tool_Script+<>c__DisplayClass3_0.<Execute>b__0 () (at ./Library/PackageCache/com.ivanmurzak.unity.mcp@8d94ff2d09e4/Editor/Scripts/API/Tool/Script.Execute.cs:159)\ncom.IvanMurzak.Unity.MCP.Runtime.Utils.UnityMainThread+<>c__DisplayClass6_0`1[T].<Dispatch>g__Execute|0 () (at ./Library/PackageCache/com.ivanmurzak.unity.mcp@8d94ff2d09e4/Runtime/Utils/MainThread.Editor.cs:53)\nRethrow as AggregateException: One or more errors occurred. (Execution failed. TargetInvocationException: This cannot be used during play mode.\nUnityEditor.SceneManagement.EditorSceneManager.SaveSceneInternal (UnityEngine.SceneManagement.Scene scene, System.String dstScenePath, System.Boolean saveAsCopy) (at <2608e8670e87477ba4f8f33d8e275d95>:0)\nUnityEditor.SceneManagement.EditorSceneManager.SaveScene (UnityEngine.SceneManagement.Scene scene, System.String dstScenePath, System.Boolean saveAsCopy) (at <2608e8670e87477ba4f8f33d8e275d95>:0)\nUnityEditor.SceneManagement.EditorSceneManager.SaveScene (UnityEngine.SceneManagement.Scene scene) (at <2608e8670e87477ba4f8f33d8e275d95>:0)\nInstChar.Main () (at <e64730414b4e441999cd2a8518cf803c>:0)\nSystem.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at <816f70bc2a9c4332b0bd119906a8d40e>:0 ))\nSystem.Threading.Tasks.Task.ThrowIfExceptional (System.Boolean includeTaskCanceledExceptions) (at <816f70bc2a9c4332b0bd119906a8d40e>:0)\nSystem.Threading.Tasks.Task`1[TResult].GetResultCore (System.Boolean waitCompletionNotification) (at <816f70bc2a9c4332b0bd119906a8d40e>:0)\nSystem.Threading.Tasks.Task`1[TResult].get_Result () (at <816f70bc2a9c4332b0bd119906a8d40e>:0)\ncom.IvanMurzak.ReflectorNet.Utils.MainThread.Run[T] (System.Func`1[TResult] func) (at <8bc81e359af54b0dbb0e2779a627f67f>:0)\ncom.IvanMurzak.Unity.MCP.Editor.API.Tool_Script.Execute (System.String csharpCode, System.String className, System.String methodName, com.IvanMurzak.ReflectorNet.Model.SerializedMemberList parameters, System.Boolean isMethodBody) (at ./Library/PackageCache/com.ivanmurzak.unity.mcp@8d94ff2d09e4/Editor/Scripts/API/Tool/Script.Execute.cs:117)\nSystem.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at <816f70bc2a9c4332b0bd119906a8d40e>:0)\nRethrow as TargetInvocationException: Exception has been thrown by the target of an invocation.\nSystem.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at <816f70bc2a9c4332b0bd119906a8d40e>:0)\nSystem.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) (at <816f70bc2a9c4332b0bd119906a8d40e>:0)\ncom.IvanMurzak.ReflectorNet.MethodWrapper.InvokeDict (System.Collections.Generic.IReadOnlyDictionary`2[TKey,TValue] namedParameters, System.Threading.CancellationToken cancellationToken) (at <8bc81e359af54b0dbb0e2779a627f67f>:0)\ncom.IvanMurzak.McpPlugin.RunTool.Run (System.String requestId, System.Collections.Generic.IReadOnlyDictionary`2[TKey,TValue] namedParameters, System.Threading.CancellationToken cancellationToken) (at <a60a6af4c10448ed8e84fa69919ff98e>:0)\nUnityEngine.Debug:LogException(Exception)\ncom.IvanMurzak.Unity.MCP.Utils.UnityLogger:Log(LogLevel, EventId, FormattedLogValues, Exception, Func`3) (at ./Library/PackageCache/com.ivanmurzak.unity.mcp@8d94ff2d09e4/Runtime/Logger/UnityLogger.cs:118)\nMicrosoft.Extensions.Logging.LoggerExtensions:Log(ILogger, LogLevel, EventId, Exception, String, Object[])\nMicrosoft.Extensions.Logging.LoggerExtensions:Log(ILogger, LogLevel, Exception, String, Object[])\nMicrosoft.Extensions.Logging.LoggerExtensions:LogError(ILogger, Exception, String, Object[])\ncom.IvanMurzak.McpPlugin.<Run>d__52:MoveNext()\nSystem.Runtime.CompilerServices.AsyncTaskMethodBuilder`1:Start(<Run>d__52&)\ncom.IvanMurzak.McpPlugin.RunTool:Run(String, IReadOnlyDictionary`2, CancellationToken)\ncom.IvanMurzak.McpPlugin.<RunCallTool>d__26:MoveNext()\nSystem.Runtime.CompilerServices.AsyncTaskMethodBuilder`1:Start(<RunCallTool>d__26&)\ncom.IvanMurzak.McpPlugin.McpToolManager:RunCallTool(RequestCallTool, CancellationToken)\ncom.IvanMurzak.McpPlugin.McpToolManager:RunCallTool(RequestCallTool)\ncom.IvanMurzak.McpPlugin.<>c__DisplayClass4_0:<SubscribeOnServerEvents>b__4(RequestCallTool)\nMicrosoft.AspNetCore.SignalR.Client.<>c__DisplayClass56_0`2:<On>b__0(Object[])\nMicrosoft.AspNetCore.SignalR.Client.<<On>b__45_0>d:MoveNext()\nSystem.Runtime.CompilerServices.AsyncTaskMethodBuilder`1:Start(<<On>b__45_0>d&)\nMicrosoft.AspNetCore.SignalR.Client.<>c__45`1:<On>b__45_0(Object[], Object)\nMicrosoft.AspNetCore.SignalR.Client.InvocationHandler:InvokeAsync(Object[])\nMicrosoft.AspNetCore.SignalR.Client.<DispatchInvocationAsync>d__77:MoveNext()\nSystem.Runtime.CompilerServices.AsyncTaskMethodBuilder:Start(<DispatchInvocationAsync>d__77&)\nMicrosoft.AspNetCore.SignalR.Client.HubConnection:DispatchInvocationAsync(InvocationMessage, ConnectionState)\nMicrosoft.AspNetCore.SignalR.Client.<<ReceiveLoop>g__StartProcessingInvocationMessages|0>d:MoveNext()\nSystem.Threading._ThreadPoolWaitCallback:PerformWaitCallback()\n"
+      },
+      {
+        "LogType": "Error",
+        "Message": "fail: [15:45:01:6943] [AI] ToolRunnerCollection Tool execution failed for 'Script / Execute': One or more errors occurred. (Execution failed. TargetInvocationException: This cannot be used during play mode.\n  at (wrapper managed-to-native) UnityEditor.SceneManagement.EditorSceneManager.SaveSceneInternal_Injected(UnityEngine.SceneManagement.Scene&,UnityEngine.Bindings.ManagedSpanWrapper&,bool)\r\n  at UnityEditor.SceneManagement.EditorSceneManager.SaveSceneInternal (UnityEngine.SceneManagement.Scene scene, System.String dstScenePath, System.Boolean saveAsCopy) [0x0002b] in <2608e8670e87477ba4f8f33d8e275d95>:0 \r\n  at UnityEditor.SceneManagement.EditorSceneManager.SaveScene (UnityEngine.SceneManagement.Scene scene, System.String dstScenePath, System.Boolean saveAsCopy) [0x00017] in <2608e8670e87477ba4f8f33d8e275d95>:0 \r\n  at UnityEditor.SceneManagement.EditorSceneManager.SaveScene (UnityEngine.SceneManagement.Scene scene) [0x00008] in <2608e8670e87477ba4f8f33d8e275d95>:0 \r\n  at InstChar.Main () [0x0014b] in <e64730414b4e441999cd2a8518cf803c>:0 \r\n  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)\r\n  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <816f70bc2a9c4332b0bd119906a8d40e>:0 )\n  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <816f70bc2a9c4332b0bd119906a8d40e>:0 \r\n  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <816f70bc2a9c4332b0bd119906a8d40e>:0 \r\n  at com.IvanMurzak.ReflectorNet.MethodWrapper.InvokeDict (System.Collections.Generic.IReadOnlyDictionary`2[TKey,TValue] namedParameters, System.Threading.CancellationToken cancellationToken) [0x0005d] in <8bc81e359af54b0dbb0e2779a627f67f>:0 \r\n  at com.IvanMurzak.McpPlugin.RunTool.Run (System.String requestId, System.Collections.Generic.IReadOnlyDictionary`2[TKey,TValue] namedParameters, System.Threading.CancellationToken cancellationToken) [0x000ab] in <a60a6af4c10448ed8e84fa69919ff98e>:0 ",
+        "Timestamp": "2026-07-09T15:45:01.6984661+02:00",
+        "StackTrace": "UnityEngine.Debug:LogError (object)\ncom.IvanMurzak.Unity.MCP.Utils.UnityLogger:Log<Microsoft.Extensions.Logging.FormattedLogValues> (Microsoft.Extensions.Logging.LogLevel,Microsoft.Extensions.Logging.EventId,Microsoft.Extensions.Logging.FormattedLogValues,System.Exception,System.Func`3<Microsoft.Extensions.Logging.FormattedLogValues, System.Exception, string>) (at ./Library/PackageCache/com.ivanmurzak.unity.mcp@8d94ff2d09e4/Runtime/Logger/UnityLogger.cs:119)\nMicrosoft.Extensions.Logging.LoggerExtensions:Log (Microsoft.Extensions.Logging.ILogger,Microsoft.Extensions.Logging.LogLevel,Microsoft.Extensions.Logging.EventId,System.Exception,string,object[])\nMicrosoft.Extensions.Logging.LoggerExtensions:Log (Microsoft.Extensions.Logging.ILogger,Microsoft.Extensions.Logging.LogLevel,System.Exception,string,object[])\nMicrosoft.Extensions.Logging.LoggerExtensions:LogError (Microsoft.Extensions.Logging.ILogger,System.Exception,string,object[])\ncom.IvanMurzak.McpPlugin.RunTool/<Run>d__52:MoveNext ()\nSystem.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<com.IvanMurzak.McpPlugin.Common.Model.ResponseCallTool>:Start<com.IvanMurzak.McpPlugin.RunTool/<Run>d__52> (com.IvanMurzak.McpPlugin.RunTool/<Run>d__52&)\ncom.IvanMurzak.McpPlugin.RunTool:Run (string,System.Collections.Generic.IReadOnlyDictionary`2<string, System.Text.Json.JsonElement>,System.Threading.CancellationToken)\ncom.IvanMurzak.McpPlugin.McpToolManager/<RunCallTool>d__26:MoveNext ()\nSystem.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<com.IvanMurzak.McpPlugin.Common.Model.ResponseData`1<com.IvanMurzak.McpPlugin.Common.Model.ResponseCallTool>>:Start<com.IvanMurzak.McpPlugin.McpToolManager/<RunCallTool>d__26> (com.IvanMurzak.McpPlugin.McpToolManager/<RunCallTool>d__26&)\ncom.IvanMurzak.McpPlugin.McpToolManager:RunCallTool (com.IvanMurzak.McpPlugin.Common.Model.RequestCallTool,System.Threading.CancellationToken)\ncom.IvanMurzak.McpPlugin.McpToolManager:RunCallTool (com.IvanMurzak.McpPlugin.Common.Model.RequestCallTool)\ncom.IvanMurzak.McpPlugin.McpManagerClientHub/<>c__DisplayClass4_0:<SubscribeOnServerEvents>b__4 (com.IvanMurzak.McpPlugin.Common.Model.RequestCallTool)\nMicrosoft.AspNetCore.SignalR.Client.HubConnectionExtensions/<>c__DisplayClass56_0`2<com.IvanMurzak.McpPlugin.Common.Model.RequestCallTool, com.IvanMurzak.McpPlugin.Common.Model.ResponseData`1<com.IvanMurzak.McpPlugin.Common.Model.ResponseCallTool>>:<On>b__0 (object[])\nMicrosoft.AspNetCore.SignalR.Client.HubConnectionExtensions/<>c__45`1/<<On>b__45_0>d<com.IvanMurzak.McpPlugin.Common.Model.ResponseData`1<com.IvanMurzak.McpPlugin.Common.Model.ResponseCallTool>>:MoveNext ()\nSystem.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<object>:Start<Microsoft.AspNetCore.SignalR.Client.HubConnectionExtensions/<>c__45`1/<<On>b__45_0>d<com.IvanMurzak.McpPlugin.Common.Model.ResponseData`1<com.IvanMurzak.McpPlugin.Common.Model.ResponseCallTool>>> (Microsoft.AspNetCore.SignalR.Client.HubConnectionExtensions/<>c__45`1/<<On>b__45_0>d<com.IvanMurzak.McpPlugin.Common.Model.ResponseData`1<com.IvanMurzak.McpPlugin.Common.Model.ResponseCallTool>>&)\nMicrosoft.AspNetCore.SignalR.Client.HubConnectionExtensions/<>c__45`1<com.IvanMurzak.McpPlugin.Common.Model.ResponseData`1<com.IvanMurzak.McpPlugin.Common.Model.ResponseCallTool>>:<On>b__45_0 (object[],object)\nMicrosoft.AspNetCore.SignalR.Client.HubConnection/InvocationHandler:InvokeAsync (object[])\nMicrosoft.AspNetCore.SignalR.Client.HubConnection/<DispatchInvocationAsync>d__77:MoveNext ()\nSystem.Runtime.CompilerServices.AsyncTaskMethodBuilder:Start<Microsoft.AspNetCore.SignalR.Client.HubConnection/<DispatchInvocationAsync>d__77> (Microsoft.AspNetCore.SignalR.Client.HubConnection/<DispatchInvocationAsync>d__77&)\nMicrosoft.AspNetCore.SignalR.Client.HubConnection:DispatchInvocationAsync (Microsoft.AspNetCore.SignalR.Protocol.InvocationMessage,Microsoft.AspNetCore.SignalR.Client.HubConnection/ConnectionState)\nMicrosoft.AspNetCore.SignalR.Client.HubConnection/<>c__DisplayClass82_0/<<ReceiveLoop>g__StartProcessingInvocationMessages|0>d:MoveNext ()\nSystem.Threading._ThreadPoolWaitCallback:PerformWaitCallback ()\n"
+      },
+      {
+        "LogType": "Error",
+        "Message": "fail: [15:45:01:6984] [AI] McpToolManager Error Response to AI:\nTool execution failed for 'Script / Execute': One or more errors occurred. (Execution failed. TargetInvocationException: This cannot be used during play mode.\n  at (wrapper managed-to-native) UnityEditor.SceneManagement.EditorSceneManager.SaveSceneInternal_Injected(UnityEngine.SceneManagement.Scene&,UnityEngine.Bindings.ManagedSpanWrapper&,bool)\r\n  at UnityEditor.SceneManagement.EditorSceneManager.SaveSceneInternal (UnityEngine.SceneManagement.Scene scene, System.String dstScenePath, System.Boolean saveAsCopy) [0x0002b] in <2608e8670e87477ba4f8f33d8e275d95>:0 \r\n  at UnityEditor.SceneManagement.EditorSceneManager.SaveScene (UnityEngine.SceneManagement.Scene scene, System.String dstScenePath, System.Boolean saveAsCopy) [0x00017] in <2608e8670e87477ba4f8f33d8e275d95>:0 \r\n  at UnityEditor.SceneManagement.EditorSceneManager.SaveScene (UnityEngine.SceneManagement.Scene scene) [0x00008] in <2608e8670e87477ba4f8f33d8e275d95>:0 \r\n  at InstChar.Main () [0x0014b] in <e64730414b4e441999cd2a8518cf803c>:0 \r\n  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)\r\n  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <816f70bc2a9c4332b0bd119906a8d40e>:0 )",
+        "Timestamp": "2026-07-09T15:45:01.6984661+02:00",
+        "StackTrace": "UnityEngine.Debug:LogError (object)\ncom.IvanMurzak.Unity.MCP.Utils.UnityLogger:Log<Microsoft.Extensions.Logging.FormattedLogValues> (Microsoft.Extensions.Logging.LogLevel,Microsoft.Extensions.Logging.EventId,Microsoft.Extensions.Logging.FormattedLogValues,System.Exception,System.Func`3<Microsoft.Extensions.Logging.FormattedLogValues, System.Exception, string>) (at ./Library/PackageCache/com.ivanmurzak.unity.mcp@8d94ff2d09e4/Runtime/Logger/UnityLogger.cs:119)\nMicrosoft.Extensions.Logging.Logger:<Log>g__LoggerLog|14_0<Microsoft.Extensions.Logging.FormattedLogValues> (Microsoft.Extensions.Logging.LogLevel,Microsoft.Extensions.Logging.EventId,Microsoft.Extensions.Logging.ILogger,System.Exception,System.Func`3<Microsoft.Extensions.Logging.FormattedLogValues, System.Exception, string>,System.Collections.Generic.List`1<System.Exception>&,Microsoft.Extensions.Logging.FormattedLogValues&)\nMicrosoft.Extensions.Logging.Logger:Log<Microsoft.Extensions.Logging.FormattedLogValues> (Microsoft.Extensions.Logging.LogLevel,Microsoft.Extensions.Logging.EventId,Microsoft.Extensions.Logging.FormattedLogValues,System.Exception,System.Func`3<Microsoft.Extensions.Logging.FormattedLogValues, System.Exception, string>)\nMicrosoft.Extensions.Logging.Logger`1<com.IvanMurzak.McpPlugin.McpToolManager>:Microsoft.Extensions.Logging.ILogger.Log<Microsoft.Extensions.Logging.FormattedLogValues> (Microsoft.Extensions.Logging.LogLevel,Microsoft.Extensions.Logging.EventId,Microsoft.Extensions.Logging.FormattedLogValues,System.Exception,System.Func`3<Microsoft.Extensions.Logging.FormattedLogValues, System.Exception, string>)\nMicrosoft.Extensions.Logging.LoggerExtensions:Log (Microsoft.Extensions.Logging.ILogger,Microsoft.Extensions.Logging.LogLevel,Microsoft.Extensions.Logging.EventId,System.Exception,string,object[])\nMicrosoft.Extensions.Logging.LoggerExtensions:Log (Microsoft.Extensions.Logging.ILogger,Microsoft.Extensions.Logging.LogLevel,System.Exception,string,object[])\nMicrosoft.Extensions.Logging.LoggerExtensions:LogError (Microsoft.Extensions.Logging.ILogger,System.Exception,string,object[])\ncom.IvanMurzak.McpPlugin.Common.Model.ResponseCallToolExtensions:Log (com.IvanMurzak.McpPlugin.Common.Model.ResponseCallTool,Microsoft.Extensions.Logging.ILogger,System.Exception)\ncom.IvanMurzak.McpPlugin.McpToolManager/<RunCallTool>d__26:MoveNext ()\nSystem.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<com.IvanMurzak.McpPlugin.Common.Model.ResponseData`1<com.IvanMurzak.McpPlugin.Common.Model.ResponseCallTool>>:Start<com.IvanMurzak.McpPlugin.McpToolManager/<RunCallTool>d__26> (com.IvanMurzak.McpPlugin.McpToolManager/<RunCallTool>d__26&)\ncom.IvanMurzak.McpPlugin.McpToolManager:RunCallTool (com.IvanMurzak.McpPlugin.Common.Model.RequestCallTool,System.Threading.CancellationToken)\ncom.IvanMurzak.McpPlugin.McpToolManager:RunCallTool (com.IvanMurzak.McpPlugin.Common.Model.RequestCallTool)\ncom.IvanMurzak.McpPlugin.McpManagerClientHub/<>c__DisplayClass4_0:<SubscribeOnServerEvents>b__4 (com.IvanMurzak.McpPlugin.Common.Model.RequestCallTool)\nMicrosoft.AspNetCore.SignalR.Client.HubConnectionExtensions/<>c__DisplayClass56_0`2<com.IvanMurzak.McpPlugin.Common.Model.RequestCallTool, com.IvanMurzak.McpPlugin.Common.Model.ResponseData`1<com.IvanMurzak.McpPlugin.Common.Model.ResponseCallTool>>:<On>b__0 (object[])\nMicrosoft.AspNetCore.SignalR.Client.HubConnectionExtensions/<>c__45`1/<<On>b__45_0>d<com.IvanMurzak.McpPlugin.Common.Model.ResponseData`1<com.IvanMurzak.McpPlugin.Common.Model.ResponseCallTool>>:MoveNext ()\nSystem.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<object>:Start<Microsoft.AspNetCore.SignalR.Client.HubConnectionExtensions/<>c__45`1/<<On>b__45_0>d<com.IvanMurzak.McpPlugin.Common.Model.ResponseData`1<com.IvanMurzak.McpPlugin.Common.Model.ResponseCallTool>>> (Microsoft.AspNetCore.SignalR.Client.HubConnectionExtensions/<>c__45`1/<<On>b__45_0>d<com.IvanMurzak.McpPlugin.Common.Model.ResponseData`1<com.IvanMurzak.McpPlugin.Common.Model.ResponseCallTool>>&)\nMicrosoft.AspNetCore.SignalR.Client.HubConnectionExtensions/<>c__45`1<com.IvanMurzak.McpPlugin.Common.Model.ResponseData`1<com.IvanMurzak.McpPlugin.Common.Model.ResponseCallTool>>:<On>b__45_0 (object[],object)\nMicrosoft.AspNetCore.SignalR.Client.HubConnection/InvocationHandler:InvokeAsync (object[])\nMicrosoft.AspNetCore.SignalR.Client.HubConnection/<DispatchInvocationAsync>d__77:MoveNext ()\nSystem.Runtime.CompilerServices.AsyncTaskMethodBuilder:Start<Microsoft.AspNetCore.SignalR.Client.HubConnection/<DispatchInvocationAsync>d__77> (Microsoft.AspNetCore.SignalR.Client.HubConnection/<DispatchInvocationAsync>d__77&)\nMicrosoft.AspNetCore.SignalR.Client.HubConnection:DispatchInvocationAsync (Microsoft.AspNetCore.SignalR.Protocol.InvocationMessage,Microsoft.AspNetCore.SignalR.Client.HubConnection/ConnectionState)\nMicrosoft.AspNetCore.SignalR.Client.HubConnection/<>c__DisplayClass82_0/<<ReceiveLoop>g__StartProcessingInvocationMessages|0>d:MoveNext ()\nSystem.Threading._ThreadPoolWaitCallback:PerformWaitCallback ()\n"
+      },
+      {
+        "LogType": "Error",
+        "Message": "The project path contains spaces, which may cause issues during usage of AI Game Developer. Please consider the move the project to a folder without spaces.",
+        "Timestamp": "2026-07-09T15:53:16.0893096+02:00",
+        "StackTrace": "UnityEngine.Debug:LogError (object)\ncom.IvanMurzak.Unity.MCP.Editor.Startup:.cctor () (at ./Library/PackageCache/com.ivanmurzak.unity.mcp@8d94ff2d09e4/Editor/Scripts/Startup.cs:33)\nUnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.ReadOnlySpan`1<intptr>)\n"
+      },
+      {
+        "LogType": "Error",
+        "Message": "The project path contains spaces, which may cause issues during usage of AI Game Developer. Please consider the move the project to a folder without spaces.",
+        "Timestamp": "2026-07-09T15:59:21.6365943+02:00",
+        "StackTrace": "UnityEngine.Debug:LogError (object)\ncom.IvanMurzak.Unity.MCP.Editor.Startup:.cctor () (at ./Library/PackageCache/com.ivanmurzak.unity.mcp@8d94ff2d09e4/Editor/Scripts/Startup.cs:33)\nUnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.ReadOnlySpan`1<intptr>)\n"
+      },
+      {
+        "LogType": "Error",
+        "Message": "EnvironmentDependencyValues requested are different than current active one (requested -> active):\n",
+        "Timestamp": "2026-07-09T15:53:48.7553519+02:00"
+      },
+      {
+        "LogType": "Error",
+        "Message": "  graphicsApiMask: 2048 -> 264192\n",
+        "Timestamp": "2026-07-09T15:53:48.7553519+02:00"
+      },
+      {
+        "LogType": "Error",
+        "Message": "EnvironmentDependencyValues requested are different than current active one (requested -> active):\n",
+        "Timestamp": "2026-07-09T15:56:40.9793864+02:00"
+      },
+      {
+        "LogType": "Error",
+        "Message": "  graphicsApiMask: 2048 -> 264192\n",
+        "Timestamp": "2026-07-09T15:56:40.9800206+02:00"
+      },
+      {
+        "LogType": "Error",
+        "Message": "EnvironmentDependencyValues requested are different than current active one (requested -> active):\n",
+        "Timestamp": "2026-07-09T15:57:58.3150757+02:00"
+      },
+      {
+        "LogType": "Error",
+        "Message": "  graphicsApiMask: 2048 -> 264192\n",
+        "Timestamp": "2026-07-09T15:57:58.3150757+02:00"
+      },
+      {
+        "LogType": "Error",
+        "Message": "EnvironmentDependencyValues requested are different than current active one (requested -> active):\n",
+        "Timestamp": "2026-07-09T15:59:13.0006663+02:00"
+      },
+      {
+        "LogType": "Error",
+        "Message": "  graphicsApiMask: 2048 -> 264192\n",
+        "Timestamp": "2026-07-09T15:59:13.0006663+02:00"
+      },
+      {
+        "LogType": "Error",
+        "Message": "The project path contains spaces, which may cause issues during usage of AI Game Developer. Please consider the move the project to a folder without spaces.",
+        "Timestamp": "2026-07-09T16:00:51.3417774+02:00",
+        "StackTrace": "UnityEngine.Debug:LogError (object)\ncom.IvanMurzak.Unity.MCP.Editor.Startup:.cctor () (at ./Library/PackageCache/com.ivanmurzak.unity.mcp@8d94ff2d09e4/Editor/Scripts/Startup.cs:33)\nUnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.ReadOnlySpan`1<intptr>)\n"
+      },
+      {
+        "LogType": "Error",
+        "Message": "EnvironmentDependencyValues requested are different than current active one (requested -> active):\n",
+        "Timestamp": "2026-07-09T15:59:47.7214071+02:00"
+      },
+      {
+        "LogType": "Error",
+        "Message": "  graphicsApiMask: 2048 -> 264192\n",
+        "Timestamp": "2026-07-09T15:59:47.7214071+02:00"
+      },
+      {
+        "LogType": "Error",
+        "Message": "The project path contains spaces, which may cause issues during usage of AI Game Developer. Please consider the move the project to a folder without spaces.",
+        "Timestamp": "2026-07-09T16:07:46.4820491+02:00",
+        "StackTrace": "UnityEngine.Debug:LogError (object)\ncom.IvanMurzak.Unity.MCP.Editor.Startup:.cctor () (at ./Library/PackageCache/com.ivanmurzak.unity.mcp@8d94ff2d09e4/Editor/Scripts/Startup.cs:33)\nUnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.ReadOnlySpan`1<intptr>)\n"
+      },
+      {
+        "LogType": "Error",
+        "Message": "EnvironmentDependencyValues requested are different than current active one (requested -> active):\n",
+        "Timestamp": "2026-07-09T16:01:07.0653233+02:00"
+      },
+      {
+        "LogType": "Error",
+        "Message": "  graphicsApiMask: 2048 -> 264192\n",
+        "Timestamp": "2026-07-09T16:01:07.0663224+02:00"
+      },
+      {
+        "LogType": "Error",
+        "Message": "EnvironmentDependencyValues requested are different than current active one (requested -> active):\n",
+        "Timestamp": "2026-07-09T16:03:00.5941553+02:00"
+      },
+      {
+        "LogType": "Error",
+        "Message": "  graphicsApiMask: 2048 -> 264192\n",
+        "Timestamp": "2026-07-09T16:03:00.5941553+02:00"
+      },
+      {
+        "LogType": "Error",
+        "Message": "The project path contains spaces, which may cause issues during usage of AI Game Developer. Please consider the move the project to a folder without spaces.",
+        "Timestamp": "2026-07-09T16:09:31.1387738+02:00",
+        "StackTrace": "UnityEngine.Debug:LogError (object)\ncom.IvanMurzak.Unity.MCP.Editor.Startup:.cctor () (at ./Library/PackageCache/com.ivanmurzak.unity.mcp@8d94ff2d09e4/Editor/Scripts/Startup.cs:33)\nUnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.ReadOnlySpan`1<intptr>)\n"
+      },
+      {
+        "LogType": "Error",
+        "Message": "EnvironmentDependencyValues requested are different than current active one (requested -> active):\n",
+        "Timestamp": "2026-07-09T16:08:19.2241545+02:00"
+      },
+      {
+        "LogType": "Error",
+        "Message": "  graphicsApiMask: 2048 -> 264192\n",
+        "Timestamp": "2026-07-09T16:08:19.2251860+02:00"
+      },
+      {
+        "LogType": "Error",
+        "Message": "The project path contains spaces, which may cause issues during usage of AI Game Developer. Please consider the move the project to a folder without spaces.",
+        "Timestamp": "2026-07-09T16:23:15.9958129+02:00",
+        "StackTrace": "UnityEngine.Debug:LogError (object)\ncom.IvanMurzak.Unity.MCP.Editor.Startup:.cctor () (at ./Library/PackageCache/com.ivanmurzak.unity.mcp@8d94ff2d09e4/Editor/Scripts/Startup.cs:33)\nUnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.ReadOnlySpan`1<intptr>)\n"
+      },
+      {
+        "LogType": "Error",
+        "Message": "EnvironmentDependencyValues requested are different than current active one (requested -> active):\n",
+        "Timestamp": "2026-07-09T16:09:46.5789595+02:00"
+      },
+      {
+        "LogType": "Error",
+        "Message": "  graphicsApiMask: 2048 -> 264192\n",
+        "Timestamp": "2026-07-09T16:09:46.5794662+02:00"
+      },
+      {
+        "LogType": "Error",
+        "Message": "EnvironmentDependencyValues requested are different than current active one (requested -> active):\n",
+        "Timestamp": "2026-07-09T16:12:15.0514172+02:00"
+      },
+      {
+        "LogType": "Error",
+        "Message": "  graphicsApiMask: 2048 -> 264192\n",
+        "Timestamp": "2026-07-09T16:12:15.0514172+02:00"
+      },
+      {
+        "LogType": "Error",
+        "Message": "EnvironmentDependencyValues requested are different than current active one (requested -> active):\n",
+        "Timestamp": "2026-07-09T16:20:08.2795237+02:00"
+      },
+      {
+        "LogType": "Error",
+        "Message": "  graphicsApiMask: 2048 -> 264192\n",
+        "Timestamp": "2026-07-09T16:20:08.2800779+02:00"
+      },
+      {
+        "LogType": "Error",
+        "Message": "EnvironmentDependencyValues requested are different than current active one (requested -> active):\n",
+        "Timestamp": "2026-07-09T16:21:35.8539908+02:00"
+      },
+      {
+        "LogType": "Error",
+        "Message": "  graphicsApiMask: 2048 -> 264192\n",
+        "Timestamp": "2026-07-09T16:21:35.8539908+02:00"
+      },
+      {
+        "LogType": "Error",
+        "Message": "EnvironmentDependencyValues requested are different than current active one (requested -> active):\n",
+        "Timestamp": "2026-07-09T16:21:36.6421790+02:00"
+      },
+      {
+        "LogType": "Error",
+        "Message": "  graphicsApiMask: 2048 -> 264192\n",
+        "Timestamp": "2026-07-09T16:21:36.6421790+02:00"
+      },
+      {
+        "LogType": "Error",
+        "Message": "EnvironmentDependencyValues requested are different than current active one (requested -> active):\n",
+        "Timestamp": "2026-07-09T16:22:34.9276804+02:00"
+      },
+      {
+        "LogType": "Error",
+        "Message": "  graphicsApiMask: 2048 -> 264192\n",
+        "Timestamp": "2026-07-09T16:22:34.9276804+02:00"
+      },
+      {
+        "LogType": "Error",
+        "Message": "The project path contains spaces, which may cause issues during usage of AI Game Developer. Please consider the move the project to a folder without spaces.",
+        "Timestamp": "2026-07-09T16:25:02.8997400+02:00",
+        "StackTrace": "UnityEngine.Debug:LogError (object)\ncom.IvanMurzak.Unity.MCP.Editor.Startup:.cctor () (at ./Library/PackageCache/com.ivanmurzak.unity.mcp@8d94ff2d09e4/Editor/Scripts/Startup.cs:33)\nUnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.ReadOnlySpan`1<intptr>)\n"
+      },
+      {
+        "LogType": "Error",
+        "Message": "EnvironmentDependencyValues requested are different than current active one (requested -> active):\n",
+        "Timestamp": "2026-07-09T16:23:37.3908419+02:00"
+      },
+      {
+        "LogType": "Error",
+        "Message": "  graphicsApiMask: 2048 -> 264192\n",
+        "Timestamp": "2026-07-09T16:23:37.3908419+02:00"
+      },
+      {
+        "LogType": "Error",
+        "Message": "EnvironmentDependencyValues requested are different than current active one (requested -> active):\n",
+        "Timestamp": "2026-07-09T16:24:55.7418145+02:00"
+      },
+      {
+        "LogType": "Error",
+        "Message": "  graphicsApiMask: 2048 -> 264192\n",
+        "Timestamp": "2026-07-09T16:24:55.7418145+02:00"
+      },
+      {
+        "LogType": "Error",
+        "Message": "The project path contains spaces, which may cause issues during usage of AI Game Developer. Please consider the move the project to a folder without spaces.",
+        "Timestamp": "2026-07-09T16:27:03.6165849+02:00",
+        "StackTrace": "UnityEngine.Debug:LogError (object)\ncom.IvanMurzak.Unity.MCP.Editor.Startup:.cctor () (at ./Library/PackageCache/com.ivanmurzak.unity.mcp@8d94ff2d09e4/Editor/Scripts/Startup.cs:33)\nUnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.ReadOnlySpan`1<intptr>)\n"
+      },
+      {
+        "LogType": "Error",
+        "Message": "EnvironmentDependencyValues requested are different than current active one (requested -> active):\n",
+        "Timestamp": "2026-07-09T16:25:19.2171708+02:00"
+      },
+      {
+        "LogType": "Error",
+        "Message": "  graphicsApiMask: 2048 -> 264192\n",
+        "Timestamp": "2026-07-09T16:25:19.2171708+02:00"
+      },
+      {
+        "LogType": "Error",
+        "Message": "EnvironmentDependencyValues requested are different than current active one (requested -> active):\n",
+        "Timestamp": "2026-07-09T16:26:47.2825001+02:00"
+      },
+      {
+        "LogType": "Error",
+        "Message": "  graphicsApiMask: 2048 -> 264192\n",
+        "Timestamp": "2026-07-09T16:26:47.2825001+02:00"
+      },
+      {
+        "LogType": "Error",
+        "Message": "The project path contains spaces, which may cause issues during usage of AI Game Developer. Please consider the move the project to a folder without spaces.",
+        "Timestamp": "2026-07-09T16:32:17.7749788+02:00",
+        "StackTrace": "UnityEngine.Debug:LogError (object)\ncom.IvanMurzak.Unity.MCP.Editor.Startup:.cctor () (at ./Library/PackageCache/com.ivanmurzak.unity.mcp@8d94ff2d09e4/Editor/Scripts/Startup.cs:33)\nUnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.ReadOnlySpan`1<intptr>)\n"
+      },
+      {
+        "LogType": "Error",
+        "Message": "EnvironmentDependencyValues requested are different than current active one (requested -> active):\n",
+        "Timestamp": "2026-07-09T16:27:21.3247792+02:00"
+      },
+      {
+        "LogType": "Error",
+        "Message": "  graphicsApiMask: 2048 -> 264192\n",
+        "Timestamp": "2026-07-09T16:27:21.3247792+02:00"
+      },
+      {
+        "LogType": "Error",
+        "Message": "EnvironmentDependencyValues requested are different than current active one (requested -> active):\n",
+        "Timestamp": "2026-07-09T16:29:14.1828882+02:00"
+      },
+      {
+        "LogType": "Error",
+        "Message": "  graphicsApiMask: 2048 -> 264192\n",
+        "Timestamp": "2026-07-09T16:29:14.1838876+02:00"
+      },
+      {
+        "LogType": "Error",
+        "Message": "The project path contains spaces, which may cause issues during usage of AI Game Developer. Please consider the move the project to a folder without spaces.",
+        "Timestamp": "2026-07-09T16:34:19.4939967+02:00",
+        "StackTrace": "UnityEngine.Debug:LogError (object)\ncom.IvanMurzak.Unity.MCP.Editor.Startup:.cctor () (at ./Library/PackageCache/com.ivanmurzak.unity.mcp@8d94ff2d09e4/Editor/Scripts/Startup.cs:33)\nUnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.ReadOnlySpan`1<intptr>)\n"
+      },
+      {
+        "LogType": "Error",
+        "Message": "EnvironmentDependencyValues requested are different than current active one (requested -> active):\n",
+        "Timestamp": "2026-07-09T16:32:47.5738200+02:00"
+      },
+      {
+        "LogType": "Error",
+        "Message": "  graphicsApiMask: 2048 -> 264192\n",
+        "Timestamp": "2026-07-09T16:32:47.5738200+02:00"
+      },
+      {
+        "LogType": "Error",
+        "Message": "EnvironmentDependencyValues requested are different than current active one (requested -> active):\n",
+        "Timestamp": "2026-07-09T16:34:12.0537152+02:00"
+      },
+      {
+        "LogType": "Error",
+        "Message": "  graphicsApiMask: 2048 -> 264192\n",
+        "Timestamp": "2026-07-09T16:34:12.0537152+02:00"
+      },
+      {
+        "LogType": "Error",
+        "Message": "The project path contains spaces, which may cause issues during usage of AI Game Developer. Please consider the move the project to a folder without spaces.",
+        "Timestamp": "2026-07-09T16:35:36.2028858+02:00",
+        "StackTrace": "UnityEngine.Debug:LogError (object)\ncom.IvanMurzak.Unity.MCP.Editor.Startup:.cctor () (at ./Library/PackageCache/com.ivanmurzak.unity.mcp@8d94ff2d09e4/Editor/Scripts/Startup.cs:33)\nUnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.ReadOnlySpan`1<intptr>)\n"
+      },
+      {
+        "LogType": "Error",
+        "Message": "EnvironmentDependencyValues requested are different than current active one (requested -> active):\n",
+        "Timestamp": "2026-07-09T16:34:39.1475355+02:00"
+      },
+      {
+        "LogType": "Error",
+        "Message": "  graphicsApiMask: 2048 -> 264192\n",
+        "Timestamp": "2026-07-09T16:34:39.1475355+02:00"
+      },
+      {
+        "LogType": "Error",
+        "Message": "The project path contains spaces, which may cause issues during usage of AI Game Developer. Please consider the move the project to a folder without spaces.",
+        "Timestamp": "2026-07-09T16:56:07.9132457+02:00",
+        "StackTrace": "UnityEngine.Debug:LogError (object)\ncom.IvanMurzak.Unity.MCP.Editor.Startup:.cctor () (at ./Library/PackageCache/com.ivanmurzak.unity.mcp@8d94ff2d09e4/Editor/Scripts/Startup.cs:33)\nUnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.ReadOnlySpan`1<intptr>)\n"
+      },
+      {
+        "LogType": "Error",
+        "Message": "EnvironmentDependencyValues requested are different than current active one (requested -> active):\n",
+        "Timestamp": "2026-07-09T16:35:52.9570720+02:00"
+      },
+      {
+        "LogType": "Error",
+        "Message": "  graphicsApiMask: 2048 -> 264192\n",
+        "Timestamp": "2026-07-09T16:35:52.9570720+02:00"
+      },
+      {
+        "LogType": "Error",
+        "Message": "EnvironmentDependencyValues requested are different than current active one (requested -> active):\n",
+        "Timestamp": "2026-07-09T16:55:52.2966550+02:00"
+      },
+      {
+        "LogType": "Error",
+        "Message": "  graphicsApiMask: 2048 -> 264192\n",
+        "Timestamp": "2026-07-09T16:55:52.2966550+02:00"
+      },
+      {
+        "LogType": "Error",
+        "Message": "The project path contains spaces, which may cause issues during usage of AI Game Developer. Please consider the move the project to a folder without spaces.",
+        "Timestamp": "2026-07-09T16:56:31.2549566+02:00",
+        "StackTrace": "UnityEngine.Debug:LogError (object)\ncom.IvanMurzak.Unity.MCP.Editor.Startup:.cctor () (at ./Library/PackageCache/com.ivanmurzak.unity.mcp@8d94ff2d09e4/Editor/Scripts/Startup.cs:33)\nUnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.ReadOnlySpan`1<intptr>)\n"
+      },
+      {
+        "LogType": "Error",
+        "Message": "  graphicsApiMask: 2048 -> 264192\n",
+        "Timestamp": "2026-07-09T16:56:27.6228724+02:00"
+      },
+      {
+        "LogType": "Error",
+        "Message": "The project path contains spaces, which may cause issues during usage of AI Game Developer. Please consider the move the project to a folder without spaces.",
+        "Timestamp": "2026-07-09T18:27:46.3493495+02:00",
+        "StackTrace": "UnityEngine.Debug:LogError (object)\ncom.IvanMurzak.Unity.MCP.Editor.Startup:.cctor () (at ./Library/PackageCache/com.ivanmurzak.unity.mcp@8d94ff2d09e4/Editor/Scripts/Startup.cs:33)\nUnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.ReadOnlySpan`1<intptr>)\n"
+      },
+      {
+        "LogType": "Error",
+        "Message": "  graphicsApiMask: 2048 -> 264192\n",
+        "Timestamp": "2026-07-09T16:56:47.5210475+02:00"
+      },
+      {
+        "LogType": "Error",
+        "Message": "The project path contains spaces, which may cause issues during usage of AI Game Developer. Please consider the move the project to a folder without spaces.",
+        "Timestamp": "2026-07-09T18:33:21.8180938+02:00",
+        "StackTrace": "UnityEngine.Debug:LogError (object)\ncom.IvanMurzak.Unity.MCP.Editor.Startup:.cctor () (at ./Library/PackageCache/com.ivanmurzak.unity.mcp@8d94ff2d09e4/Editor/Scripts/Startup.cs:33)\nUnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.ReadOnlySpan`1<intptr>)\n"
+      },
+      {
+        "LogType": "Error",
+        "Message": "EnvironmentDependencyValues requested are different than current active one (requested -> active):\n",
+        "Timestamp": "2026-07-09T18:28:12.5014153+02:00"
+      },
+      {
+        "LogType": "Error",
+        "Message": "  graphicsApiMask: 2048 -> 264192\n",
+        "Timestamp": "2026-07-09T18:28:12.5014153+02:00"
+      },
+      {
+        "LogType": "Error",
+        "Message": "EnvironmentDependencyValues requested are different than current active one (requested -> active):\n",
+        "Timestamp": "2026-07-09T18:33:14.3470221+02:00"
+      },
+      {
+        "LogType": "Error",
+        "Message": "  graphicsApiMask: 2048 -> 264192\n",
+        "Timestamp": "2026-07-09T18:33:14.3470221+02:00"
+      },
+      {
+        "LogType": "Error",
+        "Message": "The project path contains spaces, which may cause issues during usage of AI Game Developer. Please consider the move the project to a folder without spaces.",
+        "Timestamp": "2026-07-09T18:34:56.2263530+02:00",
+        "StackTrace": "UnityEngine.Debug:LogError (object)\ncom.IvanMurzak.Unity.MCP.Editor.Startup:.cctor () (at ./Library/PackageCache/com.ivanmurzak.unity.mcp@8d94ff2d09e4/Editor/Scripts/Startup.cs:33)\nUnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.ReadOnlySpan`1<intptr>)\n"
+      },
+      {
+        "LogType": "Error",
+        "Message": "EnvironmentDependencyValues requested are different than current active one (requested -> active):\n",
+        "Timestamp": "2026-07-09T18:33:41.1918626+02:00"
+      },
+      {
+        "LogType": "Error",
+        "Message": "  graphicsApiMask: 2048 -> 264192\n",
+        "Timestamp": "2026-07-09T18:33:41.1918626+02:00"
+      },
+      {
+        "LogType": "Error",
+        "Message": "EnvironmentDependencyValues requested are different than current active one (requested -> active):\n",
+        "Timestamp": "2026-07-09T18:34:49.1540148+02:00"
+      },
+      {
+        "LogType": "Error",
+        "Message": "  graphicsApiMask: 2048 -> 264192\n",
+        "Timestamp": "2026-07-09T18:34:49.1540148+02:00"
+      },
+      {
+        "LogType": "Error",
+        "Message": "The project path contains spaces, which may cause issues during usage of AI Game Developer. Please consider the move the project to a folder without spaces.",
+        "Timestamp": "2026-07-09T18:45:27.8274638+02:00",
+        "StackTrace": "UnityEngine.Debug:LogError (object)\ncom.IvanMurzak.Unity.MCP.Editor.Startup:.cctor () (at ./Library/PackageCache/com.ivanmurzak.unity.mcp@8d94ff2d09e4/Editor/Scripts/Startup.cs:33)\nUnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.ReadOnlySpan`1<intptr>)\n"
+      },
+      {
+        "LogType": "Error",
+        "Message": "EnvironmentDependencyValues requested are different than current active one (requested -> active):\n",
+        "Timestamp": "2026-07-09T18:35:15.5811590+02:00"
+      },
+      {
+        "LogType": "Error",
+        "Message": "  graphicsApiMask: 2048 -> 264192\n",
+        "Timestamp": "2026-07-09T18:35:15.5811590+02:00"
+      },
+      {
+        "LogType": "Error",
+        "Message": "The project path contains spaces, which may cause issues during usage of AI Game Developer. Please consider the move the project to a folder without spaces.",
+        "Timestamp": "2026-07-09T18:45:43.4394032+02:00",
+        "StackTrace": "UnityEngine.Debug:LogError (object)\ncom.IvanMurzak.Unity.MCP.Editor.Startup:.cctor () (at ./Library/PackageCache/com.ivanmurzak.unity.mcp@8d94ff2d09e4/Editor/Scripts/Startup.cs:33)\nUnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.ReadOnlySpan`1<intptr>)\n"
+      },
+      {
+        "LogType": "Error",
+        "Message": "EnvironmentDependencyValues requested are different than current active one (requested -> active):\n",
+        "Timestamp": "2026-07-09T18:45:46.5089143+02:00"
+      },
+      {
+        "LogType": "Error",
+        "Message": "  graphicsApiMask: 2048 -> 264192\n",
+        "Timestamp": "2026-07-09T18:45:46.5094190+02:00"
+      },
+      {
+        "LogType": "Warning",
+        "Message": "A meta data file (.meta) exists but its asset 'Assets/Scripts/Player/ArmsInView.cs.tmp.6552.bb1bf4dbe641' can't be found. When moving or deleting files outside of Unity, please ensure that the corresponding .meta file is moved or deleted along with it.",
+        "Timestamp": "2026-07-09T18:47:22.4236782+02:00"
+      },
+      {
+        "LogType": "Error",
+        "Message": "The project path contains spaces, which may cause issues during usage of AI Game Developer. Please consider the move the project to a folder without spaces.",
+        "Timestamp": "2026-07-09T18:48:06.5195632+02:00",
+        "StackTrace": "UnityEngine.Debug:LogError (object)\ncom.IvanMurzak.Unity.MCP.Editor.Startup:.cctor () (at ./Library/PackageCache/com.ivanmurzak.unity.mcp@8d94ff2d09e4/Editor/Scripts/Startup.cs:33)\nUnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.ReadOnlySpan`1<intptr>)\n"
+      },
+      {
+        "LogType": "Error",
+        "Message": "EnvironmentDependencyValues requested are different than current active one (requested -> active):\n",
+        "Timestamp": "2026-07-09T18:50:17.2108532+02:00"
+      },
+      {
+        "LogType": "Error",
+        "Message": "  graphicsApiMask: 2048 -> 264192\n",
+        "Timestamp": "2026-07-09T18:50:17.2118687+02:00"
+      }
+    ]
+  }
+}

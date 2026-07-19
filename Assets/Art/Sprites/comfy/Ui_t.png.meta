@@ -1,0 +1,574 @@
+fileFormatVersion: 2
+guid: 25edbcd3993650147b679f044b633f37
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5557846266792817137
+    second: Ui_t_0
+  - first:
+      213: 236291297159874232
+    second: Ui_t_1
+  - first:
+      213: -1774527949226376338
+    second: Ui_t_2
+  - first:
+      213: -1488722605021590744
+    second: Ui_t_3
+  - first:
+      213: 8376412126097054204
+    second: Ui_t_4
+  - first:
+      213: 6149073322726776795
+    second: Ui_t_5
+  - first:
+      213: 1201257946777632492
+    second: Ui_t_6
+  - first:
+      213: 3350115578974031261
+    second: Ui_t_7
+  - first:
+      213: 9008649898222811194
+    second: Ui_t_8
+  - first:
+      213: -1251596172651879240
+    second: Ui_t_9
+  - first:
+      213: -5665596950581573627
+    second: Ui_t_10
+  - first:
+      213: -1046210048168324378
+    second: Ui_t_11
+  - first:
+      213: -6371305575120784936
+    second: Ui_t_12
+  - first:
+      213: -6899356076886928292
+    second: Ui_t_13
+  - first:
+      213: -4375523254057885476
+    second: Ui_t_14
+  - first:
+      213: -5148252355007472607
+    second: Ui_t_15
+  - first:
+      213: -3400748916295494506
+    second: Ui_t_16
+  - first:
+      213: 4337322729646120609
+    second: Ui_t_17
+  - first:
+      213: 566584923956272657
+    second: Ui_t_18
+  - first:
+      213: -8310904469818410962
+    second: Ui_t_19
+  - first:
+      213: 5615162160840632368
+    second: Ui_t_20
+  - first:
+      213: 2221283375140110948
+    second: Ui_t_21
+  - first:
+      213: -2282828189308166536
+    second: Ui_t_22
+  - first:
+      213: -4840373327335392275
+    second: Ui_t_23
+  - first:
+      213: -8843881532885004061
+    second: Ui_t_24
+  - first:
+      213: -8463112828077849612
+    second: Ui_t_25
+  - first:
+      213: 1636260051672351314
+    second: Ui_t_26
+  - first:
+      213: -2680459903258222104
+    second: Ui_t_27
+  - first:
+      213: 8097653856626310607
+    second: Ui_t_28
+  - first:
+      213: 8346546190546035111
+    second: Ui_t_29
+  - first:
+      213: -152905873324753706
+    second: Ui_t_30
+  - first:
+      213: -4449693194863363866
+    second: Ui_t_31
+  - first:
+      213: -7486744723937833620
+    second: Ui_t_32
+  - first:
+      213: -7265389813113078172
+    second: Ui_t_33
+  - first:
+      213: -8910947122725812636
+    second: Ui_t_34
+  - first:
+      213: -7870651803657490074
+    second: Ui_t_35
+  - first:
+      213: 3920002837550034275
+    second: Ui_t_36
+  - first:
+      213: 3821656842140290209
+    second: Ui_t_37
+  - first:
+      213: -4297536068801960527
+    second: Ui_t_38
+  - first:
+      213: 7370602864546195338
+    second: Ui_t_39
+  - first:
+      213: 6703134337605431202
+    second: Ui_t_40
+  - first:
+      213: 4736033385695596730
+    second: Ui_t_41
+  - first:
+      213: 3892319544348426560
+    second: Ui_t_42
+  - first:
+      213: 5030283957079197764
+    second: Ui_t_43
+  - first:
+      213: -2437995085783639964
+    second: Ui_t_44
+  - first:
+      213: 6857434168567891448
+    second: Ui_t_45
+  - first:
+      213: 5582661492880922385
+    second: Ui_t_46
+  - first:
+      213: -4193504843498768919
+    second: Ui_t_47
+  - first:
+      213: -8441456725325192721
+    second: Ui_t_48
+  - first:
+      213: -2169806975092132451
+    second: Ui_t_49
+  - first:
+      213: 7147350810775081030
+    second: Ui_t_50
+  - first:
+      213: 5933326762777720555
+    second: Ui_t_51
+  - first:
+      213: 8885017425730266135
+    second: Ui_t_52
+  - first:
+      213: -7074912829278079777
+    second: Ui_t_53
+  - first:
+      213: 7760952865024653665
+    second: Ui_t_54
+  - first:
+      213: -8102350241779727002
+    second: Ui_t_55
+  - first:
+      213: 6036797868226565311
+    second: Ui_t_56
+  - first:
+      213: -7892314793314708073
+    second: Ui_t_57
+  - first:
+      213: -5461592280406141115
+    second: Ui_t_58
+  - first:
+      213: 1243111120005223195
+    second: ub_btn
+  - first:
+      213: 4175638076938140534
+    second: ub_panel
+  - first:
+      213: 8695528622711982030
+    second: ub_pause
+  - first:
+      213: -4883497181280885684
+    second: ub_close
+  - first:
+      213: 6995864500801673799
+    second: ub_gear
+  - first:
+      213: -7332579592986434956
+    second: ub_play
+  - first:
+      213: -604933453196614684
+    second: ub_back
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ub_btn
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 872
+        width: 314
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 46, y: 26, z: 46, w: 26}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b13df343afa604110800000000000000
+      internalID: 1243111120005223195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ub_panel
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 717
+        width: 374
+        height: 281
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 52, y: 50, z: 52, w: 74}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67b3e7e15b8d2f930800000000000000
+      internalID: 4175638076938140534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ub_pause
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 865
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec74df22639bca870800000000000000
+      internalID: 8695528622711982030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ub_close
+      rect:
+        serializedVersion: 2
+        x: 917
+        y: 864
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c44a12000355a3cb0800000000000000
+      internalID: -4883497181280885684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ub_gear
+      rect:
+        serializedVersion: 2
+        x: 1039
+        y: 865
+        width: 108
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74a9c03a2bd461160800000000000000
+      internalID: 6995864500801673799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ub_play
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 865
+        width: 110
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 472e3c8b5b17d3a90800000000000000
+      internalID: -7332579592986434956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ub_back
+      rect:
+        serializedVersion: 2
+        x: 1287
+        y: 865
+        width: 109
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e32779ba38da97f0800000000000000
+      internalID: -604933453196614684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Ui_t_0: -5557846266792817137
+      Ui_t_1: 236291297159874232
+      Ui_t_10: -5665596950581573627
+      Ui_t_11: -1046210048168324378
+      Ui_t_12: -6371305575120784936
+      Ui_t_13: -6899356076886928292
+      Ui_t_14: -4375523254057885476
+      Ui_t_15: -5148252355007472607
+      Ui_t_16: -3400748916295494506
+      Ui_t_17: 4337322729646120609
+      Ui_t_18: 566584923956272657
+      Ui_t_19: -8310904469818410962
+      Ui_t_2: -1774527949226376338
+      Ui_t_20: 5615162160840632368
+      Ui_t_21: 2221283375140110948
+      Ui_t_22: -2282828189308166536
+      Ui_t_23: -4840373327335392275
+      Ui_t_24: -8843881532885004061
+      Ui_t_25: -8463112828077849612
+      Ui_t_26: 1636260051672351314
+      Ui_t_27: -2680459903258222104
+      Ui_t_28: 8097653856626310607
+      Ui_t_29: 8346546190546035111
+      Ui_t_3: -1488722605021590744
+      Ui_t_30: -152905873324753706
+      Ui_t_31: -4449693194863363866
+      Ui_t_32: -7486744723937833620
+      Ui_t_33: -7265389813113078172
+      Ui_t_34: -8910947122725812636
+      Ui_t_35: -7870651803657490074
+      Ui_t_36: 3920002837550034275
+      Ui_t_37: 3821656842140290209
+      Ui_t_38: -4297536068801960527
+      Ui_t_39: 7370602864546195338
+      Ui_t_4: 8376412126097054204
+      Ui_t_40: 6703134337605431202
+      Ui_t_41: 4736033385695596730
+      Ui_t_42: 3892319544348426560
+      Ui_t_43: 5030283957079197764
+      Ui_t_44: -2437995085783639964
+      Ui_t_45: 6857434168567891448
+      Ui_t_46: 5582661492880922385
+      Ui_t_47: -4193504843498768919
+      Ui_t_48: -8441456725325192721
+      Ui_t_49: -2169806975092132451
+      Ui_t_5: 6149073322726776795
+      Ui_t_50: 7147350810775081030
+      Ui_t_51: 5933326762777720555
+      Ui_t_52: 8885017425730266135
+      Ui_t_53: -7074912829278079777
+      Ui_t_54: 7760952865024653665
+      Ui_t_55: -8102350241779727002
+      Ui_t_56: 6036797868226565311
+      Ui_t_57: -7892314793314708073
+      Ui_t_58: -5461592280406141115
+      Ui_t_6: 1201257946777632492
+      Ui_t_7: 3350115578974031261
+      Ui_t_8: 9008649898222811194
+      Ui_t_9: -1251596172651879240
+      ub_back: -604933453196614684
+      ub_btn: 1243111120005223195
+      ub_close: -4883497181280885684
+      ub_gear: 6995864500801673799
+      ub_panel: 4175638076938140534
+      ub_pause: 8695528622711982030
+      ub_play: -7332579592986434956
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
